@@ -1,45 +1,29 @@
 # app.py
-from flask import Flask, request, jsonify
+import os
+from flask import Flask, request, jsonify, send_file
 app = Flask(__name__)
 
-@app.route('/getmsg/', methods=['GET'])
+
+@app.route('/models/', methods=['GET'])
 def respond():
     # Retrieve the name from url parameter
-    name = request.args.get("name", None)
-
-    # For debugging
-    print(f"got name {name}")
-
+    language = request.args.get("language", None)
     response = {}
 
     # Check if user sent a name at all
-    if not name:
-        response["ERROR"] = "no name found, please send a name."
-    # Check if the user entered a number not a name
-    elif str(name).isdigit():
-        response["ERROR"] = "name can't be numeric."
-    # Now the user entered a valid name
+    if not language:
+        response["ERROR"] = "no language found, please send a language."
+        return response
+    elif language == 'ansible':
+        model = os.path.join(os.path.join('models', 'radondp_model_ansible.joblib'))
+    elif language == 'tosca':
+        model = os.path.join(os.path.join('models', 'radondp_model_tosca.joblib'))
     else:
-        response["MESSAGE"] = f"Welcome {name} to our awesome platform!!"
+        response["ERROR"] = "language not supported."
+        return response
 
-    # Return the response in json format
-    return jsonify(response)
+    return send_file(model, as_attachment=True)
 
-@app.route('/post/', methods=['POST'])
-def post_something():
-    param = request.form.get('name')
-    print(param)
-    # You can add the test cases you made in the previous function, but in our case here you are just testing the POST functionality
-    if param:
-        return jsonify({
-            "Message": f"Welcome {name} to our awesome platform!!",
-            # Add this option to distinct the POST request
-            "METHOD" : "POST"
-        })
-    else:
-        return jsonify({
-            "ERROR": "no name found, please send a name."
-        })
 
 # A welcome message to test our server
 @app.route('/')
