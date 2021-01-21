@@ -16,7 +16,7 @@ def models():
         response["ERROR"] = "No language found, please send a language."
         return response
     elif language == 'ansible':
-        model = os.path.join(os.path.join('models', 'ansible', 'radondp_model_ansible.joblib'))
+        model = os.path.join(os.path.join('models', 'ansible', 'ansible__workshops.joblib'))
     elif language == 'tosca':
         model = os.path.join(os.path.join('models', 'tosca', 'radondp_model_tosca.joblib'))
     else:
