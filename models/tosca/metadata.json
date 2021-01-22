@@ -1,0 +1,14 @@
+[
+    {
+        "id": 10000000,
+        "model": "models/tosca/radon_model_tosca.joblib",
+        "comments_ratio": 0,
+        "commit_frequency": 1,
+        "core_contributors": 1,
+        "has_ci": false,
+        "has_license": false,
+        "iac_ratio": 0.5,
+        "issue_frequency": 1,
+        "repository_size": 100
+    }
+]
