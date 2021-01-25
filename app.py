@@ -105,69 +105,70 @@ def predict():
 
     unseen_data = pd.DataFrame(metrics, index=[0])
 
-    if language == 'ansible':
-        i = 0
-        while i < len(ansible_models_metadata) and ansible_models_metadata[i]['id'] != model_id:
+    
+    if language not in ('ansible', 'tosca'):
+        response["ERROR"] = 'Language not supported'
+        return response
+    elif language == 'ansible':
+        models_metadata = ansible_models_metadata
+    elif language == 'tosca':
+        models_metadata = tosca_models_metadata
+    
+    i = 0
+    while i < len(models_metadata) and models_metadata[i]['id'] != model_id:
+        i += 1
+
+    if i < len(models_metadata):
+        path_to_model = path_to_model = str(Path(models_metadata[i]['model']))
+    else:
+        response["ERROR"] = "Model not found."
+        return response
+
+    model = joblib.load(path_to_model, mmap_mode='r')
+    tree_clf = model['estimator'].named_steps['classification']
+
+    for feature in model['selected_features']:
+        if feature not in unseen_data.columns:
+            unseen_data[feature] = 0
+
+    # Reduce unseen_data to the same subset of features
+    unseen_data = unseen_data[np.intersect1d(unseen_data.columns, model['selected_features'])]
+
+    features_name = unseen_data.columns
+
+    # Perform pre-process if any
+    if model['estimator'].named_steps['normalization']:
+        unseen_data = pd.DataFrame(model['estimator'].named_steps['normalization'].transform(unseen_data), columns=features_name)
+
+    failure_prone = bool(tree_clf.predict(unseen_data)[0])
+
+    if failure_prone:
+
+        decision = []
+        decision_path = tree_clf.decision_path(unseen_data)
+        level_length = len(decision_path.indices)
+        i = 1
+        for node_id in decision_path.indices:
+            # Ignore last level because it is the last node
+            # without decision criteria or rule
+            if i < level_length:
+                col_name = unseen_data.columns[tree_clf.tree_.feature[node_id]]
+                threshold_value = round(tree_clf.tree_.threshold[node_id], 2)
+                original_value = metrics.get(col_name, 0)
+
+                # Inverse normalize threshold to make it more comprehensible to the final user
+                normalized_value = unseen_data[col_name].values[0] if unseen_data[col_name].values[0] > 0 else 1
+                threshold_value *= original_value/normalized_value
+
+                decision.append((col_name, '<=' if original_value <= threshold_value else '>', threshold_value))
+
             i += 1
 
-        if i < len(ansible_models_metadata):
-            path_to_model = path_to_model = str(Path(ansible_models_metadata[i]['model']))
-        else:
-            response["ERROR"] = "Model not found."
-            return response
+        response["decision"] = decision
 
-        model = joblib.load(path_to_model, mmap_mode='r')
-        tree_clf = model['estimator'].named_steps['classification']
+    response['failure_prone'] = failure_prone
 
-        for feature in model['selected_features']:
-            if feature not in unseen_data.columns:
-                unseen_data[feature] = 0
-
-        # Reduce unseen_data to the same subset of features
-        unseen_data = unseen_data[np.intersect1d(unseen_data.columns, model['selected_features'])]
-
-        features_name = unseen_data.columns
-
-        # Perform pre-process if any
-        if model['estimator'].named_steps['normalization']:
-            unseen_data = pd.DataFrame(model['estimator'].named_steps['normalization'].transform(unseen_data), columns=features_name)
-
-        failure_prone = bool(tree_clf.predict(unseen_data)[0])
-
-        if failure_prone:
-
-            decision = []
-            decision_path = tree_clf.decision_path(unseen_data)
-            level_length = len(decision_path.indices)
-            i = 1
-            for node_id in decision_path.indices:
-                # Ignore last level because it is the last node
-                # without decision criteria or rule
-                if i < level_length:
-                    col_name = unseen_data.columns[tree_clf.tree_.feature[node_id]]
-                    threshold_value = round(tree_clf.tree_.threshold[node_id], 2)
-                    original_value = metrics.get(col_name, 0)
-
-                    # Inverse normalize threshold to make it more comprehensible to the final user
-                    normalized_value = unseen_data[col_name].values[0] if unseen_data[col_name].values[0] > 0 else 1
-                    threshold_value *= original_value/normalized_value
-
-                    decision.append((col_name, '<=' if original_value <= threshold_value else '>', threshold_value))
-
-                i += 1
-
-            response["decision"] = decision
-
-        response['failure_prone'] = failure_prone
-
-        return response
-
-    elif language == 'tosca':
-        response["ERROR"] = f'Support for TOSCA coming soon.'
-        return response
-    else:
-        response["ERROR"] = f'Language {language} not supported.'
-        return response
+    return response
 
 
 # A welcome message to test our server
