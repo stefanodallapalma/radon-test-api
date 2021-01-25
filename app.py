@@ -81,8 +81,8 @@ def models():
             path_to_model = str(Path(project['model']))
             response['model_id'] = project['id']
             response['similarity'] = sim
-            #model = joblib.load(path_to_model, mmap_mode='r')
-            #response['rules'] = export_text(model['estimator'].named_steps['classification'], feature_names=model['selected_features'])
+            model = joblib.load(path_to_model, mmap_mode='r')
+            response['rules'] = export_text(model['estimator'].named_steps['classification'], feature_names=model['selected_features'])
 
     return send_file(path_to_model, as_attachment=True) if return_model else response
 
