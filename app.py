@@ -6,7 +6,9 @@ import numpy as np
 import pandas as pd
 
 from flask import Flask, request, send_file
+from pathlib import Path
 from scipy.spatial import distance
+from sklearn.tree import export_text
 
 app = Flask(__name__)
 
@@ -58,7 +60,6 @@ def models():
         response["ERROR"] = "Set a valid language."
         return response
 
-    project_id = None
     path_to_model = None
     most_similar_score = 0
 
@@ -77,11 +78,11 @@ def models():
         sim = 1 - distance.cosine(project_metrics, client_project_metrics)
         if sim > most_similar_score:
             most_similar_score = sim
-            project_id = project['id']
-            path_to_model = project['model']
-
-        response['model_id'] = project_id
-        response['similarity'] = sim
+            path_to_model = str(Path(project['model']))
+            response['model_id'] = project['id']
+            response['similarity'] = sim
+            #model = joblib.load(path_to_model, mmap_mode='r')
+            #response['rules'] = export_text(model['estimator'].named_steps['classification'], feature_names=model['selected_features'])
 
     return send_file(path_to_model, as_attachment=True) if return_model else response
 
@@ -110,8 +111,7 @@ def predict():
             i += 1
 
         if i < len(ansible_models_metadata):
-            path_to_model = ansible_models_metadata[i]['model']
-            print(path_to_model)
+            path_to_model = path_to_model = str(Path(ansible_models_metadata[i]['model']))
         else:
             response["ERROR"] = "Model not found."
             return response
