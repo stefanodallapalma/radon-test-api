@@ -1,7 +1,7 @@
 [
     {
         "id": 67760353,
-        "model": "models/ansible/aalaesar__install_nextcloud.joblib",
+        "model": "models/ansible/general/aalaesar__install_nextcloud.joblib",
         "comments_ratio": 0.0849,
         "commit_frequency": 6.37,
         "core_contributors": 4,
@@ -17,7 +17,7 @@
     },
     {
         "id": 24242603,
-        "model": "models/ansible/AlbanAndrieu__ansible-jenkins-slave.joblib",
+        "model": "models/ansible/general/AlbanAndrieu__ansible-jenkins-slave.joblib",
         "comments_ratio": 0.2325,
         "commit_frequency": 5.11,
         "core_contributors": 3,
@@ -33,7 +33,7 @@
     },
     {
         "id": 26370170,
-        "model": "models/ansible/AlbanAndrieu__ansible-nabla.joblib",
+        "model": "models/ansible/general/AlbanAndrieu__ansible-nabla.joblib",
         "comments_ratio": 0.2434,
         "commit_frequency": 4.89,
         "core_contributors": 3,
@@ -49,7 +49,7 @@
     },
     {
         "id": 38701252,
-        "model": "models/ansible/ansible-community__ansible-consul.joblib",
+        "model": "models/ansible/general/ansible-community__ansible-consul.joblib",
         "comments_ratio": 0.0364,
         "commit_frequency": 14.2,
         "core_contributors": 6,
@@ -65,7 +65,7 @@
     },
     {
         "id": 62896585,
-        "model": "models/ansible/ansible-community__ansible-nomad.joblib",
+        "model": "models/ansible/general/ansible-community__ansible-nomad.joblib",
         "comments_ratio": 0.0291,
         "commit_frequency": 4.71,
         "core_contributors": 3,
@@ -81,7 +81,7 @@
     },
     {
         "id": 70871612,
-        "model": "models/ansible/ansible-community__ansible-vault.joblib",
+        "model": "models/ansible/general/ansible-community__ansible-vault.joblib",
         "comments_ratio": 0.0417,
         "commit_frequency": 9.2,
         "core_contributors": 6,
@@ -97,7 +97,7 @@
     },
     {
         "id": 63640766,
-        "model": "models/ansible/ansible-lockdown__RHEL7-STIG.joblib",
+        "model": "models/ansible/general/ansible-lockdown__RHEL7-STIG.joblib",
         "comments_ratio": 0.06,
         "commit_frequency": 10.17,
         "core_contributors": 4,
@@ -113,7 +113,7 @@
     },
     {
         "id": 112915877,
-        "model": "models/ansible/ansible-ThoTeam__nexus3-oss.joblib",
+        "model": "models/ansible/general/ansible-ThoTeam__nexus3-oss.joblib",
         "comments_ratio": 0.0897,
         "commit_frequency": 11.08,
         "core_contributors": 2,
@@ -129,7 +129,7 @@
     },
     {
         "id": 121804330,
-        "model": "models/ansible/ansible__workshops.joblib",
+        "model": "models/ansible/general/ansible__workshops.joblib",
         "comments_ratio": 0.0329,
         "commit_frequency": 82.24,
         "core_contributors": 5,
@@ -145,7 +145,7 @@
     },
     {
         "id": 22950800,
-        "model": "models/ansible/ansistrano__deploy.joblib",
+        "model": "models/ansible/general/ansistrano__deploy.joblib",
         "comments_ratio": 0.0479,
         "commit_frequency": 7.5,
         "core_contributors": 8,
@@ -161,7 +161,7 @@
     },
     {
         "id": 65465246,
-        "model": "models/ansible/anthcourtney__ansible-role-cis-amazon-linux.joblib",
+        "model": "models/ansible/general/anthcourtney__ansible-role-cis-amazon-linux.joblib",
         "comments_ratio": 0.086,
         "commit_frequency": 5.67,
         "core_contributors": 4,
@@ -177,7 +177,7 @@
     },
     {
         "id": 48749148,
-        "model": "models/ansible/antoiner77__caddy-ansible.joblib",
+        "model": "models/ansible/general/antoiner77__caddy-ansible.joblib",
         "comments_ratio": 0.0361,
         "commit_frequency": 4.3,
         "core_contributors": 5,
@@ -193,7 +193,7 @@
     },
     {
         "id": 17628006,
-        "model": "models/ansible/ANXS__postgresql.joblib",
+        "model": "models/ansible/general/ANXS__postgresql.joblib",
         "comments_ratio": 0.2032,
         "commit_frequency": 6.51,
         "core_contributors": 14,
@@ -209,7 +209,7 @@
     },
     {
         "id": 105946365,
-        "model": "models/ansible/arillso__ansible.logrotate.joblib",
+        "model": "models/ansible/general/arillso__ansible.logrotate.joblib",
         "comments_ratio": 0.0707,
         "commit_frequency": 2.42,
         "core_contributors": 2,
@@ -225,7 +225,7 @@
     },
     {
         "id": 207655290,
-        "model": "models/ansible/aristanetworks__ansible-avd.joblib",
+        "model": "models/ansible/general/aristanetworks__ansible-avd.joblib",
         "comments_ratio": 0.1051,
         "commit_frequency": 81.5,
         "core_contributors": 3,
@@ -241,7 +241,7 @@
     },
     {
         "id": 179678808,
-        "model": "models/ansible/automium__service-kubernetes.joblib",
+        "model": "models/ansible/general/automium__service-kubernetes.joblib",
         "comments_ratio": 0.1121,
         "commit_frequency": 36.53,
         "core_contributors": 2,
@@ -257,7 +257,7 @@
     },
     {
         "id": 133828241,
-        "model": "models/ansible/bird-house__ansible-wps-playbook.joblib",
+        "model": "models/ansible/general/bird-house__ansible-wps-playbook.joblib",
         "comments_ratio": 0.1459,
         "commit_frequency": 6.83,
         "core_contributors": 2,
@@ -273,7 +273,7 @@
     },
     {
         "id": 193971997,
-        "model": "models/ansible/bluebanquise__bluebanquise.joblib",
+        "model": "models/ansible/general/bluebanquise__bluebanquise.joblib",
         "comments_ratio": 0.0796,
         "commit_frequency": 58.76,
         "core_contributors": 3,
@@ -289,7 +289,7 @@
     },
     {
         "id": 55089698,
-        "model": "models/ansible/caktus__tequila-django.joblib",
+        "model": "models/ansible/general/caktus__tequila-django.joblib",
         "comments_ratio": 0.1319,
         "commit_frequency": 4.93,
         "core_contributors": 5,
@@ -305,7 +305,7 @@
     },
     {
         "id": 60802750,
-        "model": "models/ansible/CentOS-PaaS-SIG__linchpin.joblib",
+        "model": "models/ansible/general/CentOS-PaaS-SIG__linchpin.joblib",
         "comments_ratio": 0.104,
         "commit_frequency": 80.17,
         "core_contributors": 5,
@@ -321,7 +321,7 @@
     },
     {
         "id": 17373313,
-        "model": "models/ansible/ceph__ceph-ansible.joblib",
+        "model": "models/ansible/general/ceph__ceph-ansible.joblib",
         "comments_ratio": 0.1479,
         "commit_frequency": 66.79,
         "core_contributors": 7,
@@ -337,7 +337,7 @@
     },
     {
         "id": 112222674,
-        "model": "models/ansible/cloudalchemy__ansible-alertmanager.joblib",
+        "model": "models/ansible/general/cloudalchemy__ansible-alertmanager.joblib",
         "comments_ratio": 0.0777,
         "commit_frequency": 6.9,
         "core_contributors": 4,
@@ -353,7 +353,7 @@
     },
     {
         "id": 112223046,
-        "model": "models/ansible/cloudalchemy__ansible-blackbox-exporter.joblib",
+        "model": "models/ansible/general/cloudalchemy__ansible-blackbox-exporter.joblib",
         "comments_ratio": 0.0905,
         "commit_frequency": 4.48,
         "core_contributors": 3,
@@ -369,7 +369,7 @@
     },
     {
         "id": 112223013,
-        "model": "models/ansible/cloudalchemy__ansible-grafana.joblib",
+        "model": "models/ansible/general/cloudalchemy__ansible-grafana.joblib",
         "comments_ratio": 0.1277,
         "commit_frequency": 8.89,
         "core_contributors": 3,
@@ -385,7 +385,7 @@
     },
     {
         "id": 112219931,
-        "model": "models/ansible/cloudalchemy__ansible-node-exporter.joblib",
+        "model": "models/ansible/general/cloudalchemy__ansible-node-exporter.joblib",
         "comments_ratio": 0.026,
         "commit_frequency": 7.09,
         "core_contributors": 3,
@@ -401,7 +401,7 @@
     },
     {
         "id": 112219764,
-        "model": "models/ansible/cloudalchemy__ansible-prometheus.joblib",
+        "model": "models/ansible/general/cloudalchemy__ansible-prometheus.joblib",
         "comments_ratio": 0.0361,
         "commit_frequency": 12.61,
         "core_contributors": 3,
@@ -417,7 +417,7 @@
     },
     {
         "id": 144489384,
-        "model": "models/ansible/cloudalchemy__ansible-pushgateway.joblib",
+        "model": "models/ansible/general/cloudalchemy__ansible-pushgateway.joblib",
         "comments_ratio": 0.0396,
         "commit_frequency": 3.92,
         "core_contributors": 2,
@@ -433,7 +433,7 @@
     },
     {
         "id": 64398826,
-        "model": "models/ansible/CoffeeITWorks__ansible_burp2_server.joblib",
+        "model": "models/ansible/general/CoffeeITWorks__ansible_burp2_server.joblib",
         "comments_ratio": 0.2008,
         "commit_frequency": 7.27,
         "core_contributors": 2,
@@ -449,7 +449,7 @@
     },
     {
         "id": 42846136,
-        "model": "models/ansible/CSCfi__ansible-role-slurm.joblib",
+        "model": "models/ansible/general/CSCfi__ansible-role-slurm.joblib",
         "comments_ratio": 0.1243,
         "commit_frequency": 7.28,
         "core_contributors": 5,
@@ -465,7 +465,7 @@
     },
     {
         "id": 42512164,
-        "model": "models/ansible/CSCfi__ansible-role-users.joblib",
+        "model": "models/ansible/general/CSCfi__ansible-role-users.joblib",
         "comments_ratio": 0.2481,
         "commit_frequency": 2.54,
         "core_contributors": 6,
@@ -481,7 +481,7 @@
     },
     {
         "id": 20684278,
-        "model": "models/ansible/DataDog__ansible-datadog.joblib",
+        "model": "models/ansible/general/DataDog__ansible-datadog.joblib",
         "comments_ratio": 0.0517,
         "commit_frequency": 4.1,
         "core_contributors": 9,
@@ -497,7 +497,7 @@
     },
     {
         "id": 18694239,
-        "model": "models/ansible/DavidWittman__ansible-redis.joblib",
+        "model": "models/ansible/general/DavidWittman__ansible-redis.joblib",
         "comments_ratio": 0.0571,
         "commit_frequency": 3.92,
         "core_contributors": 5,
@@ -513,7 +513,7 @@
     },
     {
         "id": 147718744,
-        "model": "models/ansible/diodonfrost__ansible-role-mariadb.joblib",
+        "model": "models/ansible/general/diodonfrost__ansible-role-mariadb.joblib",
         "comments_ratio": 0.1088,
         "commit_frequency": 3.55,
         "core_contributors": 2,
@@ -529,7 +529,7 @@
     },
     {
         "id": 42811525,
-        "model": "models/ansible/dj-wasabi__ansible-telegraf.joblib",
+        "model": "models/ansible/general/dj-wasabi__ansible-telegraf.joblib",
         "comments_ratio": 0.0105,
         "commit_frequency": 4.98,
         "core_contributors": 7,
@@ -545,7 +545,7 @@
     },
     {
         "id": 179346232,
-        "model": "models/ansible/dokku__ansible-dokku.joblib",
+        "model": "models/ansible/general/dokku__ansible-dokku.joblib",
         "comments_ratio": 0.0193,
         "commit_frequency": 6.05,
         "core_contributors": 3,
@@ -561,7 +561,7 @@
     },
     {
         "id": 48370306,
-        "model": "models/ansible/elastic__ansible-beats.joblib",
+        "model": "models/ansible/general/elastic__ansible-beats.joblib",
         "comments_ratio": 0.0152,
         "commit_frequency": 2.53,
         "core_contributors": 4,
@@ -577,7 +577,7 @@
     },
     {
         "id": 34840276,
-        "model": "models/ansible/elastic__ansible-elasticsearch.joblib",
+        "model": "models/ansible/general/elastic__ansible-elasticsearch.joblib",
         "comments_ratio": 0.0315,
         "commit_frequency": 15.88,
         "core_contributors": 6,
@@ -593,7 +593,7 @@
     },
     {
         "id": 41480840,
-        "model": "models/ansible/evrardjp__ansible-keepalived.joblib",
+        "model": "models/ansible/general/evrardjp__ansible-keepalived.joblib",
         "comments_ratio": 0.4578,
         "commit_frequency": 3.02,
         "core_contributors": 7,
@@ -609,7 +609,7 @@
     },
     {
         "id": 45902662,
-        "model": "models/ansible/fgci-org__ansible-role-cuda.joblib",
+        "model": "models/ansible/general/fgci-org__ansible-role-cuda.joblib",
         "comments_ratio": 0.2996,
         "commit_frequency": 2.46,
         "core_contributors": 4,
@@ -625,7 +625,7 @@
     },
     {
         "id": 42441531,
-        "model": "models/ansible/fgci-org__fgci-ansible.joblib",
+        "model": "models/ansible/general/fgci-org__fgci-ansible.joblib",
         "comments_ratio": 0.1476,
         "commit_frequency": 23.86,
         "core_contributors": 5,
@@ -641,7 +641,7 @@
     },
     {
         "id": 115824369,
-        "model": "models/ansible/florianutz__Ubuntu1604-CIS.joblib",
+        "model": "models/ansible/general/florianutz__Ubuntu1604-CIS.joblib",
         "comments_ratio": 0.0119,
         "commit_frequency": 2.38,
         "core_contributors": 2,
@@ -657,7 +657,7 @@
     },
     {
         "id": 161541176,
-        "model": "models/ansible/florianutz__Ubuntu1804-CIS.joblib",
+        "model": "models/ansible/general/florianutz__Ubuntu1804-CIS.joblib",
         "comments_ratio": 0.0115,
         "commit_frequency": 3.45,
         "core_contributors": 2,
@@ -673,7 +673,7 @@
     },
     {
         "id": 100011735,
-        "model": "models/ansible/freeipa__ansible-freeipa.joblib",
+        "model": "models/ansible/general/freeipa__ansible-freeipa.joblib",
         "comments_ratio": 0.1216,
         "commit_frequency": 22.9,
         "core_contributors": 2,
@@ -689,7 +689,7 @@
     },
     {
         "id": 23633237,
-        "model": "models/ansible/galaxyproject__ansible-galaxy.joblib",
+        "model": "models/ansible/general/galaxyproject__ansible-galaxy.joblib",
         "comments_ratio": 0.1107,
         "commit_frequency": 2.93,
         "core_contributors": 6,
@@ -705,7 +705,7 @@
     },
     {
         "id": 40538342,
-        "model": "models/ansible/gluster__gdeploy.joblib",
+        "model": "models/ansible/general/gluster__gdeploy.joblib",
         "comments_ratio": 0.1125,
         "commit_frequency": 20.33,
         "core_contributors": 3,
@@ -721,7 +721,7 @@
     },
     {
         "id": 159518616,
-        "model": "models/ansible/goodrain__rainbond-ansible.joblib",
+        "model": "models/ansible/general/goodrain__rainbond-ansible.joblib",
         "comments_ratio": 0.0911,
         "commit_frequency": 34.71,
         "core_contributors": 5,
@@ -737,7 +737,7 @@
     },
     {
         "id": 23397594,
-        "model": "models/ansible/Graylog2__graylog-ansible-role.joblib",
+        "model": "models/ansible/general/Graylog2__graylog-ansible-role.joblib",
         "comments_ratio": 0.0356,
         "commit_frequency": 4.35,
         "core_contributors": 4,
@@ -753,7 +753,7 @@
     },
     {
         "id": 200037974,
-        "model": "models/ansible/hadret__ansible-role-containers.joblib",
+        "model": "models/ansible/general/hadret__ansible-role-containers.joblib",
         "comments_ratio": 0.0748,
         "commit_frequency": 7.0,
         "core_contributors": 3,
@@ -769,7 +769,7 @@
     },
     {
         "id": 38866407,
-        "model": "models/ansible/HanXHX__ansible-debian-bootstrap.joblib",
+        "model": "models/ansible/general/HanXHX__ansible-debian-bootstrap.joblib",
         "comments_ratio": 0.0788,
         "commit_frequency": 2.81,
         "core_contributors": 2,
@@ -785,7 +785,7 @@
     },
     {
         "id": 39130147,
-        "model": "models/ansible/HanXHX__ansible-nginx.joblib",
+        "model": "models/ansible/general/HanXHX__ansible-nginx.joblib",
         "comments_ratio": 0.0573,
         "commit_frequency": 5.47,
         "core_contributors": 2,
@@ -801,7 +801,7 @@
     },
     {
         "id": 115113358,
-        "model": "models/ansible/idealista__consul_role.joblib",
+        "model": "models/ansible/general/idealista__consul_role.joblib",
         "comments_ratio": 0.0307,
         "commit_frequency": 3.0,
         "core_contributors": 4,
@@ -817,7 +817,7 @@
     },
     {
         "id": 76857031,
-        "model": "models/ansible/idealista__java_role.joblib",
+        "model": "models/ansible/general/idealista__java_role.joblib",
         "comments_ratio": 0.0532,
         "commit_frequency": 7.82,
         "core_contributors": 5,
@@ -833,7 +833,7 @@
     },
     {
         "id": 84809912,
-        "model": "models/ansible/idealista__mysql_role.joblib",
+        "model": "models/ansible/general/idealista__mysql_role.joblib",
         "comments_ratio": 0.0358,
         "commit_frequency": 2.77,
         "core_contributors": 4,
@@ -849,7 +849,7 @@
     },
     {
         "id": 133779178,
-        "model": "models/ansible/idealista__nexus-role.joblib",
+        "model": "models/ansible/general/idealista__nexus-role.joblib",
         "comments_ratio": 0.0394,
         "commit_frequency": 3.66,
         "core_contributors": 4,
@@ -865,7 +865,7 @@
     },
     {
         "id": 46574024,
-        "model": "models/ansible/infOpen__ansible-role-docker.joblib",
+        "model": "models/ansible/general/infOpen__ansible-role-docker.joblib",
         "comments_ratio": 0.0682,
         "commit_frequency": 3.25,
         "core_contributors": 4,
@@ -881,7 +881,7 @@
     },
     {
         "id": 42964425,
-        "model": "models/ansible/infOpen__ansible-role-fail2ban.joblib",
+        "model": "models/ansible/general/infOpen__ansible-role-fail2ban.joblib",
         "comments_ratio": 0.1033,
         "commit_frequency": 2.76,
         "core_contributors": 3,
@@ -897,7 +897,7 @@
     },
     {
         "id": 18198998,
-        "model": "models/ansible/jcalazan__ansible-django-stack.joblib",
+        "model": "models/ansible/general/jcalazan__ansible-django-stack.joblib",
         "comments_ratio": 0.0647,
         "commit_frequency": 2.71,
         "core_contributors": 6,
@@ -913,7 +913,7 @@
     },
     {
         "id": 78658768,
-        "model": "models/ansible/kibatic__ansible-traefik.joblib",
+        "model": "models/ansible/general/kibatic__ansible-traefik.joblib",
         "comments_ratio": 0.0462,
         "commit_frequency": 2.02,
         "core_contributors": 2,
@@ -929,7 +929,7 @@
     },
     {
         "id": 68048671,
-        "model": "models/ansible/lae__ansible-role-proxmox.joblib",
+        "model": "models/ansible/general/lae__ansible-role-proxmox.joblib",
         "comments_ratio": 0.0526,
         "commit_frequency": 5.68,
         "core_contributors": 2,
@@ -945,7 +945,7 @@
     },
     {
         "id": 24493024,
-        "model": "models/ansible/liip__drifter.joblib",
+        "model": "models/ansible/general/liip__drifter.joblib",
         "comments_ratio": 0.0861,
         "commit_frequency": 13.03,
         "core_contributors": 6,
@@ -961,7 +961,7 @@
     },
     {
         "id": 150624995,
-        "model": "models/ansible/linux-system-roles__storage.joblib",
+        "model": "models/ansible/general/linux-system-roles__storage.joblib",
         "comments_ratio": 0.1156,
         "commit_frequency": 8.19,
         "core_contributors": 3,
@@ -977,7 +977,7 @@
     },
     {
         "id": 98467807,
-        "model": "models/ansible/m4rcu5nl__ansible-role-zerotier.joblib",
+        "model": "models/ansible/general/m4rcu5nl__ansible-role-zerotier.joblib",
         "comments_ratio": 0.1272,
         "commit_frequency": 2.78,
         "core_contributors": 2,
@@ -993,7 +993,7 @@
     },
     {
         "id": 23205345,
-        "model": "models/ansible/mattfinlayson__ansible-consul.joblib",
+        "model": "models/ansible/general/mattfinlayson__ansible-consul.joblib",
         "comments_ratio": 0.0105,
         "commit_frequency": 10.87,
         "core_contributors": 17,
@@ -1009,7 +1009,7 @@
     },
     {
         "id": 101293994,
-        "model": "models/ansible/mimacom__ansible-role-bamboo.joblib",
+        "model": "models/ansible/general/mimacom__ansible-role-bamboo.joblib",
         "comments_ratio": 0.0836,
         "commit_frequency": 2.72,
         "core_contributors": 2,
@@ -1025,7 +1025,7 @@
     },
     {
         "id": 45436148,
-        "model": "models/ansible/mrlesmithjr__ansible-manage-lvm.joblib",
+        "model": "models/ansible/general/mrlesmithjr__ansible-manage-lvm.joblib",
         "comments_ratio": 0.0751,
         "commit_frequency": 2.0,
         "core_contributors": 3,
@@ -1041,7 +1041,7 @@
     },
     {
         "id": 89751137,
-        "model": "models/ansible/mrlesmithjr__ansible-netdata.joblib",
+        "model": "models/ansible/general/mrlesmithjr__ansible-netdata.joblib",
         "comments_ratio": 0.0957,
         "commit_frequency": 2.7,
         "core_contributors": 4,
@@ -1057,7 +1057,7 @@
     },
     {
         "id": 81999200,
-        "model": "models/ansible/naftulikay__ansible-role-degoss.joblib",
+        "model": "models/ansible/general/naftulikay__ansible-role-degoss.joblib",
         "comments_ratio": 0.1792,
         "commit_frequency": 2.16,
         "core_contributors": 2,
@@ -1073,7 +1073,7 @@
     },
     {
         "id": 41636424,
-        "model": "models/ansible/netbootxyz__netboot.xyz.joblib",
+        "model": "models/ansible/general/netbootxyz__netboot.xyz.joblib",
         "comments_ratio": 0.0109,
         "commit_frequency": 33.87,
         "core_contributors": 4,
@@ -1089,7 +1089,7 @@
     },
     {
         "id": 73430290,
-        "model": "models/ansible/newrelic__infrastructure-agent-ansible.joblib",
+        "model": "models/ansible/general/newrelic__infrastructure-agent-ansible.joblib",
         "comments_ratio": 0.0015,
         "commit_frequency": 2.43,
         "core_contributors": 6,
@@ -1105,7 +1105,7 @@
     },
     {
         "id": 31433462,
-        "model": "models/ansible/nusenu__ansible-relayor.joblib",
+        "model": "models/ansible/general/nusenu__ansible-relayor.joblib",
         "comments_ratio": 0.1145,
         "commit_frequency": 6.58,
         "core_contributors": 2,
@@ -1121,7 +1121,7 @@
     },
     {
         "id": 134776948,
-        "model": "models/ansible/NVIDIA__deepops.joblib",
+        "model": "models/ansible/general/NVIDIA__deepops.joblib",
         "comments_ratio": 0.033,
         "commit_frequency": 82.86,
         "core_contributors": 4,
@@ -1137,7 +1137,7 @@
     },
     {
         "id": 41423976,
-        "model": "models/ansible/Oefenweb__ansible-percona-server.joblib",
+        "model": "models/ansible/general/Oefenweb__ansible-percona-server.joblib",
         "comments_ratio": 0.0333,
         "commit_frequency": 2.12,
         "core_contributors": 2,
@@ -1153,7 +1153,7 @@
     },
     {
         "id": 23002245,
-        "model": "models/ansible/Oefenweb__ansible-postfix.joblib",
+        "model": "models/ansible/general/Oefenweb__ansible-postfix.joblib",
         "comments_ratio": 0.0237,
         "commit_frequency": 3.2,
         "core_contributors": 5,
@@ -1169,7 +1169,7 @@
     },
     {
         "id": 32947512,
-        "model": "models/ansible/Oefenweb__ansible-supervisor.joblib",
+        "model": "models/ansible/general/Oefenweb__ansible-supervisor.joblib",
         "comments_ratio": 0.0434,
         "commit_frequency": 2.31,
         "core_contributors": 3,
@@ -1185,7 +1185,7 @@
     },
     {
         "id": 133722058,
-        "model": "models/ansible/openfun__arnold.joblib",
+        "model": "models/ansible/general/openfun__arnold.joblib",
         "comments_ratio": 0.1398,
         "commit_frequency": 23.64,
         "core_contributors": 4,
@@ -1201,7 +1201,7 @@
     },
     {
         "id": 52862885,
-        "model": "models/ansible/openstack__openstack-ansible-os_neutron.joblib",
+        "model": "models/ansible/general/openstack__openstack-ansible-os_neutron.joblib",
         "comments_ratio": 0.2046,
         "commit_frequency": 16.69,
         "core_contributors": 16,
@@ -1217,7 +1217,7 @@
     },
     {
         "id": 52862896,
-        "model": "models/ansible/openstack__openstack-ansible-os_nova.joblib",
+        "model": "models/ansible/general/openstack__openstack-ansible-os_nova.joblib",
         "comments_ratio": 0.2477,
         "commit_frequency": 16.77,
         "core_contributors": 16,
@@ -1233,7 +1233,7 @@
     },
     {
         "id": 47761730,
-        "model": "models/ansible/openstack__openstack-ansible-rabbitmq_server.joblib",
+        "model": "models/ansible/general/openstack__openstack-ansible-rabbitmq_server.joblib",
         "comments_ratio": 0.3839,
         "commit_frequency": 7.69,
         "core_contributors": 13,
@@ -1249,7 +1249,7 @@
     },
     {
         "id": 27195864,
-        "model": "models/ansible/openstack__openstack-ansible.joblib",
+        "model": "models/ansible/general/openstack__openstack-ansible.joblib",
         "comments_ratio": 0.1267,
         "commit_frequency": 90.79,
         "core_contributors": 16,
@@ -1265,7 +1265,7 @@
     },
     {
         "id": 59615202,
-        "model": "models/ansible/openstack__tripleo-validations.joblib",
+        "model": "models/ansible/general/openstack__tripleo-validations.joblib",
         "comments_ratio": 0.1644,
         "commit_frequency": 17.74,
         "core_contributors": 12,
@@ -1281,7 +1281,7 @@
     },
     {
         "id": 47001649,
-        "model": "models/ansible/openstax__cnx-deploy.joblib",
+        "model": "models/ansible/general/openstax__cnx-deploy.joblib",
         "comments_ratio": 0.0914,
         "commit_frequency": 41.18,
         "core_contributors": 10,
@@ -1297,7 +1297,7 @@
     },
     {
         "id": 51141789,
-        "model": "models/ansible/openwisp__ansible-openwisp2.joblib",
+        "model": "models/ansible/general/openwisp__ansible-openwisp2.joblib",
         "comments_ratio": 0.0789,
         "commit_frequency": 6.36,
         "core_contributors": 3,
@@ -1313,7 +1313,7 @@
     },
     {
         "id": 23215874,
-        "model": "models/ansible/oravirt__ansible-oracle.joblib",
+        "model": "models/ansible/general/oravirt__ansible-oracle.joblib",
         "comments_ratio": 0.1782,
         "commit_frequency": 9.11,
         "core_contributors": 2,
@@ -1329,7 +1329,7 @@
     },
     {
         "id": 114266564,
-        "model": "models/ansible/oVirt__ovirt-ansible-disaster-recovery.joblib",
+        "model": "models/ansible/general/oVirt__ovirt-ansible-disaster-recovery.joblib",
         "comments_ratio": 0.0611,
         "commit_frequency": 7.74,
         "core_contributors": 4,
@@ -1345,7 +1345,7 @@
     },
     {
         "id": 112223620,
-        "model": "models/ansible/oVirt__ovirt-ansible-engine-setup.joblib",
+        "model": "models/ansible/general/oVirt__ovirt-ansible-engine-setup.joblib",
         "comments_ratio": 0.0989,
         "commit_frequency": 3.57,
         "core_contributors": 3,
@@ -1361,7 +1361,7 @@
     },
     {
         "id": 250416150,
-        "model": "models/ansible/PGBlitz__PGBlitz.com.joblib",
+        "model": "models/ansible/general/PGBlitz__PGBlitz.com.joblib",
         "comments_ratio": 0.0928,
         "commit_frequency": 863.88,
         "core_contributors": 2,
@@ -1377,7 +1377,7 @@
     },
     {
         "id": 24197449,
-        "model": "models/ansible/plone__ansible-playbook.joblib",
+        "model": "models/ansible/general/plone__ansible-playbook.joblib",
         "comments_ratio": 0.0973,
         "commit_frequency": 8.06,
         "core_contributors": 2,
@@ -1393,7 +1393,7 @@
     },
     {
         "id": 103666308,
-        "model": "models/ansible/pulp__pulp_installer.joblib",
+        "model": "models/ansible/general/pulp__pulp_installer.joblib",
         "comments_ratio": 0.0883,
         "commit_frequency": 23.13,
         "core_contributors": 7,
@@ -1409,7 +1409,7 @@
     },
     {
         "id": 173498378,
-        "model": "models/ansible/PyratLabs__ansible-role-k3s.joblib",
+        "model": "models/ansible/general/PyratLabs__ansible-role-k3s.joblib",
         "comments_ratio": 0.0504,
         "commit_frequency": 7.95,
         "core_contributors": 2,
@@ -1425,7 +1425,7 @@
     },
     {
         "id": 21044547,
-        "model": "models/ansible/rcbops__openstack-ops.joblib",
+        "model": "models/ansible/general/rcbops__openstack-ops.joblib",
         "comments_ratio": 0.1266,
         "commit_frequency": 5.73,
         "core_contributors": 3,
@@ -1441,7 +1441,7 @@
     },
     {
         "id": 70272278,
-        "model": "models/ansible/redhat-cop__casl-ansible.joblib",
+        "model": "models/ansible/general/redhat-cop__casl-ansible.joblib",
         "comments_ratio": 0.1846,
         "commit_frequency": 7.2,
         "core_contributors": 6,
@@ -1457,7 +1457,7 @@
     },
     {
         "id": 88211051,
-        "model": "models/ansible/redhat-cop__infra-ansible.joblib",
+        "model": "models/ansible/general/redhat-cop__infra-ansible.joblib",
         "comments_ratio": 0.0478,
         "commit_frequency": 9.2,
         "core_contributors": 4,
@@ -1473,7 +1473,7 @@
     },
     {
         "id": 124432181,
-        "model": "models/ansible/redhat-cop__openshift-applier.joblib",
+        "model": "models/ansible/general/redhat-cop__openshift-applier.joblib",
         "comments_ratio": 0.0441,
         "commit_frequency": 3.61,
         "core_contributors": 5,
@@ -1489,7 +1489,7 @@
     },
     {
         "id": 82108875,
-        "model": "models/ansible/redhat-nfvpe__kube-ansible.joblib",
+        "model": "models/ansible/general/redhat-nfvpe__kube-ansible.joblib",
         "comments_ratio": 0.069,
         "commit_frequency": 9.63,
         "core_contributors": 5,
@@ -1505,7 +1505,7 @@
     },
     {
         "id": 51534449,
-        "model": "models/ansible/redhat-openstack__infrared.joblib",
+        "model": "models/ansible/general/redhat-openstack__infrared.joblib",
         "comments_ratio": 0.0662,
         "commit_frequency": 112.43,
         "core_contributors": 17,
@@ -1521,7 +1521,7 @@
     },
     {
         "id": 88057051,
-        "model": "models/ansible/ReSearchITEng__kubeadm-playbook.joblib",
+        "model": "models/ansible/general/ReSearchITEng__kubeadm-playbook.joblib",
         "comments_ratio": 0.2606,
         "commit_frequency": 9.83,
         "core_contributors": 2,
@@ -1537,7 +1537,7 @@
     },
     {
         "id": 121444859,
-        "model": "models/ansible/ReinerNippes__nextcloud.joblib",
+        "model": "models/ansible/general/ReinerNippes__nextcloud.joblib",
         "comments_ratio": 0.7581,
         "commit_frequency": 10.24,
         "core_contributors": 2,
@@ -1553,7 +1553,7 @@
     },
     {
         "id": 61288349,
-        "model": "models/ansible/rhevm-qe-automation__ovirt-ansible.joblib",
+        "model": "models/ansible/general/rhevm-qe-automation__ovirt-ansible.joblib",
         "comments_ratio": 0.0595,
         "commit_frequency": 3.24,
         "core_contributors": 6,
@@ -1569,7 +1569,7 @@
     },
     {
         "id": 65276738,
-        "model": "models/ansible/riemers__ansible-gitlab-runner.joblib",
+        "model": "models/ansible/general/riemers__ansible-gitlab-runner.joblib",
         "comments_ratio": 0.0592,
         "commit_frequency": 4.16,
         "core_contributors": 18,
@@ -1585,7 +1585,7 @@
     },
     {
         "id": 47439383,
-        "model": "models/ansible/rocknsm__rock.joblib",
+        "model": "models/ansible/general/rocknsm__rock.joblib",
         "comments_ratio": 0.1158,
         "commit_frequency": 13.32,
         "core_contributors": 5,
@@ -1601,7 +1601,7 @@
     },
     {
         "id": 18852165,
-        "model": "models/ansible/roots__trellis.joblib",
+        "model": "models/ansible/general/roots__trellis.joblib",
         "comments_ratio": 0.0587,
         "commit_frequency": 19.09,
         "core_contributors": 4,
@@ -1617,7 +1617,7 @@
     },
     {
         "id": 19408536,
-        "model": "models/ansible/rvm__rvm1-ansible.joblib",
+        "model": "models/ansible/general/rvm__rvm1-ansible.joblib",
         "comments_ratio": 0.0627,
         "commit_frequency": 3.23,
         "core_contributors": 6,
@@ -1633,7 +1633,7 @@
     },
     {
         "id": 35729277,
-        "model": "models/ansible/sensu__sensu-ansible.joblib",
+        "model": "models/ansible/general/sensu__sensu-ansible.joblib",
         "comments_ratio": 0.0425,
         "commit_frequency": 8.77,
         "core_contributors": 4,
@@ -1649,7 +1649,7 @@
     },
     {
         "id": 125180845,
-        "model": "models/ansible/snowdrop__k8s-infra.joblib",
+        "model": "models/ansible/general/snowdrop__k8s-infra.joblib",
         "comments_ratio": 0.0831,
         "commit_frequency": 47.0,
         "core_contributors": 2,
@@ -1665,7 +1665,7 @@
     },
     {
         "id": 148547478,
-        "model": "models/ansible/splunk__splunk-ansible.joblib",
+        "model": "models/ansible/general/splunk__splunk-ansible.joblib",
         "comments_ratio": 0.0511,
         "commit_frequency": 50.81,
         "core_contributors": 5,
@@ -1681,7 +1681,7 @@
     },
     {
         "id": 45568524,
-        "model": "models/ansible/stackbuilders__sb-debian-base.joblib",
+        "model": "models/ansible/general/stackbuilders__sb-debian-base.joblib",
         "comments_ratio": 0.0096,
         "commit_frequency": 3.08,
         "core_contributors": 4,
@@ -1697,7 +1697,7 @@
     },
     {
         "id": 113180256,
-        "model": "models/ansible/stackhpc__ansible-role-libvirt-vm.joblib",
+        "model": "models/ansible/general/stackhpc__ansible-role-libvirt-vm.joblib",
         "comments_ratio": 0.1537,
         "commit_frequency": 4.39,
         "core_contributors": 6,
@@ -1713,7 +1713,7 @@
     },
     {
         "id": 91701346,
-        "model": "models/ansible/stackhpc__ansible-role-os-images.joblib",
+        "model": "models/ansible/general/stackhpc__ansible-role-os-images.joblib",
         "comments_ratio": 0.1393,
         "commit_frequency": 2.58,
         "core_contributors": 4,
@@ -1729,7 +1729,7 @@
     },
     {
         "id": 95896053,
-        "model": "models/ansible/stone-payments__ansible-rabbitmq.joblib",
+        "model": "models/ansible/general/stone-payments__ansible-rabbitmq.joblib",
         "comments_ratio": 0.046,
         "commit_frequency": 5.24,
         "core_contributors": 5,
@@ -1745,7 +1745,7 @@
     },
     {
         "id": 61397627,
-        "model": "models/ansible/tenforwardconsulting__subspace.joblib",
+        "model": "models/ansible/general/tenforwardconsulting__subspace.joblib",
         "comments_ratio": 0.089,
         "commit_frequency": 6.19,
         "core_contributors": 3,
@@ -1761,7 +1761,7 @@
     },
     {
         "id": 178251144,
-        "model": "models/ansible/tulibraries__ansible-role-airflow.joblib",
+        "model": "models/ansible/general/tulibraries__ansible-role-airflow.joblib",
         "comments_ratio": 0.116,
         "commit_frequency": 4.14,
         "core_contributors": 5,
@@ -1777,7 +1777,7 @@
     },
     {
         "id": 30925564,
-        "model": "models/ansible/UnderGreen__ansible-role-mongodb.joblib",
+        "model": "models/ansible/general/UnderGreen__ansible-role-mongodb.joblib",
         "comments_ratio": 0.079,
         "commit_frequency": 6.15,
         "core_contributors": 10,
@@ -1793,7 +1793,7 @@
     },
     {
         "id": 96306635,
-        "model": "models/ansible/UtrechtUniversity__yoda.joblib",
+        "model": "models/ansible/general/UtrechtUniversity__yoda.joblib",
         "comments_ratio": 0.0537,
         "commit_frequency": 40.39,
         "core_contributors": 2,
@@ -1809,7 +1809,7 @@
     },
     {
         "id": 151536298,
-        "model": "models/ansible/valet-sh__valet-sh.joblib",
+        "model": "models/ansible/general/valet-sh__valet-sh.joblib",
         "comments_ratio": 0.3323,
         "commit_frequency": 16.65,
         "core_contributors": 2,
@@ -1825,7 +1825,7 @@
     },
     {
         "id": 82927988,
-        "model": "models/ansible/viasite-ansible__ansible-role-zsh.joblib",
+        "model": "models/ansible/general/viasite-ansible__ansible-role-zsh.joblib",
         "comments_ratio": 0.0378,
         "commit_frequency": 3.36,
         "core_contributors": 2,
@@ -1841,7 +1841,7 @@
     },
     {
         "id": 190206784,
-        "model": "models/ansible/vitabaks__postgresql_cluster.joblib",
+        "model": "models/ansible/general/vitabaks__postgresql_cluster.joblib",
         "comments_ratio": 0.0833,
         "commit_frequency": 20.41,
         "core_contributors": 2,
@@ -1857,7 +1857,7 @@
     },
     {
         "id": 85245901,
-        "model": "models/ansible/wazuh__wazuh-ansible.joblib",
+        "model": "models/ansible/general/wazuh__wazuh-ansible.joblib",
         "comments_ratio": 0.0592,
         "commit_frequency": 33.36,
         "core_contributors": 8,
@@ -1873,7 +1873,7 @@
     },
     {
         "id": 143967403,
-        "model": "models/ansible/wcm-io-devops__ansible-conga-ansible-controlhost.joblib",
+        "model": "models/ansible/general/wcm-io-devops__ansible-conga-ansible-controlhost.joblib",
         "comments_ratio": 0.1326,
         "commit_frequency": 2.41,
         "core_contributors": 2,
@@ -1889,7 +1889,7 @@
     },
     {
         "id": 28204193,
-        "model": "models/ansible/willshersystems__ansible-sshd.joblib",
+        "model": "models/ansible/general/willshersystems__ansible-sshd.joblib",
         "comments_ratio": 0.0479,
         "commit_frequency": 4.35,
         "core_contributors": 6,
@@ -1905,7 +1905,7 @@
     },
     {
         "id": 130664395,
-        "model": "models/ansible/wso2__ansible-apim.joblib",
+        "model": "models/ansible/general/wso2__ansible-apim.joblib",
         "comments_ratio": 0.3147,
         "commit_frequency": 6.62,
         "core_contributors": 4,
