@@ -50,7 +50,6 @@ def models():
     ]
 
     response = {}
-    metadata = []
 
     if language == 'ansible':
         metadata = ansible_models_metadata
@@ -78,7 +77,7 @@ def models():
         sim = 1 - distance.cosine(project_metrics, client_project_metrics)
         if sim > most_similar_score:
             most_similar_score = sim
-            path_to_model = str(Path(project['model']))
+            path_to_model = str(Path(project['models']['general']))
             response['model_id'] = project['id']
             response['similarity'] = sim
             model = joblib.load(path_to_model, mmap_mode='r')
@@ -105,21 +104,20 @@ def predict():
 
     unseen_data = pd.DataFrame(metrics, index=[0])
 
-    
-    if language not in ('ansible', 'tosca'):
-        response["ERROR"] = 'Language not supported'
-        return response
-    elif language == 'ansible':
+    if language == 'ansible':
         models_metadata = ansible_models_metadata
     elif language == 'tosca':
         models_metadata = tosca_models_metadata
-    
+    else:
+        response["ERROR"] = 'Language not supported'
+        return response
+
     i = 0
     while i < len(models_metadata) and models_metadata[i]['id'] != model_id:
         i += 1
 
     if i < len(models_metadata):
-        path_to_model = path_to_model = str(Path(models_metadata[i]['model']))
+        path_to_model = str(Path(models_metadata[i]['models']['general']))
     else:
         response["ERROR"] = "Model not found."
         return response

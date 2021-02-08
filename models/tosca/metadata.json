@@ -1,7 +1,6 @@
 [
     {
         "id": 67760353,
-        "model": "models/tosca/aalaesar__install_nextcloud.joblib",
         "comments_ratio": 0.0849,
         "commit_frequency": 6.37,
         "core_contributors": 4,
@@ -13,11 +12,13 @@
         "fixing_commit_count": 25,
         "fixed_file_count": 26,
         "clean_count": 105,
-        "defective_count": 18
+        "defective_count": 18,
+        "models": {
+            "general": "models/tosca/aalaesar__install_nextcloud.joblib"
+        }
     },
     {
         "id": 24242603,
-        "model": "models/tosca/AlbanAndrieu__ansible-jenkins-slave.joblib",
         "comments_ratio": 0.2325,
         "commit_frequency": 5.11,
         "core_contributors": 3,
@@ -29,11 +30,13 @@
         "fixing_commit_count": 33,
         "fixed_file_count": 41,
         "clean_count": 174,
-        "defective_count": 132
+        "defective_count": 132,
+        "models": {
+            "general": "models/tosca/AlbanAndrieu__ansible-jenkins-slave.joblib"
+        }
     },
     {
         "id": 26370170,
-        "model": "models/tosca/AlbanAndrieu__ansible-nabla.joblib",
         "comments_ratio": 0.2434,
         "commit_frequency": 4.89,
         "core_contributors": 3,
@@ -45,11 +48,13 @@
         "fixing_commit_count": 6,
         "fixed_file_count": 16,
         "clean_count": 203,
-        "defective_count": 19
+        "defective_count": 19,
+        "models": {
+            "general": "models/tosca/AlbanAndrieu__ansible-nabla.joblib"
+        }
     },
     {
         "id": 38701252,
-        "model": "models/tosca/ansible-community__ansible-consul.joblib",
         "comments_ratio": 0.0364,
         "commit_frequency": 14.2,
         "core_contributors": 6,
@@ -61,11 +66,13 @@
         "fixing_commit_count": 40,
         "fixed_file_count": 17,
         "clean_count": 1417,
-        "defective_count": 564
+        "defective_count": 564,
+        "models": {
+            "general": "models/tosca/ansible-community__ansible-consul.joblib"
+        }
     },
     {
         "id": 62896585,
-        "model": "models/tosca/ansible-community__ansible-nomad.joblib",
         "comments_ratio": 0.0291,
         "commit_frequency": 4.71,
         "core_contributors": 3,
@@ -77,11 +84,13 @@
         "fixing_commit_count": 7,
         "fixed_file_count": 5,
         "clean_count": 278,
-        "defective_count": 76
+        "defective_count": 76,
+        "models": {
+            "general": "models/tosca/ansible-community__ansible-nomad.joblib"
+        }
     },
     {
         "id": 70871612,
-        "model": "models/tosca/ansible-community__ansible-vault.joblib",
         "comments_ratio": 0.0417,
         "commit_frequency": 9.2,
         "core_contributors": 6,
@@ -93,11 +102,13 @@
         "fixing_commit_count": 17,
         "fixed_file_count": 16,
         "clean_count": 79,
-        "defective_count": 10
+        "defective_count": 10,
+        "models": {
+            "general": "models/tosca/ansible-community__ansible-vault.joblib"
+        }
     },
     {
         "id": 63640766,
-        "model": "models/tosca/ansible-lockdown__RHEL7-STIG.joblib",
         "comments_ratio": 0.06,
         "commit_frequency": 10.17,
         "core_contributors": 4,
@@ -109,11 +120,13 @@
         "fixing_commit_count": 23,
         "fixed_file_count": 5,
         "clean_count": 53,
-        "defective_count": 10
+        "defective_count": 10,
+        "models": {
+            "general": "models/tosca/ansible-lockdown__RHEL7-STIG.joblib"
+        }
     },
     {
         "id": 112915877,
-        "model": "models/tosca/ansible-ThoTeam__nexus3-oss.joblib",
         "comments_ratio": 0.0897,
         "commit_frequency": 11.08,
         "core_contributors": 2,
@@ -125,11 +138,13 @@
         "fixing_commit_count": 25,
         "fixed_file_count": 12,
         "clean_count": 1318,
-        "defective_count": 133
+        "defective_count": 133,
+        "models": {
+            "general": "models/tosca/ansible-ThoTeam__nexus3-oss.joblib"
+        }
     },
     {
         "id": 121804330,
-        "model": "models/tosca/ansible__workshops.joblib",
         "comments_ratio": 0.0329,
         "commit_frequency": 82.24,
         "core_contributors": 5,
@@ -141,11 +156,13 @@
         "fixing_commit_count": 72,
         "fixed_file_count": 55,
         "clean_count": 252,
-        "defective_count": 46
+        "defective_count": 46,
+        "models": {
+            "general": "models/tosca/ansible__workshops.joblib"
+        }
     },
     {
         "id": 22950800,
-        "model": "models/tosca/ansistrano__deploy.joblib",
         "comments_ratio": 0.0479,
         "commit_frequency": 7.5,
         "core_contributors": 8,
@@ -157,11 +174,13 @@
         "fixing_commit_count": 20,
         "fixed_file_count": 16,
         "clean_count": 666,
-        "defective_count": 162
+        "defective_count": 162,
+        "models": {
+            "general": "models/tosca/ansistrano__deploy.joblib"
+        }
     },
     {
         "id": 65465246,
-        "model": "models/tosca/anthcourtney__ansible-role-cis-amazon-linux.joblib",
         "comments_ratio": 0.086,
         "commit_frequency": 5.67,
         "core_contributors": 4,
@@ -173,11 +192,13 @@
         "fixing_commit_count": 11,
         "fixed_file_count": 14,
         "clean_count": 1765,
-        "defective_count": 20
+        "defective_count": 20,
+        "models": {
+            "general": "models/tosca/anthcourtney__ansible-role-cis-amazon-linux.joblib"
+        }
     },
     {
         "id": 48749148,
-        "model": "models/tosca/antoiner77__caddy-ansible.joblib",
         "comments_ratio": 0.0361,
         "commit_frequency": 4.3,
         "core_contributors": 5,
@@ -189,11 +210,13 @@
         "fixing_commit_count": 12,
         "fixed_file_count": 15,
         "clean_count": 22,
-        "defective_count": 27
+        "defective_count": 27,
+        "models": {
+            "general": "models/tosca/antoiner77__caddy-ansible.joblib"
+        }
     },
     {
         "id": 17628006,
-        "model": "models/tosca/ANXS__postgresql.joblib",
         "comments_ratio": 0.2032,
         "commit_frequency": 6.51,
         "core_contributors": 14,
@@ -205,11 +228,13 @@
         "fixing_commit_count": 20,
         "fixed_file_count": 16,
         "clean_count": 169,
-        "defective_count": 222
+        "defective_count": 222,
+        "models": {
+            "general": "models/tosca/ANXS__postgresql.joblib"
+        }
     },
     {
         "id": 105946365,
-        "model": "models/tosca/arillso__ansible.logrotate.joblib",
         "comments_ratio": 0.0707,
         "commit_frequency": 2.42,
         "core_contributors": 2,
@@ -221,11 +246,13 @@
         "fixing_commit_count": 8,
         "fixed_file_count": 4,
         "clean_count": 23,
-        "defective_count": 15
+        "defective_count": 15,
+        "models": {
+            "general": "models/tosca/arillso__ansible.logrotate.joblib"
+        }
     },
     {
         "id": 207655290,
-        "model": "models/tosca/aristanetworks__ansible-avd.joblib",
         "comments_ratio": 0.1051,
         "commit_frequency": 81.5,
         "core_contributors": 3,
@@ -237,11 +264,13 @@
         "fixing_commit_count": 12,
         "fixed_file_count": 9,
         "clean_count": 43,
-        "defective_count": 3
+        "defective_count": 3,
+        "models": {
+            "general": "models/tosca/aristanetworks__ansible-avd.joblib"
+        }
     },
     {
         "id": 179678808,
-        "model": "models/tosca/automium__service-kubernetes.joblib",
         "comments_ratio": 0.1121,
         "commit_frequency": 36.53,
         "core_contributors": 2,
@@ -253,11 +282,13 @@
         "fixing_commit_count": 59,
         "fixed_file_count": 40,
         "clean_count": 1206,
-        "defective_count": 174
+        "defective_count": 174,
+        "models": {
+            "general": "models/tosca/automium__service-kubernetes.joblib"
+        }
     },
     {
         "id": 133828241,
-        "model": "models/tosca/bird-house__ansible-wps-playbook.joblib",
         "comments_ratio": 0.1459,
         "commit_frequency": 6.83,
         "core_contributors": 2,
@@ -269,11 +300,13 @@
         "fixing_commit_count": 10,
         "fixed_file_count": 10,
         "clean_count": 69,
-        "defective_count": 8
+        "defective_count": 8,
+        "models": {
+            "general": "models/tosca/bird-house__ansible-wps-playbook.joblib"
+        }
     },
     {
         "id": 193971997,
-        "model": "models/tosca/bluebanquise__bluebanquise.joblib",
         "comments_ratio": 0.0796,
         "commit_frequency": 58.76,
         "core_contributors": 3,
@@ -285,11 +318,13 @@
         "fixing_commit_count": 108,
         "fixed_file_count": 136,
         "clean_count": 596,
-        "defective_count": 303
+        "defective_count": 303,
+        "models": {
+            "general": "models/tosca/bluebanquise__bluebanquise.joblib"
+        }
     },
     {
         "id": 55089698,
-        "model": "models/tosca/caktus__tequila-django.joblib",
         "comments_ratio": 0.1319,
         "commit_frequency": 4.93,
         "core_contributors": 5,
@@ -301,11 +336,13 @@
         "fixing_commit_count": 11,
         "fixed_file_count": 7,
         "clean_count": 78,
-        "defective_count": 24
+        "defective_count": 24,
+        "models": {
+            "general": "models/tosca/caktus__tequila-django.joblib"
+        }
     },
     {
         "id": 60802750,
-        "model": "models/tosca/CentOS-PaaS-SIG__linchpin.joblib",
         "comments_ratio": 0.104,
         "commit_frequency": 80.17,
         "core_contributors": 5,
@@ -317,11 +354,13 @@
         "fixing_commit_count": 113,
         "fixed_file_count": 107,
         "clean_count": 8723,
-        "defective_count": 885
+        "defective_count": 885,
+        "models": {
+            "general": "models/tosca/CentOS-PaaS-SIG__linchpin.joblib"
+        }
     },
     {
         "id": 17373313,
-        "model": "models/tosca/ceph__ceph-ansible.joblib",
         "comments_ratio": 0.1479,
         "commit_frequency": 66.79,
         "core_contributors": 7,
@@ -333,11 +372,13 @@
         "fixing_commit_count": 295,
         "fixed_file_count": 267,
         "clean_count": 10188,
-        "defective_count": 1090
+        "defective_count": 1090,
+        "models": {
+            "general": "models/tosca/ceph__ceph-ansible.joblib"
+        }
     },
     {
         "id": 112222674,
-        "model": "models/tosca/cloudalchemy__ansible-alertmanager.joblib",
         "comments_ratio": 0.0777,
         "commit_frequency": 6.9,
         "core_contributors": 4,
@@ -349,11 +390,13 @@
         "fixing_commit_count": 8,
         "fixed_file_count": 5,
         "clean_count": 94,
-        "defective_count": 36
+        "defective_count": 36,
+        "models": {
+            "general": "models/tosca/cloudalchemy__ansible-alertmanager.joblib"
+        }
     },
     {
         "id": 112223046,
-        "model": "models/tosca/cloudalchemy__ansible-blackbox-exporter.joblib",
         "comments_ratio": 0.0905,
         "commit_frequency": 4.48,
         "core_contributors": 3,
@@ -365,11 +408,13 @@
         "fixing_commit_count": 3,
         "fixed_file_count": 2,
         "clean_count": 54,
-        "defective_count": 27
+        "defective_count": 27,
+        "models": {
+            "general": "models/tosca/cloudalchemy__ansible-blackbox-exporter.joblib"
+        }
     },
     {
         "id": 112223013,
-        "model": "models/tosca/cloudalchemy__ansible-grafana.joblib",
         "comments_ratio": 0.1277,
         "commit_frequency": 8.89,
         "core_contributors": 3,
@@ -381,11 +426,13 @@
         "fixing_commit_count": 10,
         "fixed_file_count": 10,
         "clean_count": 426,
-        "defective_count": 129
+        "defective_count": 129,
+        "models": {
+            "general": "models/tosca/cloudalchemy__ansible-grafana.joblib"
+        }
     },
     {
         "id": 112219931,
-        "model": "models/tosca/cloudalchemy__ansible-node-exporter.joblib",
         "comments_ratio": 0.026,
         "commit_frequency": 7.09,
         "core_contributors": 3,
@@ -397,11 +444,13 @@
         "fixing_commit_count": 7,
         "fixed_file_count": 6,
         "clean_count": 139,
-        "defective_count": 101
+        "defective_count": 101,
+        "models": {
+            "general": "models/tosca/cloudalchemy__ansible-node-exporter.joblib"
+        }
     },
     {
         "id": 112219764,
-        "model": "models/tosca/cloudalchemy__ansible-prometheus.joblib",
         "comments_ratio": 0.0361,
         "commit_frequency": 12.61,
         "core_contributors": 3,
@@ -413,11 +462,13 @@
         "fixing_commit_count": 10,
         "fixed_file_count": 8,
         "clean_count": 309,
-        "defective_count": 113
+        "defective_count": 113,
+        "models": {
+            "general": "models/tosca/cloudalchemy__ansible-prometheus.joblib"
+        }
     },
     {
         "id": 144489384,
-        "model": "models/tosca/cloudalchemy__ansible-pushgateway.joblib",
         "comments_ratio": 0.0396,
         "commit_frequency": 3.92,
         "core_contributors": 2,
@@ -429,11 +480,13 @@
         "fixing_commit_count": 1,
         "fixed_file_count": 1,
         "clean_count": 45,
-        "defective_count": 9
+        "defective_count": 9,
+        "models": {
+            "general": "models/tosca/cloudalchemy__ansible-pushgateway.joblib"
+        }
     },
     {
         "id": 64398826,
-        "model": "models/tosca/CoffeeITWorks__ansible_burp2_server.joblib",
         "comments_ratio": 0.2008,
         "commit_frequency": 7.27,
         "core_contributors": 2,
@@ -445,11 +498,13 @@
         "fixing_commit_count": 31,
         "fixed_file_count": 17,
         "clean_count": 185,
-        "defective_count": 86
+        "defective_count": 86,
+        "models": {
+            "general": "models/tosca/CoffeeITWorks__ansible_burp2_server.joblib"
+        }
     },
     {
         "id": 42846136,
-        "model": "models/tosca/CSCfi__ansible-role-slurm.joblib",
         "comments_ratio": 0.1243,
         "commit_frequency": 7.28,
         "core_contributors": 5,
@@ -461,11 +516,13 @@
         "fixing_commit_count": 6,
         "fixed_file_count": 6,
         "clean_count": 336,
-        "defective_count": 101
+        "defective_count": 101,
+        "models": {
+            "general": "models/tosca/CSCfi__ansible-role-slurm.joblib"
+        }
     },
     {
         "id": 42512164,
-        "model": "models/tosca/CSCfi__ansible-role-users.joblib",
         "comments_ratio": 0.2481,
         "commit_frequency": 2.54,
         "core_contributors": 6,
@@ -477,11 +534,13 @@
         "fixing_commit_count": 9,
         "fixed_file_count": 1,
         "clean_count": 29,
-        "defective_count": 29
+        "defective_count": 29,
+        "models": {
+            "general": "models/tosca/CSCfi__ansible-role-users.joblib"
+        }
     },
     {
         "id": 20684278,
-        "model": "models/tosca/DataDog__ansible-datadog.joblib",
         "comments_ratio": 0.0517,
         "commit_frequency": 4.1,
         "core_contributors": 9,
@@ -493,11 +552,13 @@
         "fixing_commit_count": 14,
         "fixed_file_count": 9,
         "clean_count": 203,
-        "defective_count": 67
+        "defective_count": 67,
+        "models": {
+            "general": "models/tosca/DataDog__ansible-datadog.joblib"
+        }
     },
     {
         "id": 18694239,
-        "model": "models/tosca/DavidWittman__ansible-redis.joblib",
         "comments_ratio": 0.0571,
         "commit_frequency": 3.92,
         "core_contributors": 5,
@@ -509,11 +570,13 @@
         "fixing_commit_count": 6,
         "fixed_file_count": 6,
         "clean_count": 124,
-        "defective_count": 47
+        "defective_count": 47,
+        "models": {
+            "general": "models/tosca/DavidWittman__ansible-redis.joblib"
+        }
     },
     {
         "id": 147718744,
-        "model": "models/tosca/diodonfrost__ansible-role-mariadb.joblib",
         "comments_ratio": 0.1088,
         "commit_frequency": 3.55,
         "core_contributors": 2,
@@ -525,11 +588,13 @@
         "fixing_commit_count": 5,
         "fixed_file_count": 3,
         "clean_count": 28,
-        "defective_count": 2
+        "defective_count": 2,
+        "models": {
+            "general": "models/tosca/diodonfrost__ansible-role-mariadb.joblib"
+        }
     },
     {
         "id": 42811525,
-        "model": "models/tosca/dj-wasabi__ansible-telegraf.joblib",
         "comments_ratio": 0.0105,
         "commit_frequency": 4.98,
         "core_contributors": 7,
@@ -541,11 +606,13 @@
         "fixing_commit_count": 10,
         "fixed_file_count": 8,
         "clean_count": 59,
-        "defective_count": 25
+        "defective_count": 25,
+        "models": {
+            "general": "models/tosca/dj-wasabi__ansible-telegraf.joblib"
+        }
     },
     {
         "id": 179346232,
-        "model": "models/tosca/dokku__ansible-dokku.joblib",
         "comments_ratio": 0.0193,
         "commit_frequency": 6.05,
         "core_contributors": 3,
@@ -557,11 +624,13 @@
         "fixing_commit_count": 6,
         "fixed_file_count": 3,
         "clean_count": 28,
-        "defective_count": 7
+        "defective_count": 7,
+        "models": {
+            "general": "models/tosca/dokku__ansible-dokku.joblib"
+        }
     },
     {
         "id": 48370306,
-        "model": "models/tosca/elastic__ansible-beats.joblib",
         "comments_ratio": 0.0152,
         "commit_frequency": 2.53,
         "core_contributors": 4,
@@ -573,11 +642,13 @@
         "fixing_commit_count": 4,
         "fixed_file_count": 6,
         "clean_count": 14,
-        "defective_count": 10
+        "defective_count": 10,
+        "models": {
+            "general": "models/tosca/elastic__ansible-beats.joblib"
+        }
     },
     {
         "id": 34840276,
-        "model": "models/tosca/elastic__ansible-elasticsearch.joblib",
         "comments_ratio": 0.0315,
         "commit_frequency": 15.88,
         "core_contributors": 6,
@@ -589,11 +660,13 @@
         "fixing_commit_count": 61,
         "fixed_file_count": 59,
         "clean_count": 468,
-        "defective_count": 151
+        "defective_count": 151,
+        "models": {
+            "general": "models/tosca/elastic__ansible-elasticsearch.joblib"
+        }
     },
     {
         "id": 41480840,
-        "model": "models/tosca/evrardjp__ansible-keepalived.joblib",
         "comments_ratio": 0.4578,
         "commit_frequency": 3.02,
         "core_contributors": 7,
@@ -605,11 +678,13 @@
         "fixing_commit_count": 5,
         "fixed_file_count": 4,
         "clean_count": 181,
-        "defective_count": 66
+        "defective_count": 66,
+        "models": {
+            "general": "models/tosca/evrardjp__ansible-keepalived.joblib"
+        }
     },
     {
         "id": 45902662,
-        "model": "models/tosca/fgci-org__ansible-role-cuda.joblib",
         "comments_ratio": 0.2996,
         "commit_frequency": 2.46,
         "core_contributors": 4,
@@ -621,11 +696,13 @@
         "fixing_commit_count": 4,
         "fixed_file_count": 4,
         "clean_count": 26,
-        "defective_count": 10
+        "defective_count": 10,
+        "models": {
+            "general": "models/tosca/fgci-org__ansible-role-cuda.joblib"
+        }
     },
     {
         "id": 42441531,
-        "model": "models/tosca/fgci-org__fgci-ansible.joblib",
         "comments_ratio": 0.1476,
         "commit_frequency": 23.86,
         "core_contributors": 5,
@@ -637,11 +714,13 @@
         "fixing_commit_count": 6,
         "fixed_file_count": 2,
         "clean_count": 499,
-        "defective_count": 44
+        "defective_count": 44,
+        "models": {
+            "general": "models/tosca/fgci-org__fgci-ansible.joblib"
+        }
     },
     {
         "id": 115824369,
-        "model": "models/tosca/florianutz__Ubuntu1604-CIS.joblib",
         "comments_ratio": 0.0119,
         "commit_frequency": 2.38,
         "core_contributors": 2,
@@ -653,11 +732,13 @@
         "fixing_commit_count": 14,
         "fixed_file_count": 9,
         "clean_count": 15,
-        "defective_count": 18
+        "defective_count": 18,
+        "models": {
+            "general": "models/tosca/florianutz__Ubuntu1604-CIS.joblib"
+        }
     },
     {
         "id": 161541176,
-        "model": "models/tosca/florianutz__Ubuntu1804-CIS.joblib",
         "comments_ratio": 0.0115,
         "commit_frequency": 3.45,
         "core_contributors": 2,
@@ -669,11 +750,13 @@
         "fixing_commit_count": 9,
         "fixed_file_count": 17,
         "clean_count": 45,
-        "defective_count": 43
+        "defective_count": 43,
+        "models": {
+            "general": "models/tosca/florianutz__Ubuntu1804-CIS.joblib"
+        }
     },
     {
         "id": 100011735,
-        "model": "models/tosca/freeipa__ansible-freeipa.joblib",
         "comments_ratio": 0.1216,
         "commit_frequency": 22.9,
         "core_contributors": 2,
@@ -685,11 +768,13 @@
         "fixing_commit_count": 8,
         "fixed_file_count": 9,
         "clean_count": 1192,
-        "defective_count": 34
+        "defective_count": 34,
+        "models": {
+            "general": "models/tosca/freeipa__ansible-freeipa.joblib"
+        }
     },
     {
         "id": 23633237,
-        "model": "models/tosca/galaxyproject__ansible-galaxy.joblib",
         "comments_ratio": 0.1107,
         "commit_frequency": 2.93,
         "core_contributors": 6,
@@ -701,11 +786,13 @@
         "fixing_commit_count": 10,
         "fixed_file_count": 16,
         "clean_count": 275,
-        "defective_count": 111
+        "defective_count": 111,
+        "models": {
+            "general": "models/tosca/galaxyproject__ansible-galaxy.joblib"
+        }
     },
     {
         "id": 40538342,
-        "model": "models/tosca/gluster__gdeploy.joblib",
         "comments_ratio": 0.1125,
         "commit_frequency": 20.33,
         "core_contributors": 3,
@@ -717,11 +804,13 @@
         "fixing_commit_count": 33,
         "fixed_file_count": 34,
         "clean_count": 2294,
-        "defective_count": 133
+        "defective_count": 133,
+        "models": {
+            "general": "models/tosca/gluster__gdeploy.joblib"
+        }
     },
     {
         "id": 159518616,
-        "model": "models/tosca/goodrain__rainbond-ansible.joblib",
         "comments_ratio": 0.0911,
         "commit_frequency": 34.71,
         "core_contributors": 5,
@@ -733,11 +822,13 @@
         "fixing_commit_count": 9,
         "fixed_file_count": 9,
         "clean_count": 619,
-        "defective_count": 13
+        "defective_count": 13,
+        "models": {
+            "general": "models/tosca/goodrain__rainbond-ansible.joblib"
+        }
     },
     {
         "id": 23397594,
-        "model": "models/tosca/Graylog2__graylog-ansible-role.joblib",
         "comments_ratio": 0.0356,
         "commit_frequency": 4.35,
         "core_contributors": 4,
@@ -749,11 +840,13 @@
         "fixing_commit_count": 13,
         "fixed_file_count": 11,
         "clean_count": 56,
-        "defective_count": 15
+        "defective_count": 15,
+        "models": {
+            "general": "models/tosca/Graylog2__graylog-ansible-role.joblib"
+        }
     },
     {
         "id": 200037974,
-        "model": "models/tosca/hadret__ansible-role-containers.joblib",
         "comments_ratio": 0.0748,
         "commit_frequency": 7.0,
         "core_contributors": 3,
@@ -765,11 +858,13 @@
         "fixing_commit_count": 2,
         "fixed_file_count": 2,
         "clean_count": 7,
-        "defective_count": 5
+        "defective_count": 5,
+        "models": {
+            "general": "models/tosca/hadret__ansible-role-containers.joblib"
+        }
     },
     {
         "id": 38866407,
-        "model": "models/tosca/HanXHX__ansible-debian-bootstrap.joblib",
         "comments_ratio": 0.0788,
         "commit_frequency": 2.81,
         "core_contributors": 2,
@@ -781,11 +876,13 @@
         "fixing_commit_count": 11,
         "fixed_file_count": 12,
         "clean_count": 158,
-        "defective_count": 23
+        "defective_count": 23,
+        "models": {
+            "general": "models/tosca/HanXHX__ansible-debian-bootstrap.joblib"
+        }
     },
     {
         "id": 39130147,
-        "model": "models/tosca/HanXHX__ansible-nginx.joblib",
         "comments_ratio": 0.0573,
         "commit_frequency": 5.47,
         "core_contributors": 2,
@@ -797,11 +894,13 @@
         "fixing_commit_count": 21,
         "fixed_file_count": 17,
         "clean_count": 132,
-        "defective_count": 85
+        "defective_count": 85,
+        "models": {
+            "general": "models/tosca/HanXHX__ansible-nginx.joblib"
+        }
     },
     {
         "id": 115113358,
-        "model": "models/tosca/idealista__consul_role.joblib",
         "comments_ratio": 0.0307,
         "commit_frequency": 3.0,
         "core_contributors": 4,
@@ -813,11 +912,13 @@
         "fixing_commit_count": 2,
         "fixed_file_count": 1,
         "clean_count": 60,
-        "defective_count": 8
+        "defective_count": 8,
+        "models": {
+            "general": "models/tosca/idealista__consul_role.joblib"
+        }
     },
     {
         "id": 76857031,
-        "model": "models/tosca/idealista__java_role.joblib",
         "comments_ratio": 0.0532,
         "commit_frequency": 7.82,
         "core_contributors": 5,
@@ -829,11 +930,13 @@
         "fixing_commit_count": 3,
         "fixed_file_count": 2,
         "clean_count": 24,
-        "defective_count": 8
+        "defective_count": 8,
+        "models": {
+            "general": "models/tosca/idealista__java_role.joblib"
+        }
     },
     {
         "id": 84809912,
-        "model": "models/tosca/idealista__mysql_role.joblib",
         "comments_ratio": 0.0358,
         "commit_frequency": 2.77,
         "core_contributors": 4,
@@ -845,11 +948,13 @@
         "fixing_commit_count": 1,
         "fixed_file_count": 1,
         "clean_count": 63,
-        "defective_count": 9
+        "defective_count": 9,
+        "models": {
+            "general": "models/tosca/idealista__mysql_role.joblib"
+        }
     },
     {
         "id": 133779178,
-        "model": "models/tosca/idealista__nexus-role.joblib",
         "comments_ratio": 0.0394,
         "commit_frequency": 3.66,
         "core_contributors": 4,
@@ -861,11 +966,13 @@
         "fixing_commit_count": 1,
         "fixed_file_count": 1,
         "clean_count": 46,
-        "defective_count": 2
+        "defective_count": 2,
+        "models": {
+            "general": "models/tosca/idealista__nexus-role.joblib"
+        }
     },
     {
         "id": 46574024,
-        "model": "models/tosca/infOpen__ansible-role-docker.joblib",
         "comments_ratio": 0.0682,
         "commit_frequency": 3.25,
         "core_contributors": 4,
@@ -877,11 +984,13 @@
         "fixing_commit_count": 3,
         "fixed_file_count": 2,
         "clean_count": 21,
-        "defective_count": 3
+        "defective_count": 3,
+        "models": {
+            "general": "models/tosca/infOpen__ansible-role-docker.joblib"
+        }
     },
     {
         "id": 42964425,
-        "model": "models/tosca/infOpen__ansible-role-fail2ban.joblib",
         "comments_ratio": 0.1033,
         "commit_frequency": 2.76,
         "core_contributors": 3,
@@ -893,11 +1002,13 @@
         "fixing_commit_count": 3,
         "fixed_file_count": 1,
         "clean_count": 6,
-        "defective_count": 2
+        "defective_count": 2,
+        "models": {
+            "general": "models/tosca/infOpen__ansible-role-fail2ban.joblib"
+        }
     },
     {
         "id": 18198998,
-        "model": "models/tosca/jcalazan__ansible-django-stack.joblib",
         "comments_ratio": 0.0647,
         "commit_frequency": 2.71,
         "core_contributors": 6,
@@ -909,11 +1020,13 @@
         "fixing_commit_count": 3,
         "fixed_file_count": 9,
         "clean_count": 44,
-        "defective_count": 12
+        "defective_count": 12,
+        "models": {
+            "general": "models/tosca/jcalazan__ansible-django-stack.joblib"
+        }
     },
     {
         "id": 78658768,
-        "model": "models/tosca/kibatic__ansible-traefik.joblib",
         "comments_ratio": 0.0462,
         "commit_frequency": 2.02,
         "core_contributors": 2,
@@ -925,11 +1038,13 @@
         "fixing_commit_count": 8,
         "fixed_file_count": 7,
         "clean_count": 22,
-        "defective_count": 20
+        "defective_count": 20,
+        "models": {
+            "general": "models/tosca/kibatic__ansible-traefik.joblib"
+        }
     },
     {
         "id": 68048671,
-        "model": "models/tosca/lae__ansible-role-proxmox.joblib",
         "comments_ratio": 0.0526,
         "commit_frequency": 5.68,
         "core_contributors": 2,
@@ -941,11 +1056,13 @@
         "fixing_commit_count": 13,
         "fixed_file_count": 8,
         "clean_count": 180,
-        "defective_count": 21
+        "defective_count": 21,
+        "models": {
+            "general": "models/tosca/lae__ansible-role-proxmox.joblib"
+        }
     },
     {
         "id": 24493024,
-        "model": "models/tosca/liip__drifter.joblib",
         "comments_ratio": 0.0861,
         "commit_frequency": 13.03,
         "core_contributors": 6,
@@ -957,11 +1074,13 @@
         "fixing_commit_count": 38,
         "fixed_file_count": 42,
         "clean_count": 2703,
-        "defective_count": 162
+        "defective_count": 162,
+        "models": {
+            "general": "models/tosca/liip__drifter.joblib"
+        }
     },
     {
         "id": 150624995,
-        "model": "models/tosca/linux-system-roles__storage.joblib",
         "comments_ratio": 0.1156,
         "commit_frequency": 8.19,
         "core_contributors": 3,
@@ -973,11 +1092,13 @@
         "fixing_commit_count": 9,
         "fixed_file_count": 15,
         "clean_count": 28,
-        "defective_count": 5
+        "defective_count": 5,
+        "models": {
+            "general": "models/tosca/linux-system-roles__storage.joblib"
+        }
     },
     {
         "id": 98467807,
-        "model": "models/tosca/m4rcu5nl__ansible-role-zerotier.joblib",
         "comments_ratio": 0.1272,
         "commit_frequency": 2.78,
         "core_contributors": 2,
@@ -989,11 +1110,13 @@
         "fixing_commit_count": 2,
         "fixed_file_count": 1,
         "clean_count": 32,
-        "defective_count": 4
+        "defective_count": 4,
+        "models": {
+            "general": "models/tosca/m4rcu5nl__ansible-role-zerotier.joblib"
+        }
     },
     {
         "id": 23205345,
-        "model": "models/tosca/mattfinlayson__ansible-consul.joblib",
         "comments_ratio": 0.0105,
         "commit_frequency": 10.87,
         "core_contributors": 17,
@@ -1005,11 +1128,13 @@
         "fixing_commit_count": 8,
         "fixed_file_count": 3,
         "clean_count": 21,
-        "defective_count": 3
+        "defective_count": 3,
+        "models": {
+            "general": "models/tosca/mattfinlayson__ansible-consul.joblib"
+        }
     },
     {
         "id": 101293994,
-        "model": "models/tosca/mimacom__ansible-role-bamboo.joblib",
         "comments_ratio": 0.0836,
         "commit_frequency": 2.72,
         "core_contributors": 2,
@@ -1021,11 +1146,13 @@
         "fixing_commit_count": 7,
         "fixed_file_count": 5,
         "clean_count": 13,
-        "defective_count": 3
+        "defective_count": 3,
+        "models": {
+            "general": "models/tosca/mimacom__ansible-role-bamboo.joblib"
+        }
     },
     {
         "id": 45436148,
-        "model": "models/tosca/mrlesmithjr__ansible-manage-lvm.joblib",
         "comments_ratio": 0.0751,
         "commit_frequency": 2.0,
         "core_contributors": 3,
@@ -1037,11 +1164,13 @@
         "fixing_commit_count": 6,
         "fixed_file_count": 3,
         "clean_count": 45,
-        "defective_count": 12
+        "defective_count": 12,
+        "models": {
+            "general": "models/tosca/mrlesmithjr__ansible-manage-lvm.joblib"
+        }
     },
     {
         "id": 89751137,
-        "model": "models/tosca/mrlesmithjr__ansible-netdata.joblib",
         "comments_ratio": 0.0957,
         "commit_frequency": 2.7,
         "core_contributors": 4,
@@ -1053,11 +1182,13 @@
         "fixing_commit_count": 9,
         "fixed_file_count": 5,
         "clean_count": 62,
-        "defective_count": 8
+        "defective_count": 8,
+        "models": {
+            "general": "models/tosca/mrlesmithjr__ansible-netdata.joblib"
+        }
     },
     {
         "id": 81999200,
-        "model": "models/tosca/naftulikay__ansible-role-degoss.joblib",
         "comments_ratio": 0.1792,
         "commit_frequency": 2.16,
         "core_contributors": 2,
@@ -1069,11 +1200,13 @@
         "fixing_commit_count": 5,
         "fixed_file_count": 4,
         "clean_count": 37,
-        "defective_count": 22
+        "defective_count": 22,
+        "models": {
+            "general": "models/tosca/naftulikay__ansible-role-degoss.joblib"
+        }
     },
     {
         "id": 41636424,
-        "model": "models/tosca/netbootxyz__netboot.xyz.joblib",
         "comments_ratio": 0.0109,
         "commit_frequency": 33.87,
         "core_contributors": 4,
@@ -1085,11 +1218,13 @@
         "fixing_commit_count": 3,
         "fixed_file_count": 4,
         "clean_count": 166,
-        "defective_count": 23
+        "defective_count": 23,
+        "models": {
+            "general": "models/tosca/netbootxyz__netboot.xyz.joblib"
+        }
     },
     {
         "id": 73430290,
-        "model": "models/tosca/newrelic__infrastructure-agent-ansible.joblib",
         "comments_ratio": 0.0015,
         "commit_frequency": 2.43,
         "core_contributors": 6,
@@ -1101,11 +1236,13 @@
         "fixing_commit_count": 4,
         "fixed_file_count": 5,
         "clean_count": 17,
-        "defective_count": 9
+        "defective_count": 9,
+        "models": {
+            "general": "models/tosca/newrelic__infrastructure-agent-ansible.joblib"
+        }
     },
     {
         "id": 31433462,
-        "model": "models/tosca/nusenu__ansible-relayor.joblib",
         "comments_ratio": 0.1145,
         "commit_frequency": 6.58,
         "core_contributors": 2,
@@ -1117,11 +1254,13 @@
         "fixing_commit_count": 21,
         "fixed_file_count": 13,
         "clean_count": 143,
-        "defective_count": 30
+        "defective_count": 30,
+        "models": {
+            "general": "models/tosca/nusenu__ansible-relayor.joblib"
+        }
     },
     {
         "id": 134776948,
-        "model": "models/tosca/NVIDIA__deepops.joblib",
         "comments_ratio": 0.033,
         "commit_frequency": 82.86,
         "core_contributors": 4,
@@ -1133,11 +1272,13 @@
         "fixing_commit_count": 66,
         "fixed_file_count": 56,
         "clean_count": 1687,
-        "defective_count": 35
+        "defective_count": 35,
+        "models": {
+            "general": "models/tosca/NVIDIA__deepops.joblib"
+        }
     },
     {
         "id": 41423976,
-        "model": "models/tosca/Oefenweb__ansible-percona-server.joblib",
         "comments_ratio": 0.0333,
         "commit_frequency": 2.12,
         "core_contributors": 2,
@@ -1149,11 +1290,13 @@
         "fixing_commit_count": 3,
         "fixed_file_count": 4,
         "clean_count": 350,
-        "defective_count": 31
+        "defective_count": 31,
+        "models": {
+            "general": "models/tosca/Oefenweb__ansible-percona-server.joblib"
+        }
     },
     {
         "id": 23002245,
-        "model": "models/tosca/Oefenweb__ansible-postfix.joblib",
         "comments_ratio": 0.0237,
         "commit_frequency": 3.2,
         "core_contributors": 5,
@@ -1165,11 +1308,13 @@
         "fixing_commit_count": 7,
         "fixed_file_count": 5,
         "clean_count": 67,
-        "defective_count": 38
+        "defective_count": 38,
+        "models": {
+            "general": "models/tosca/Oefenweb__ansible-postfix.joblib"
+        }
     },
     {
         "id": 32947512,
-        "model": "models/tosca/Oefenweb__ansible-supervisor.joblib",
         "comments_ratio": 0.0434,
         "commit_frequency": 2.31,
         "core_contributors": 3,
@@ -1181,11 +1326,13 @@
         "fixing_commit_count": 2,
         "fixed_file_count": 2,
         "clean_count": 36,
-        "defective_count": 11
+        "defective_count": 11,
+        "models": {
+            "general": "models/tosca/Oefenweb__ansible-supervisor.joblib"
+        }
     },
     {
         "id": 133722058,
-        "model": "models/tosca/openfun__arnold.joblib",
         "comments_ratio": 0.1398,
         "commit_frequency": 23.64,
         "core_contributors": 4,
@@ -1197,11 +1344,13 @@
         "fixing_commit_count": 12,
         "fixed_file_count": 9,
         "clean_count": 1450,
-        "defective_count": 165
+        "defective_count": 165,
+        "models": {
+            "general": "models/tosca/openfun__arnold.joblib"
+        }
     },
     {
         "id": 52862885,
-        "model": "models/tosca/openstack__openstack-ansible-os_neutron.joblib",
         "comments_ratio": 0.2046,
         "commit_frequency": 16.69,
         "core_contributors": 16,
@@ -1213,11 +1362,13 @@
         "fixing_commit_count": 21,
         "fixed_file_count": 12,
         "clean_count": 271,
-        "defective_count": 37
+        "defective_count": 37,
+        "models": {
+            "general": "models/tosca/openstack__openstack-ansible-os_neutron.joblib"
+        }
     },
     {
         "id": 52862896,
-        "model": "models/tosca/openstack__openstack-ansible-os_nova.joblib",
         "comments_ratio": 0.2477,
         "commit_frequency": 16.77,
         "core_contributors": 16,
@@ -1229,11 +1380,13 @@
         "fixing_commit_count": 30,
         "fixed_file_count": 22,
         "clean_count": 481,
-        "defective_count": 70
+        "defective_count": 70,
+        "models": {
+            "general": "models/tosca/openstack__openstack-ansible-os_nova.joblib"
+        }
     },
     {
         "id": 47761730,
-        "model": "models/tosca/openstack__openstack-ansible-rabbitmq_server.joblib",
         "comments_ratio": 0.3839,
         "commit_frequency": 7.69,
         "core_contributors": 13,
@@ -1245,11 +1398,13 @@
         "fixing_commit_count": 6,
         "fixed_file_count": 14,
         "clean_count": 291,
-        "defective_count": 99
+        "defective_count": 99,
+        "models": {
+            "general": "models/tosca/openstack__openstack-ansible-rabbitmq_server.joblib"
+        }
     },
     {
         "id": 27195864,
-        "model": "models/tosca/openstack__openstack-ansible.joblib",
         "comments_ratio": 0.1267,
         "commit_frequency": 90.79,
         "core_contributors": 16,
@@ -1261,11 +1416,13 @@
         "fixing_commit_count": 124,
         "fixed_file_count": 135,
         "clean_count": 3042,
-        "defective_count": 288
+        "defective_count": 288,
+        "models": {
+            "general": "models/tosca/openstack__openstack-ansible.joblib"
+        }
     },
     {
         "id": 59615202,
-        "model": "models/tosca/openstack__tripleo-validations.joblib",
         "comments_ratio": 0.1644,
         "commit_frequency": 17.74,
         "core_contributors": 12,
@@ -1277,11 +1434,13 @@
         "fixing_commit_count": 6,
         "fixed_file_count": 20,
         "clean_count": 1703,
-        "defective_count": 42
+        "defective_count": 42,
+        "models": {
+            "general": "models/tosca/openstack__tripleo-validations.joblib"
+        }
     },
     {
         "id": 47001649,
-        "model": "models/tosca/openstax__cnx-deploy.joblib",
         "comments_ratio": 0.0914,
         "commit_frequency": 41.18,
         "core_contributors": 10,
@@ -1293,11 +1452,13 @@
         "fixing_commit_count": 28,
         "fixed_file_count": 20,
         "clean_count": 21399,
-        "defective_count": 267
+        "defective_count": 267,
+        "models": {
+            "general": "models/tosca/openstax__cnx-deploy.joblib"
+        }
     },
     {
         "id": 51141789,
-        "model": "models/tosca/openwisp__ansible-openwisp2.joblib",
         "comments_ratio": 0.0789,
         "commit_frequency": 6.36,
         "core_contributors": 3,
@@ -1309,11 +1470,13 @@
         "fixing_commit_count": 7,
         "fixed_file_count": 7,
         "clean_count": 339,
-        "defective_count": 93
+        "defective_count": 93,
+        "models": {
+            "general": "models/tosca/openwisp__ansible-openwisp2.joblib"
+        }
     },
     {
         "id": 23215874,
-        "model": "models/tosca/oravirt__ansible-oracle.joblib",
         "comments_ratio": 0.1782,
         "commit_frequency": 9.11,
         "core_contributors": 2,
@@ -1325,11 +1488,13 @@
         "fixing_commit_count": 18,
         "fixed_file_count": 12,
         "clean_count": 806,
-        "defective_count": 32
+        "defective_count": 32,
+        "models": {
+            "general": "models/tosca/oravirt__ansible-oracle.joblib"
+        }
     },
     {
         "id": 114266564,
-        "model": "models/tosca/oVirt__ovirt-ansible-disaster-recovery.joblib",
         "comments_ratio": 0.0611,
         "commit_frequency": 7.74,
         "core_contributors": 4,
@@ -1341,11 +1506,13 @@
         "fixing_commit_count": 4,
         "fixed_file_count": 5,
         "clean_count": 249,
-        "defective_count": 20
+        "defective_count": 20,
+        "models": {
+            "general": "models/tosca/oVirt__ovirt-ansible-disaster-recovery.joblib"
+        }
     },
     {
         "id": 112223620,
-        "model": "models/tosca/oVirt__ovirt-ansible-engine-setup.joblib",
         "comments_ratio": 0.0989,
         "commit_frequency": 3.57,
         "core_contributors": 3,
@@ -1357,11 +1524,13 @@
         "fixing_commit_count": 6,
         "fixed_file_count": 2,
         "clean_count": 0,
-        "defective_count": 0
+        "defective_count": 0,
+        "models": {
+            "general": "models/tosca/oVirt__ovirt-ansible-engine-setup.joblib"
+        }
     },
     {
         "id": 250416150,
-        "model": "models/tosca/PGBlitz__PGBlitz.com.joblib",
         "comments_ratio": 0.0928,
         "commit_frequency": 863.88,
         "core_contributors": 2,
@@ -1373,11 +1542,13 @@
         "fixing_commit_count": 100,
         "fixed_file_count": 70,
         "clean_count": 45919,
-        "defective_count": 1658
+        "defective_count": 1658,
+        "models": {
+            "general": "models/tosca/PGBlitz__PGBlitz.com.joblib"
+        }
     },
     {
         "id": 24197449,
-        "model": "models/tosca/plone__ansible-playbook.joblib",
         "comments_ratio": 0.0973,
         "commit_frequency": 8.06,
         "core_contributors": 2,
@@ -1389,11 +1560,13 @@
         "fixing_commit_count": 7,
         "fixed_file_count": 4,
         "clean_count": 661,
-        "defective_count": 34
+        "defective_count": 34,
+        "models": {
+            "general": "models/tosca/plone__ansible-playbook.joblib"
+        }
     },
     {
         "id": 103666308,
-        "model": "models/tosca/pulp__pulp_installer.joblib",
         "comments_ratio": 0.0883,
         "commit_frequency": 23.13,
         "core_contributors": 7,
@@ -1405,11 +1578,13 @@
         "fixing_commit_count": 63,
         "fixed_file_count": 59,
         "clean_count": 1360,
-        "defective_count": 204
+        "defective_count": 204,
+        "models": {
+            "general": "models/tosca/pulp__pulp_installer.joblib"
+        }
     },
     {
         "id": 173498378,
-        "model": "models/tosca/PyratLabs__ansible-role-k3s.joblib",
         "comments_ratio": 0.0504,
         "commit_frequency": 7.95,
         "core_contributors": 2,
@@ -1421,11 +1596,13 @@
         "fixing_commit_count": 17,
         "fixed_file_count": 14,
         "clean_count": 1691,
-        "defective_count": 281
+        "defective_count": 281,
+        "models": {
+            "general": "models/tosca/PyratLabs__ansible-role-k3s.joblib"
+        }
     },
     {
         "id": 21044547,
-        "model": "models/tosca/rcbops__openstack-ops.joblib",
         "comments_ratio": 0.1266,
         "commit_frequency": 5.73,
         "core_contributors": 3,
@@ -1437,11 +1614,13 @@
         "fixing_commit_count": 7,
         "fixed_file_count": 17,
         "clean_count": 140,
-        "defective_count": 8
+        "defective_count": 8,
+        "models": {
+            "general": "models/tosca/rcbops__openstack-ops.joblib"
+        }
     },
     {
         "id": 70272278,
-        "model": "models/tosca/redhat-cop__casl-ansible.joblib",
         "comments_ratio": 0.1846,
         "commit_frequency": 7.2,
         "core_contributors": 6,
@@ -1453,11 +1632,13 @@
         "fixing_commit_count": 26,
         "fixed_file_count": 34,
         "clean_count": 1745,
-        "defective_count": 113
+        "defective_count": 113,
+        "models": {
+            "general": "models/tosca/redhat-cop__casl-ansible.joblib"
+        }
     },
     {
         "id": 88211051,
-        "model": "models/tosca/redhat-cop__infra-ansible.joblib",
         "comments_ratio": 0.0478,
         "commit_frequency": 9.2,
         "core_contributors": 4,
@@ -1469,11 +1650,13 @@
         "fixing_commit_count": 52,
         "fixed_file_count": 94,
         "clean_count": 9714,
-        "defective_count": 343
+        "defective_count": 343,
+        "models": {
+            "general": "models/tosca/redhat-cop__infra-ansible.joblib"
+        }
     },
     {
         "id": 124432181,
-        "model": "models/tosca/redhat-cop__openshift-applier.joblib",
         "comments_ratio": 0.0441,
         "commit_frequency": 3.61,
         "core_contributors": 5,
@@ -1485,11 +1668,13 @@
         "fixing_commit_count": 7,
         "fixed_file_count": 10,
         "clean_count": 264,
-        "defective_count": 49
+        "defective_count": 49,
+        "models": {
+            "general": "models/tosca/redhat-cop__openshift-applier.joblib"
+        }
     },
     {
         "id": 82108875,
-        "model": "models/tosca/redhat-nfvpe__kube-ansible.joblib",
         "comments_ratio": 0.069,
         "commit_frequency": 9.63,
         "core_contributors": 5,
@@ -1501,11 +1686,13 @@
         "fixing_commit_count": 11,
         "fixed_file_count": 9,
         "clean_count": 537,
-        "defective_count": 53
+        "defective_count": 53,
+        "models": {
+            "general": "models/tosca/redhat-nfvpe__kube-ansible.joblib"
+        }
     },
     {
         "id": 51534449,
-        "model": "models/tosca/redhat-openstack__infrared.joblib",
         "comments_ratio": 0.0662,
         "commit_frequency": 112.43,
         "core_contributors": 17,
@@ -1517,11 +1704,13 @@
         "fixing_commit_count": 267,
         "fixed_file_count": 298,
         "clean_count": 49160,
-        "defective_count": 1428
+        "defective_count": 1428,
+        "models": {
+            "general": "models/tosca/redhat-openstack__infrared.joblib"
+        }
     },
     {
         "id": 88057051,
-        "model": "models/tosca/ReSearchITEng__kubeadm-playbook.joblib",
         "comments_ratio": 0.2606,
         "commit_frequency": 9.83,
         "core_contributors": 2,
@@ -1533,11 +1722,13 @@
         "fixing_commit_count": 9,
         "fixed_file_count": 6,
         "clean_count": 354,
-        "defective_count": 11
+        "defective_count": 11,
+        "models": {
+            "general": "models/tosca/ReSearchITEng__kubeadm-playbook.joblib"
+        }
     },
     {
         "id": 121444859,
-        "model": "models/tosca/ReinerNippes__nextcloud.joblib",
         "comments_ratio": 0.7581,
         "commit_frequency": 10.24,
         "core_contributors": 2,
@@ -1549,11 +1740,13 @@
         "fixing_commit_count": 1,
         "fixed_file_count": 3,
         "clean_count": 286,
-        "defective_count": 3
+        "defective_count": 3,
+        "models": {
+            "general": "models/tosca/ReinerNippes__nextcloud.joblib"
+        }
     },
     {
         "id": 61288349,
-        "model": "models/tosca/rhevm-qe-automation__ovirt-ansible.joblib",
         "comments_ratio": 0.0595,
         "commit_frequency": 3.24,
         "core_contributors": 6,
@@ -1565,11 +1758,13 @@
         "fixing_commit_count": 11,
         "fixed_file_count": 7,
         "clean_count": 140,
-        "defective_count": 3
+        "defective_count": 3,
+        "models": {
+            "general": "models/tosca/rhevm-qe-automation__ovirt-ansible.joblib"
+        }
     },
     {
         "id": 65276738,
-        "model": "models/tosca/riemers__ansible-gitlab-runner.joblib",
         "comments_ratio": 0.0592,
         "commit_frequency": 4.16,
         "core_contributors": 18,
@@ -1581,11 +1776,13 @@
         "fixing_commit_count": 24,
         "fixed_file_count": 25,
         "clean_count": 703,
-        "defective_count": 216
+        "defective_count": 216,
+        "models": {
+            "general": "models/tosca/riemers__ansible-gitlab-runner.joblib"
+        }
     },
     {
         "id": 47439383,
-        "model": "models/tosca/rocknsm__rock.joblib",
         "comments_ratio": 0.1158,
         "commit_frequency": 13.32,
         "core_contributors": 5,
@@ -1597,11 +1794,13 @@
         "fixing_commit_count": 58,
         "fixed_file_count": 78,
         "clean_count": 675,
-        "defective_count": 154
+        "defective_count": 154,
+        "models": {
+            "general": "models/tosca/rocknsm__rock.joblib"
+        }
     },
     {
         "id": 18852165,
-        "model": "models/tosca/roots__trellis.joblib",
         "comments_ratio": 0.0587,
         "commit_frequency": 19.09,
         "core_contributors": 4,
@@ -1613,11 +1812,13 @@
         "fixing_commit_count": 49,
         "fixed_file_count": 48,
         "clean_count": 1066,
-        "defective_count": 132
+        "defective_count": 132,
+        "models": {
+            "general": "models/tosca/roots__trellis.joblib"
+        }
     },
     {
         "id": 19408536,
-        "model": "models/tosca/rvm__rvm1-ansible.joblib",
         "comments_ratio": 0.0627,
         "commit_frequency": 3.23,
         "core_contributors": 6,
@@ -1629,11 +1830,13 @@
         "fixing_commit_count": 16,
         "fixed_file_count": 8,
         "clean_count": 43,
-        "defective_count": 39
+        "defective_count": 39,
+        "models": {
+            "general": "models/tosca/rvm__rvm1-ansible.joblib"
+        }
     },
     {
         "id": 35729277,
-        "model": "models/tosca/sensu__sensu-ansible.joblib",
         "comments_ratio": 0.0425,
         "commit_frequency": 8.77,
         "core_contributors": 4,
@@ -1645,11 +1848,13 @@
         "fixing_commit_count": 12,
         "fixed_file_count": 26,
         "clean_count": 421,
-        "defective_count": 191
+        "defective_count": 191,
+        "models": {
+            "general": "models/tosca/sensu__sensu-ansible.joblib"
+        }
     },
     {
         "id": 125180845,
-        "model": "models/tosca/snowdrop__k8s-infra.joblib",
         "comments_ratio": 0.0831,
         "commit_frequency": 47.0,
         "core_contributors": 2,
@@ -1661,11 +1866,13 @@
         "fixing_commit_count": 60,
         "fixed_file_count": 54,
         "clean_count": 432,
-        "defective_count": 34
+        "defective_count": 34,
+        "models": {
+            "general": "models/tosca/snowdrop__k8s-infra.joblib"
+        }
     },
     {
         "id": 148547478,
-        "model": "models/tosca/splunk__splunk-ansible.joblib",
         "comments_ratio": 0.0511,
         "commit_frequency": 50.81,
         "core_contributors": 5,
@@ -1677,11 +1884,13 @@
         "fixing_commit_count": 80,
         "fixed_file_count": 108,
         "clean_count": 1653,
-        "defective_count": 257
+        "defective_count": 257,
+        "models": {
+            "general": "models/tosca/splunk__splunk-ansible.joblib"
+        }
     },
     {
         "id": 45568524,
-        "model": "models/tosca/stackbuilders__sb-debian-base.joblib",
         "comments_ratio": 0.0096,
         "commit_frequency": 3.08,
         "core_contributors": 4,
@@ -1693,11 +1902,13 @@
         "fixing_commit_count": 12,
         "fixed_file_count": 13,
         "clean_count": 241,
-        "defective_count": 27
+        "defective_count": 27,
+        "models": {
+            "general": "models/tosca/stackbuilders__sb-debian-base.joblib"
+        }
     },
     {
         "id": 113180256,
-        "model": "models/tosca/stackhpc__ansible-role-libvirt-vm.joblib",
         "comments_ratio": 0.1537,
         "commit_frequency": 4.39,
         "core_contributors": 6,
@@ -1709,11 +1920,13 @@
         "fixing_commit_count": 4,
         "fixed_file_count": 4,
         "clean_count": 20,
-        "defective_count": 3
+        "defective_count": 3,
+        "models": {
+            "general": "models/tosca/stackhpc__ansible-role-libvirt-vm.joblib"
+        }
     },
     {
         "id": 91701346,
-        "model": "models/tosca/stackhpc__ansible-role-os-images.joblib",
         "comments_ratio": 0.1393,
         "commit_frequency": 2.58,
         "core_contributors": 4,
@@ -1725,11 +1938,13 @@
         "fixing_commit_count": 3,
         "fixed_file_count": 1,
         "clean_count": 12,
-        "defective_count": 12
+        "defective_count": 12,
+        "models": {
+            "general": "models/tosca/stackhpc__ansible-role-os-images.joblib"
+        }
     },
     {
         "id": 95896053,
-        "model": "models/tosca/stone-payments__ansible-rabbitmq.joblib",
         "comments_ratio": 0.046,
         "commit_frequency": 5.24,
         "core_contributors": 5,
@@ -1741,11 +1956,13 @@
         "fixing_commit_count": 36,
         "fixed_file_count": 24,
         "clean_count": 53,
-        "defective_count": 7
+        "defective_count": 7,
+        "models": {
+            "general": "models/tosca/stone-payments__ansible-rabbitmq.joblib"
+        }
     },
     {
         "id": 61397627,
-        "model": "models/tosca/tenforwardconsulting__subspace.joblib",
         "comments_ratio": 0.089,
         "commit_frequency": 6.19,
         "core_contributors": 3,
@@ -1757,11 +1974,13 @@
         "fixing_commit_count": 12,
         "fixed_file_count": 12,
         "clean_count": 2544,
-        "defective_count": 120
+        "defective_count": 120,
+        "models": {
+            "general": "models/tosca/tenforwardconsulting__subspace.joblib"
+        }
     },
     {
         "id": 178251144,
-        "model": "models/tosca/tulibraries__ansible-role-airflow.joblib",
         "comments_ratio": 0.116,
         "commit_frequency": 4.14,
         "core_contributors": 5,
@@ -1773,11 +1992,13 @@
         "fixing_commit_count": 6,
         "fixed_file_count": 3,
         "clean_count": 71,
-        "defective_count": 8
+        "defective_count": 8,
+        "models": {
+            "general": "models/tosca/tulibraries__ansible-role-airflow.joblib"
+        }
     },
     {
         "id": 30925564,
-        "model": "models/tosca/UnderGreen__ansible-role-mongodb.joblib",
         "comments_ratio": 0.079,
         "commit_frequency": 6.15,
         "core_contributors": 10,
@@ -1789,11 +2010,13 @@
         "fixing_commit_count": 44,
         "fixed_file_count": 29,
         "clean_count": 179,
-        "defective_count": 177
+        "defective_count": 177,
+        "models": {
+            "general": "models/tosca/UnderGreen__ansible-role-mongodb.joblib"
+        }
     },
     {
         "id": 96306635,
-        "model": "models/tosca/UtrechtUniversity__yoda.joblib",
         "comments_ratio": 0.0537,
         "commit_frequency": 40.39,
         "core_contributors": 2,
@@ -1805,11 +2028,13 @@
         "fixing_commit_count": 91,
         "fixed_file_count": 75,
         "clean_count": 284,
-        "defective_count": 54
+        "defective_count": 54,
+        "models": {
+            "general": "models/tosca/UtrechtUniversity__yoda.joblib"
+        }
     },
     {
         "id": 151536298,
-        "model": "models/tosca/valet-sh__valet-sh.joblib",
         "comments_ratio": 0.3323,
         "commit_frequency": 16.65,
         "core_contributors": 2,
@@ -1821,11 +2046,13 @@
         "fixing_commit_count": 76,
         "fixed_file_count": 63,
         "clean_count": 13435,
-        "defective_count": 342
+        "defective_count": 342,
+        "models": {
+            "general": "models/tosca/valet-sh__valet-sh.joblib"
+        }
     },
     {
         "id": 82927988,
-        "model": "models/tosca/viasite-ansible__ansible-role-zsh.joblib",
         "comments_ratio": 0.0378,
         "commit_frequency": 3.36,
         "core_contributors": 2,
@@ -1837,11 +2064,13 @@
         "fixing_commit_count": 24,
         "fixed_file_count": 17,
         "clean_count": 132,
-        "defective_count": 75
+        "defective_count": 75,
+        "models": {
+            "general": "models/tosca/viasite-ansible__ansible-role-zsh.joblib"
+        }
     },
     {
         "id": 190206784,
-        "model": "models/tosca/vitabaks__postgresql_cluster.joblib",
         "comments_ratio": 0.0833,
         "commit_frequency": 20.41,
         "core_contributors": 2,
@@ -1853,11 +2082,13 @@
         "fixing_commit_count": 16,
         "fixed_file_count": 15,
         "clean_count": 180,
-        "defective_count": 18
+        "defective_count": 18,
+        "models": {
+            "general": "models/tosca/vitabaks__postgresql_cluster.joblib"
+        }
     },
     {
         "id": 85245901,
-        "model": "models/tosca/wazuh__wazuh-ansible.joblib",
         "comments_ratio": 0.0592,
         "commit_frequency": 33.36,
         "core_contributors": 8,
@@ -1869,11 +2100,13 @@
         "fixing_commit_count": 98,
         "fixed_file_count": 75,
         "clean_count": 1415,
-        "defective_count": 176
+        "defective_count": 176,
+        "models": {
+            "general": "models/tosca/wazuh__wazuh-ansible.joblib"
+        }
     },
     {
         "id": 143967403,
-        "model": "models/tosca/wcm-io-devops__ansible-conga-ansible-controlhost.joblib",
         "comments_ratio": 0.1326,
         "commit_frequency": 2.41,
         "core_contributors": 2,
@@ -1885,11 +2118,13 @@
         "fixing_commit_count": 5,
         "fixed_file_count": 3,
         "clean_count": 21,
-        "defective_count": 3
+        "defective_count": 3,
+        "models": {
+            "general": "models/tosca/wcm-io-devops__ansible-conga-ansible-controlhost.joblib"
+        }
     },
     {
         "id": 28204193,
-        "model": "models/tosca/willshersystems__ansible-sshd.joblib",
         "comments_ratio": 0.0479,
         "commit_frequency": 4.35,
         "core_contributors": 6,
@@ -1901,11 +2136,13 @@
         "fixing_commit_count": 4,
         "fixed_file_count": 2,
         "clean_count": 28,
-        "defective_count": 41
+        "defective_count": 41,
+        "models": {
+            "general": "models/tosca/willshersystems__ansible-sshd.joblib"
+        }
     },
     {
         "id": 130664395,
-        "model": "models/tosca/wso2__ansible-apim.joblib",
         "comments_ratio": 0.3147,
         "commit_frequency": 6.62,
         "core_contributors": 4,
@@ -1917,6 +2154,9 @@
         "fixing_commit_count": 2,
         "fixed_file_count": 9,
         "clean_count": 78,
-        "defective_count": 20
+        "defective_count": 20,
+        "models": {
+            "general": "models/tosca/wso2__ansible-apim.joblib"
+        }
     }
 ]
