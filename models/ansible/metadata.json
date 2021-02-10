@@ -32,7 +32,8 @@
         "clean_count": 174,
         "defective_count": 132,
         "models": {
-            "general": "models/ansible/general/AlbanAndrieu__ansible-jenkins-slave.joblib"
+            "general": "models/ansible/general/AlbanAndrieu__ansible-jenkins-slave.joblib",
+            "configuration_data": "models/ansible/configuration_data/AlbanAndrieu__ansible-jenkins-slave.joblib"
         }
     },
     {
@@ -50,7 +51,8 @@
         "clean_count": 203,
         "defective_count": 19,
         "models": {
-            "general": "models/ansible/general/AlbanAndrieu__ansible-nabla.joblib"
+            "general": "models/ansible/general/AlbanAndrieu__ansible-nabla.joblib",
+            "configuration_data": "models/ansible/configuration_data/AlbanAndrieu__ansible-nabla.joblib"
         }
     },
     {
@@ -68,7 +70,9 @@
         "clean_count": 1417,
         "defective_count": 564,
         "models": {
-            "general": "models/ansible/general/ansible-community__ansible-consul.joblib"
+            "general": "models/ansible/general/ansible-community__ansible-consul.joblib",
+            "service": "models/ansible/service/ansible-community__ansible-consul.joblib",
+            "configuration_data": "models/ansible/configuration_data/ansible-community__ansible-consul.joblib"
         }
     },
     {
@@ -86,7 +90,8 @@
         "clean_count": 278,
         "defective_count": 76,
         "models": {
-            "general": "models/ansible/general/ansible-community__ansible-nomad.joblib"
+            "general": "models/ansible/general/ansible-community__ansible-nomad.joblib",
+            "configuration_data": "models/ansible/configuration_data/ansible-community__ansible-nomad.joblib"
         }
     },
     {
@@ -104,7 +109,8 @@
         "clean_count": 79,
         "defective_count": 10,
         "models": {
-            "general": "models/ansible/general/ansible-community__ansible-vault.joblib"
+            "general": "models/ansible/general/ansible-community__ansible-vault.joblib",
+            "configuration_data": "models/ansible/configuration_data/ansible-community__ansible-vault.joblib"
         }
     },
     {
@@ -122,7 +128,9 @@
         "clean_count": 53,
         "defective_count": 10,
         "models": {
-            "general": "models/ansible/general/ansible-lockdown__RHEL7-STIG.joblib"
+            "general": "models/ansible/general/ansible-lockdown__RHEL7-STIG.joblib",
+            "service": "models/ansible/service/ansible-lockdown__RHEL7-STIG.joblib",
+            "configuration_data": "models/ansible/configuration_data/ansible-lockdown__RHEL7-STIG.joblib"
         }
     },
     {
@@ -140,7 +148,8 @@
         "clean_count": 1318,
         "defective_count": 133,
         "models": {
-            "general": "models/ansible/general/ansible-ThoTeam__nexus3-oss.joblib"
+            "general": "models/ansible/general/ansible-ThoTeam__nexus3-oss.joblib",
+            "configuration_data": "models/ansible/configuration_data/ansible-ThoTeam__nexus3-oss.joblib"
         }
     },
     {
@@ -159,7 +168,8 @@
         "defective_count": 46,
         "models": {
             "general": "models/ansible/general/ansible__workshops.joblib",
-            "conditional": "models/ansible/conditional/ansible__workshops.joblib"
+            "conditional": "models/ansible/conditional/ansible__workshops.joblib",
+            "configuration_data": "models/ansible/configuration_data/ansible__workshops.joblib"
         }
     },
     {
@@ -177,7 +187,8 @@
         "clean_count": 666,
         "defective_count": 162,
         "models": {
-            "general": "models/ansible/general/ansistrano__deploy.joblib"
+            "general": "models/ansible/general/ansistrano__deploy.joblib",
+            "configuration_data": "models/ansible/configuration_data/ansistrano__deploy.joblib"
         }
     },
     {
@@ -195,7 +206,8 @@
         "clean_count": 1765,
         "defective_count": 20,
         "models": {
-            "general": "models/ansible/general/anthcourtney__ansible-role-cis-amazon-linux.joblib"
+            "general": "models/ansible/general/anthcourtney__ansible-role-cis-amazon-linux.joblib",
+            "configuration_data": "models/ansible/configuration_data/anthcourtney__ansible-role-cis-amazon-linux.joblib"
         }
     },
     {
@@ -213,7 +225,8 @@
         "clean_count": 22,
         "defective_count": 27,
         "models": {
-            "general": "models/ansible/general/antoiner77__caddy-ansible.joblib"
+            "general": "models/ansible/general/antoiner77__caddy-ansible.joblib",
+            "configuration_data": "models/ansible/configuration_data/antoiner77__caddy-ansible.joblib"
         }
     },
     {
@@ -231,7 +244,9 @@
         "clean_count": 169,
         "defective_count": 222,
         "models": {
-            "general": "models/ansible/general/ANXS__postgresql.joblib"
+            "general": "models/ansible/general/ANXS__postgresql.joblib",
+            "service": "models/ansible/service/ANXS__postgresql.joblib",
+            "configuration_data": "models/ansible/configuration_data/ANXS__postgresql.joblib"
         }
     },
     {
@@ -249,7 +264,8 @@
         "clean_count": 23,
         "defective_count": 15,
         "models": {
-            "general": "models/ansible/general/arillso__ansible.logrotate.joblib"
+            "general": "models/ansible/general/arillso__ansible.logrotate.joblib",
+            "configuration_data": "models/ansible/configuration_data/arillso__ansible.logrotate.joblib"
         }
     },
     {
@@ -285,7 +301,8 @@
         "clean_count": 1206,
         "defective_count": 174,
         "models": {
-            "general": "models/ansible/general/automium__service-kubernetes.joblib"
+            "general": "models/ansible/general/automium__service-kubernetes.joblib",
+            "configuration_data": "models/ansible/configuration_data/automium__service-kubernetes.joblib"
         }
     },
     {
@@ -322,7 +339,9 @@
         "defective_count": 303,
         "models": {
             "general": "models/ansible/general/bluebanquise__bluebanquise.joblib",
-            "conditional": "models/ansible/conditional/bluebanquise__bluebanquise.joblib"
+            "conditional": "models/ansible/conditional/bluebanquise__bluebanquise.joblib",
+            "service": "models/ansible/service/bluebanquise__bluebanquise.joblib",
+            "configuration_data": "models/ansible/configuration_data/bluebanquise__bluebanquise.joblib"
         }
     },
     {
@@ -358,7 +377,8 @@
         "clean_count": 8723,
         "defective_count": 885,
         "models": {
-            "general": "models/ansible/general/CentOS-PaaS-SIG__linchpin.joblib"
+            "general": "models/ansible/general/CentOS-PaaS-SIG__linchpin.joblib",
+            "configuration_data": "models/ansible/configuration_data/CentOS-PaaS-SIG__linchpin.joblib"
         }
     },
     {
@@ -377,7 +397,9 @@
         "defective_count": 1090,
         "models": {
             "general": "models/ansible/general/ceph__ceph-ansible.joblib",
-            "conditional": "models/ansible/conditional/ceph__ceph-ansible.joblib"
+            "conditional": "models/ansible/conditional/ceph__ceph-ansible.joblib",
+            "service": "models/ansible/service/ceph__ceph-ansible.joblib",
+            "configuration_data": "models/ansible/configuration_data/ceph__ceph-ansible.joblib"
         }
     },
     {
@@ -413,7 +435,8 @@
         "clean_count": 54,
         "defective_count": 27,
         "models": {
-            "general": "models/ansible/general/cloudalchemy__ansible-blackbox-exporter.joblib"
+            "general": "models/ansible/general/cloudalchemy__ansible-blackbox-exporter.joblib",
+            "configuration_data": "models/ansible/configuration_data/cloudalchemy__ansible-blackbox-exporter.joblib"
         }
     },
     {
@@ -431,7 +454,9 @@
         "clean_count": 426,
         "defective_count": 129,
         "models": {
-            "general": "models/ansible/general/cloudalchemy__ansible-grafana.joblib"
+            "general": "models/ansible/general/cloudalchemy__ansible-grafana.joblib",
+            "service": "models/ansible/service/cloudalchemy__ansible-grafana.joblib",
+            "configuration_data": "models/ansible/configuration_data/cloudalchemy__ansible-grafana.joblib"
         }
     },
     {
@@ -449,7 +474,8 @@
         "clean_count": 139,
         "defective_count": 101,
         "models": {
-            "general": "models/ansible/general/cloudalchemy__ansible-node-exporter.joblib"
+            "general": "models/ansible/general/cloudalchemy__ansible-node-exporter.joblib",
+            "configuration_data": "models/ansible/configuration_data/cloudalchemy__ansible-node-exporter.joblib"
         }
     },
     {
@@ -467,7 +493,8 @@
         "clean_count": 309,
         "defective_count": 113,
         "models": {
-            "general": "models/ansible/general/cloudalchemy__ansible-prometheus.joblib"
+            "general": "models/ansible/general/cloudalchemy__ansible-prometheus.joblib",
+            "configuration_data": "models/ansible/configuration_data/cloudalchemy__ansible-prometheus.joblib"
         }
     },
     {
@@ -485,7 +512,8 @@
         "clean_count": 45,
         "defective_count": 9,
         "models": {
-            "general": "models/ansible/general/cloudalchemy__ansible-pushgateway.joblib"
+            "general": "models/ansible/general/cloudalchemy__ansible-pushgateway.joblib",
+            "configuration_data": "models/ansible/configuration_data/cloudalchemy__ansible-pushgateway.joblib"
         }
     },
     {
@@ -503,7 +531,9 @@
         "clean_count": 185,
         "defective_count": 86,
         "models": {
-            "general": "models/ansible/general/CoffeeITWorks__ansible_burp2_server.joblib"
+            "general": "models/ansible/general/CoffeeITWorks__ansible_burp2_server.joblib",
+            "service": "models/ansible/service/CoffeeITWorks__ansible_burp2_server.joblib",
+            "configuration_data": "models/ansible/configuration_data/CoffeeITWorks__ansible_burp2_server.joblib"
         }
     },
     {
@@ -521,7 +551,9 @@
         "clean_count": 336,
         "defective_count": 101,
         "models": {
-            "general": "models/ansible/general/CSCfi__ansible-role-slurm.joblib"
+            "general": "models/ansible/general/CSCfi__ansible-role-slurm.joblib",
+            "service": "models/ansible/service/CSCfi__ansible-role-slurm.joblib",
+            "configuration_data": "models/ansible/configuration_data/CSCfi__ansible-role-slurm.joblib"
         }
     },
     {
@@ -539,7 +571,8 @@
         "clean_count": 29,
         "defective_count": 29,
         "models": {
-            "general": "models/ansible/general/CSCfi__ansible-role-users.joblib"
+            "general": "models/ansible/general/CSCfi__ansible-role-users.joblib",
+            "configuration_data": "models/ansible/configuration_data/CSCfi__ansible-role-users.joblib"
         }
     },
     {
@@ -557,7 +590,9 @@
         "clean_count": 203,
         "defective_count": 67,
         "models": {
-            "general": "models/ansible/general/DataDog__ansible-datadog.joblib"
+            "general": "models/ansible/general/DataDog__ansible-datadog.joblib",
+            "service": "models/ansible/service/DataDog__ansible-datadog.joblib",
+            "configuration_data": "models/ansible/configuration_data/DataDog__ansible-datadog.joblib"
         }
     },
     {
@@ -575,7 +610,8 @@
         "clean_count": 124,
         "defective_count": 47,
         "models": {
-            "general": "models/ansible/general/DavidWittman__ansible-redis.joblib"
+            "general": "models/ansible/general/DavidWittman__ansible-redis.joblib",
+            "configuration_data": "models/ansible/configuration_data/DavidWittman__ansible-redis.joblib"
         }
     },
     {
@@ -647,7 +683,8 @@
         "clean_count": 14,
         "defective_count": 10,
         "models": {
-            "general": "models/ansible/general/elastic__ansible-beats.joblib"
+            "general": "models/ansible/general/elastic__ansible-beats.joblib",
+            "configuration_data": "models/ansible/configuration_data/elastic__ansible-beats.joblib"
         }
     },
     {
@@ -666,7 +703,9 @@
         "defective_count": 151,
         "models": {
             "general": "models/ansible/general/elastic__ansible-elasticsearch.joblib",
-            "conditional": "models/ansible/conditional/elastic__ansible-elasticsearch.joblib"
+            "conditional": "models/ansible/conditional/elastic__ansible-elasticsearch.joblib",
+            "service": "models/ansible/service/elastic__ansible-elasticsearch.joblib",
+            "configuration_data": "models/ansible/configuration_data/elastic__ansible-elasticsearch.joblib"
         }
     },
     {
@@ -684,7 +723,9 @@
         "clean_count": 181,
         "defective_count": 66,
         "models": {
-            "general": "models/ansible/general/evrardjp__ansible-keepalived.joblib"
+            "general": "models/ansible/general/evrardjp__ansible-keepalived.joblib",
+            "service": "models/ansible/service/evrardjp__ansible-keepalived.joblib",
+            "configuration_data": "models/ansible/configuration_data/evrardjp__ansible-keepalived.joblib"
         }
     },
     {
@@ -756,7 +797,9 @@
         "clean_count": 45,
         "defective_count": 43,
         "models": {
-            "general": "models/ansible/general/florianutz__Ubuntu1804-CIS.joblib"
+            "general": "models/ansible/general/florianutz__Ubuntu1804-CIS.joblib",
+            "service": "models/ansible/service/florianutz__Ubuntu1804-CIS.joblib",
+            "configuration_data": "models/ansible/configuration_data/florianutz__Ubuntu1804-CIS.joblib"
         }
     },
     {
@@ -774,7 +817,8 @@
         "clean_count": 1192,
         "defective_count": 34,
         "models": {
-            "general": "models/ansible/general/freeipa__ansible-freeipa.joblib"
+            "general": "models/ansible/general/freeipa__ansible-freeipa.joblib",
+            "configuration_data": "models/ansible/configuration_data/freeipa__ansible-freeipa.joblib"
         }
     },
     {
@@ -792,7 +836,8 @@
         "clean_count": 275,
         "defective_count": 111,
         "models": {
-            "general": "models/ansible/general/galaxyproject__ansible-galaxy.joblib"
+            "general": "models/ansible/general/galaxyproject__ansible-galaxy.joblib",
+            "configuration_data": "models/ansible/configuration_data/galaxyproject__ansible-galaxy.joblib"
         }
     },
     {
@@ -811,7 +856,9 @@
         "defective_count": 133,
         "models": {
             "general": "models/ansible/general/gluster__gdeploy.joblib",
-            "conditional": "models/ansible/conditional/gluster__gdeploy.joblib"
+            "conditional": "models/ansible/conditional/gluster__gdeploy.joblib",
+            "service": "models/ansible/service/gluster__gdeploy.joblib",
+            "configuration_data": "models/ansible/configuration_data/gluster__gdeploy.joblib"
         }
     },
     {
@@ -829,7 +876,8 @@
         "clean_count": 619,
         "defective_count": 13,
         "models": {
-            "general": "models/ansible/general/goodrain__rainbond-ansible.joblib"
+            "general": "models/ansible/general/goodrain__rainbond-ansible.joblib",
+            "configuration_data": "models/ansible/configuration_data/goodrain__rainbond-ansible.joblib"
         }
     },
     {
@@ -847,7 +895,9 @@
         "clean_count": 56,
         "defective_count": 15,
         "models": {
-            "general": "models/ansible/general/Graylog2__graylog-ansible-role.joblib"
+            "general": "models/ansible/general/Graylog2__graylog-ansible-role.joblib",
+            "service": "models/ansible/service/Graylog2__graylog-ansible-role.joblib",
+            "configuration_data": "models/ansible/configuration_data/Graylog2__graylog-ansible-role.joblib"
         }
     },
     {
@@ -883,7 +933,8 @@
         "clean_count": 158,
         "defective_count": 23,
         "models": {
-            "general": "models/ansible/general/HanXHX__ansible-debian-bootstrap.joblib"
+            "general": "models/ansible/general/HanXHX__ansible-debian-bootstrap.joblib",
+            "configuration_data": "models/ansible/configuration_data/HanXHX__ansible-debian-bootstrap.joblib"
         }
     },
     {
@@ -901,7 +952,9 @@
         "clean_count": 132,
         "defective_count": 85,
         "models": {
-            "general": "models/ansible/general/HanXHX__ansible-nginx.joblib"
+            "general": "models/ansible/general/HanXHX__ansible-nginx.joblib",
+            "service": "models/ansible/service/HanXHX__ansible-nginx.joblib",
+            "configuration_data": "models/ansible/configuration_data/HanXHX__ansible-nginx.joblib"
         }
     },
     {
@@ -955,7 +1008,9 @@
         "clean_count": 63,
         "defective_count": 9,
         "models": {
-            "general": "models/ansible/general/idealista__mysql_role.joblib"
+            "general": "models/ansible/general/idealista__mysql_role.joblib",
+            "service": "models/ansible/service/idealista__mysql_role.joblib",
+            "configuration_data": "models/ansible/configuration_data/idealista__mysql_role.joblib"
         }
     },
     {
@@ -1027,7 +1082,8 @@
         "clean_count": 44,
         "defective_count": 12,
         "models": {
-            "general": "models/ansible/general/jcalazan__ansible-django-stack.joblib"
+            "general": "models/ansible/general/jcalazan__ansible-django-stack.joblib",
+            "configuration_data": "models/ansible/configuration_data/jcalazan__ansible-django-stack.joblib"
         }
     },
     {
@@ -1045,7 +1101,8 @@
         "clean_count": 22,
         "defective_count": 20,
         "models": {
-            "general": "models/ansible/general/kibatic__ansible-traefik.joblib"
+            "general": "models/ansible/general/kibatic__ansible-traefik.joblib",
+            "configuration_data": "models/ansible/configuration_data/kibatic__ansible-traefik.joblib"
         }
     },
     {
@@ -1063,7 +1120,8 @@
         "clean_count": 180,
         "defective_count": 21,
         "models": {
-            "general": "models/ansible/general/lae__ansible-role-proxmox.joblib"
+            "general": "models/ansible/general/lae__ansible-role-proxmox.joblib",
+            "configuration_data": "models/ansible/configuration_data/lae__ansible-role-proxmox.joblib"
         }
     },
     {
@@ -1081,7 +1139,8 @@
         "clean_count": 2703,
         "defective_count": 162,
         "models": {
-            "general": "models/ansible/general/liip__drifter.joblib"
+            "general": "models/ansible/general/liip__drifter.joblib",
+            "configuration_data": "models/ansible/configuration_data/liip__drifter.joblib"
         }
     },
     {
@@ -1171,7 +1230,8 @@
         "clean_count": 45,
         "defective_count": 12,
         "models": {
-            "general": "models/ansible/general/mrlesmithjr__ansible-manage-lvm.joblib"
+            "general": "models/ansible/general/mrlesmithjr__ansible-manage-lvm.joblib",
+            "configuration_data": "models/ansible/configuration_data/mrlesmithjr__ansible-manage-lvm.joblib"
         }
     },
     {
@@ -1208,7 +1268,8 @@
         "defective_count": 22,
         "models": {
             "general": "models/ansible/general/naftulikay__ansible-role-degoss.joblib",
-            "conditional": "models/ansible/conditional/naftulikay__ansible-role-degoss.joblib"
+            "conditional": "models/ansible/conditional/naftulikay__ansible-role-degoss.joblib",
+            "configuration_data": "models/ansible/configuration_data/naftulikay__ansible-role-degoss.joblib"
         }
     },
     {
@@ -1226,7 +1287,8 @@
         "clean_count": 166,
         "defective_count": 23,
         "models": {
-            "general": "models/ansible/general/netbootxyz__netboot.xyz.joblib"
+            "general": "models/ansible/general/netbootxyz__netboot.xyz.joblib",
+            "configuration_data": "models/ansible/configuration_data/netbootxyz__netboot.xyz.joblib"
         }
     },
     {
@@ -1244,7 +1306,8 @@
         "clean_count": 17,
         "defective_count": 9,
         "models": {
-            "general": "models/ansible/general/newrelic__infrastructure-agent-ansible.joblib"
+            "general": "models/ansible/general/newrelic__infrastructure-agent-ansible.joblib",
+            "configuration_data": "models/ansible/configuration_data/newrelic__infrastructure-agent-ansible.joblib"
         }
     },
     {
@@ -1262,7 +1325,8 @@
         "clean_count": 143,
         "defective_count": 30,
         "models": {
-            "general": "models/ansible/general/nusenu__ansible-relayor.joblib"
+            "general": "models/ansible/general/nusenu__ansible-relayor.joblib",
+            "configuration_data": "models/ansible/configuration_data/nusenu__ansible-relayor.joblib"
         }
     },
     {
@@ -1281,7 +1345,9 @@
         "defective_count": 35,
         "models": {
             "general": "models/ansible/general/NVIDIA__deepops.joblib",
-            "conditional": "models/ansible/conditional/NVIDIA__deepops.joblib"
+            "conditional": "models/ansible/conditional/NVIDIA__deepops.joblib",
+            "service": "models/ansible/service/NVIDIA__deepops.joblib",
+            "configuration_data": "models/ansible/configuration_data/NVIDIA__deepops.joblib"
         }
     },
     {
@@ -1317,7 +1383,8 @@
         "clean_count": 67,
         "defective_count": 38,
         "models": {
-            "general": "models/ansible/general/Oefenweb__ansible-postfix.joblib"
+            "general": "models/ansible/general/Oefenweb__ansible-postfix.joblib",
+            "configuration_data": "models/ansible/configuration_data/Oefenweb__ansible-postfix.joblib"
         }
     },
     {
@@ -1335,7 +1402,8 @@
         "clean_count": 36,
         "defective_count": 11,
         "models": {
-            "general": "models/ansible/general/Oefenweb__ansible-supervisor.joblib"
+            "general": "models/ansible/general/Oefenweb__ansible-supervisor.joblib",
+            "configuration_data": "models/ansible/configuration_data/Oefenweb__ansible-supervisor.joblib"
         }
     },
     {
@@ -1353,7 +1421,8 @@
         "clean_count": 1450,
         "defective_count": 165,
         "models": {
-            "general": "models/ansible/general/openfun__arnold.joblib"
+            "general": "models/ansible/general/openfun__arnold.joblib",
+            "configuration_data": "models/ansible/configuration_data/openfun__arnold.joblib"
         }
     },
     {
@@ -1371,7 +1440,9 @@
         "clean_count": 271,
         "defective_count": 37,
         "models": {
-            "general": "models/ansible/general/openstack__openstack-ansible-os_neutron.joblib"
+            "general": "models/ansible/general/openstack__openstack-ansible-os_neutron.joblib",
+            "service": "models/ansible/service/openstack__openstack-ansible-os_neutron.joblib",
+            "configuration_data": "models/ansible/configuration_data/openstack__openstack-ansible-os_neutron.joblib"
         }
     },
     {
@@ -1390,7 +1461,9 @@
         "defective_count": 70,
         "models": {
             "general": "models/ansible/general/openstack__openstack-ansible-os_nova.joblib",
-            "conditional": "models/ansible/conditional/openstack__openstack-ansible-os_nova.joblib"
+            "conditional": "models/ansible/conditional/openstack__openstack-ansible-os_nova.joblib",
+            "service": "models/ansible/service/openstack__openstack-ansible-os_nova.joblib",
+            "configuration_data": "models/ansible/configuration_data/openstack__openstack-ansible-os_nova.joblib"
         }
     },
     {
@@ -1408,7 +1481,9 @@
         "clean_count": 291,
         "defective_count": 99,
         "models": {
-            "general": "models/ansible/general/openstack__openstack-ansible-rabbitmq_server.joblib"
+            "general": "models/ansible/general/openstack__openstack-ansible-rabbitmq_server.joblib",
+            "service": "models/ansible/service/openstack__openstack-ansible-rabbitmq_server.joblib",
+            "configuration_data": "models/ansible/configuration_data/openstack__openstack-ansible-rabbitmq_server.joblib"
         }
     },
     {
@@ -1427,7 +1502,9 @@
         "defective_count": 288,
         "models": {
             "general": "models/ansible/general/openstack__openstack-ansible.joblib",
-            "conditional": "models/ansible/conditional/openstack__openstack-ansible.joblib"
+            "conditional": "models/ansible/conditional/openstack__openstack-ansible.joblib",
+            "service": "models/ansible/service/openstack__openstack-ansible.joblib",
+            "configuration_data": "models/ansible/configuration_data/openstack__openstack-ansible.joblib"
         }
     },
     {
@@ -1445,7 +1522,8 @@
         "clean_count": 1703,
         "defective_count": 42,
         "models": {
-            "general": "models/ansible/general/openstack__tripleo-validations.joblib"
+            "general": "models/ansible/general/openstack__tripleo-validations.joblib",
+            "configuration_data": "models/ansible/configuration_data/openstack__tripleo-validations.joblib"
         }
     },
     {
@@ -1463,7 +1541,8 @@
         "clean_count": 21399,
         "defective_count": 267,
         "models": {
-            "general": "models/ansible/general/openstax__cnx-deploy.joblib"
+            "general": "models/ansible/general/openstax__cnx-deploy.joblib",
+            "configuration_data": "models/ansible/configuration_data/openstax__cnx-deploy.joblib"
         }
     },
     {
@@ -1482,7 +1561,8 @@
         "defective_count": 93,
         "models": {
             "general": "models/ansible/general/openwisp__ansible-openwisp2.joblib",
-            "conditional": "models/ansible/conditional/openwisp__ansible-openwisp2.joblib"
+            "conditional": "models/ansible/conditional/openwisp__ansible-openwisp2.joblib",
+            "service": "models/ansible/service/openwisp__ansible-openwisp2.joblib"
         }
     },
     {
@@ -1500,7 +1580,9 @@
         "clean_count": 806,
         "defective_count": 32,
         "models": {
-            "general": "models/ansible/general/oravirt__ansible-oracle.joblib"
+            "general": "models/ansible/general/oravirt__ansible-oracle.joblib",
+            "service": "models/ansible/service/oravirt__ansible-oracle.joblib",
+            "configuration_data": "models/ansible/configuration_data/oravirt__ansible-oracle.joblib"
         }
     },
     {
@@ -1518,7 +1600,8 @@
         "clean_count": 249,
         "defective_count": 20,
         "models": {
-            "general": "models/ansible/general/oVirt__ovirt-ansible-disaster-recovery.joblib"
+            "general": "models/ansible/general/oVirt__ovirt-ansible-disaster-recovery.joblib",
+            "configuration_data": "models/ansible/configuration_data/oVirt__ovirt-ansible-disaster-recovery.joblib"
         }
     },
     {
@@ -1554,7 +1637,8 @@
         "clean_count": 45919,
         "defective_count": 1658,
         "models": {
-            "general": "models/ansible/general/PGBlitz__PGBlitz.com.joblib"
+            "general": "models/ansible/general/PGBlitz__PGBlitz.com.joblib",
+            "configuration_data": "models/ansible/configuration_data/PGBlitz__PGBlitz.com.joblib"
         }
     },
     {
@@ -1572,7 +1656,9 @@
         "clean_count": 661,
         "defective_count": 34,
         "models": {
-            "general": "models/ansible/general/plone__ansible-playbook.joblib"
+            "general": "models/ansible/general/plone__ansible-playbook.joblib",
+            "service": "models/ansible/service/plone__ansible-playbook.joblib",
+            "configuration_data": "models/ansible/configuration_data/plone__ansible-playbook.joblib"
         }
     },
     {
@@ -1590,7 +1676,9 @@
         "clean_count": 1360,
         "defective_count": 204,
         "models": {
-            "general": "models/ansible/general/pulp__pulp_installer.joblib"
+            "general": "models/ansible/general/pulp__pulp_installer.joblib",
+            "service": "models/ansible/service/pulp__pulp_installer.joblib",
+            "configuration_data": "models/ansible/configuration_data/pulp__pulp_installer.joblib"
         }
     },
     {
@@ -1644,7 +1732,8 @@
         "clean_count": 1745,
         "defective_count": 113,
         "models": {
-            "general": "models/ansible/general/redhat-cop__casl-ansible.joblib"
+            "general": "models/ansible/general/redhat-cop__casl-ansible.joblib",
+            "configuration_data": "models/ansible/configuration_data/redhat-cop__casl-ansible.joblib"
         }
     },
     {
@@ -1663,7 +1752,9 @@
         "defective_count": 343,
         "models": {
             "general": "models/ansible/general/redhat-cop__infra-ansible.joblib",
-            "conditional": "models/ansible/conditional/redhat-cop__infra-ansible.joblib"
+            "conditional": "models/ansible/conditional/redhat-cop__infra-ansible.joblib",
+            "service": "models/ansible/service/redhat-cop__infra-ansible.joblib",
+            "configuration_data": "models/ansible/configuration_data/redhat-cop__infra-ansible.joblib"
         }
     },
     {
@@ -1681,7 +1772,8 @@
         "clean_count": 264,
         "defective_count": 49,
         "models": {
-            "general": "models/ansible/general/redhat-cop__openshift-applier.joblib"
+            "general": "models/ansible/general/redhat-cop__openshift-applier.joblib",
+            "configuration_data": "models/ansible/configuration_data/redhat-cop__openshift-applier.joblib"
         }
     },
     {
@@ -1699,7 +1791,8 @@
         "clean_count": 537,
         "defective_count": 53,
         "models": {
-            "general": "models/ansible/general/redhat-nfvpe__kube-ansible.joblib"
+            "general": "models/ansible/general/redhat-nfvpe__kube-ansible.joblib",
+            "configuration_data": "models/ansible/configuration_data/redhat-nfvpe__kube-ansible.joblib"
         }
     },
     {
@@ -1735,7 +1828,9 @@
         "clean_count": 354,
         "defective_count": 11,
         "models": {
-            "general": "models/ansible/general/ReSearchITEng__kubeadm-playbook.joblib"
+            "general": "models/ansible/general/ReSearchITEng__kubeadm-playbook.joblib",
+            "service": "models/ansible/service/ReSearchITEng__kubeadm-playbook.joblib",
+            "configuration_data": "models/ansible/configuration_data/ReSearchITEng__kubeadm-playbook.joblib"
         }
     },
     {
@@ -1789,7 +1884,9 @@
         "clean_count": 703,
         "defective_count": 216,
         "models": {
-            "general": "models/ansible/general/riemers__ansible-gitlab-runner.joblib"
+            "general": "models/ansible/general/riemers__ansible-gitlab-runner.joblib",
+            "service": "models/ansible/service/riemers__ansible-gitlab-runner.joblib",
+            "configuration_data": "models/ansible/configuration_data/riemers__ansible-gitlab-runner.joblib"
         }
     },
     {
@@ -1808,7 +1905,9 @@
         "defective_count": 154,
         "models": {
             "general": "models/ansible/general/rocknsm__rock.joblib",
-            "conditional": "models/ansible/conditional/rocknsm__rock.joblib"
+            "conditional": "models/ansible/conditional/rocknsm__rock.joblib",
+            "service": "models/ansible/service/rocknsm__rock.joblib",
+            "configuration_data": "models/ansible/configuration_data/rocknsm__rock.joblib"
         }
     },
     {
@@ -1826,7 +1925,9 @@
         "clean_count": 1066,
         "defective_count": 132,
         "models": {
-            "general": "models/ansible/general/roots__trellis.joblib"
+            "general": "models/ansible/general/roots__trellis.joblib",
+            "service": "models/ansible/service/roots__trellis.joblib",
+            "configuration_data": "models/ansible/configuration_data/roots__trellis.joblib"
         }
     },
     {
@@ -1844,7 +1945,8 @@
         "clean_count": 43,
         "defective_count": 39,
         "models": {
-            "general": "models/ansible/general/rvm__rvm1-ansible.joblib"
+            "general": "models/ansible/general/rvm__rvm1-ansible.joblib",
+            "configuration_data": "models/ansible/configuration_data/rvm__rvm1-ansible.joblib"
         }
     },
     {
@@ -1863,7 +1965,9 @@
         "defective_count": 191,
         "models": {
             "general": "models/ansible/general/sensu__sensu-ansible.joblib",
-            "conditional": "models/ansible/conditional/sensu__sensu-ansible.joblib"
+            "conditional": "models/ansible/conditional/sensu__sensu-ansible.joblib",
+            "service": "models/ansible/service/sensu__sensu-ansible.joblib",
+            "configuration_data": "models/ansible/configuration_data/sensu__sensu-ansible.joblib"
         }
     },
     {
@@ -1881,7 +1985,8 @@
         "clean_count": 432,
         "defective_count": 34,
         "models": {
-            "general": "models/ansible/general/snowdrop__k8s-infra.joblib"
+            "general": "models/ansible/general/snowdrop__k8s-infra.joblib",
+            "configuration_data": "models/ansible/configuration_data/snowdrop__k8s-infra.joblib"
         }
     },
     {
@@ -1900,7 +2005,9 @@
         "defective_count": 257,
         "models": {
             "general": "models/ansible/general/splunk__splunk-ansible.joblib",
-            "conditional": "models/ansible/conditional/splunk__splunk-ansible.joblib"
+            "conditional": "models/ansible/conditional/splunk__splunk-ansible.joblib",
+            "service": "models/ansible/service/splunk__splunk-ansible.joblib",
+            "configuration_data": "models/ansible/configuration_data/splunk__splunk-ansible.joblib"
         }
     },
     {
@@ -1990,7 +2097,8 @@
         "clean_count": 2544,
         "defective_count": 120,
         "models": {
-            "general": "models/ansible/general/tenforwardconsulting__subspace.joblib"
+            "general": "models/ansible/general/tenforwardconsulting__subspace.joblib",
+            "configuration_data": "models/ansible/configuration_data/tenforwardconsulting__subspace.joblib"
         }
     },
     {
@@ -2026,7 +2134,9 @@
         "clean_count": 179,
         "defective_count": 177,
         "models": {
-            "general": "models/ansible/general/UnderGreen__ansible-role-mongodb.joblib"
+            "general": "models/ansible/general/UnderGreen__ansible-role-mongodb.joblib",
+            "service": "models/ansible/service/UnderGreen__ansible-role-mongodb.joblib",
+            "configuration_data": "models/ansible/configuration_data/UnderGreen__ansible-role-mongodb.joblib"
         }
     },
     {
@@ -2044,7 +2154,9 @@
         "clean_count": 284,
         "defective_count": 54,
         "models": {
-            "general": "models/ansible/general/UtrechtUniversity__yoda.joblib"
+            "general": "models/ansible/general/UtrechtUniversity__yoda.joblib",
+            "service": "models/ansible/service/UtrechtUniversity__yoda.joblib",
+            "configuration_data": "models/ansible/configuration_data/UtrechtUniversity__yoda.joblib"
         }
     },
     {
@@ -2062,7 +2174,9 @@
         "clean_count": 13435,
         "defective_count": 342,
         "models": {
-            "general": "models/ansible/general/valet-sh__valet-sh.joblib"
+            "general": "models/ansible/general/valet-sh__valet-sh.joblib",
+            "service": "models/ansible/service/valet-sh__valet-sh.joblib",
+            "configuration_data": "models/ansible/configuration_data/valet-sh__valet-sh.joblib"
         }
     },
     {
@@ -2080,7 +2194,8 @@
         "clean_count": 132,
         "defective_count": 75,
         "models": {
-            "general": "models/ansible/general/viasite-ansible__ansible-role-zsh.joblib"
+            "general": "models/ansible/general/viasite-ansible__ansible-role-zsh.joblib",
+            "configuration_data": "models/ansible/configuration_data/viasite-ansible__ansible-role-zsh.joblib"
         }
     },
     {
@@ -2099,7 +2214,8 @@
         "defective_count": 18,
         "models": {
             "general": "models/ansible/general/vitabaks__postgresql_cluster.joblib",
-            "conditional": "models/ansible/conditional/vitabaks__postgresql_cluster.joblib"
+            "conditional": "models/ansible/conditional/vitabaks__postgresql_cluster.joblib",
+            "configuration_data": "models/ansible/configuration_data/vitabaks__postgresql_cluster.joblib"
         }
     },
     {
@@ -2118,7 +2234,9 @@
         "defective_count": 176,
         "models": {
             "general": "models/ansible/general/wazuh__wazuh-ansible.joblib",
-            "conditional": "models/ansible/conditional/wazuh__wazuh-ansible.joblib"
+            "conditional": "models/ansible/conditional/wazuh__wazuh-ansible.joblib",
+            "service": "models/ansible/service/wazuh__wazuh-ansible.joblib",
+            "configuration_data": "models/ansible/configuration_data/wazuh__wazuh-ansible.joblib"
         }
     },
     {
@@ -2154,7 +2272,9 @@
         "clean_count": 28,
         "defective_count": 41,
         "models": {
-            "general": "models/ansible/general/willshersystems__ansible-sshd.joblib"
+            "general": "models/ansible/general/willshersystems__ansible-sshd.joblib",
+            "service": "models/ansible/service/willshersystems__ansible-sshd.joblib",
+            "configuration_data": "models/ansible/configuration_data/willshersystems__ansible-sshd.joblib"
         }
     },
     {
@@ -2172,7 +2292,8 @@
         "clean_count": 78,
         "defective_count": 20,
         "models": {
-            "general": "models/ansible/general/wso2__ansible-apim.joblib"
+            "general": "models/ansible/general/wso2__ansible-apim.joblib",
+            "configuration_data": "models/ansible/configuration_data/wso2__ansible-apim.joblib"
         }
     }
 ]
