@@ -14,7 +14,7 @@
         "clean_count": 105,
         "defective_count": 18,
         "models": {
-            "general": "models/tosca/aalaesar__install_nextcloud.joblib"
+            "general": "models/tosca/general/aalaesar__install_nextcloud.joblib"
         }
     },
     {
@@ -32,7 +32,8 @@
         "clean_count": 174,
         "defective_count": 132,
         "models": {
-            "general": "models/tosca/AlbanAndrieu__ansible-jenkins-slave.joblib"
+            "general": "models/tosca/general/AlbanAndrieu__ansible-jenkins-slave.joblib",
+            "configuration_data": "models/tosca/configuration_data/AlbanAndrieu__ansible-jenkins-slave.joblib"
         }
     },
     {
@@ -50,7 +51,8 @@
         "clean_count": 203,
         "defective_count": 19,
         "models": {
-            "general": "models/tosca/AlbanAndrieu__ansible-nabla.joblib"
+            "general": "models/tosca/general/AlbanAndrieu__ansible-nabla.joblib",
+            "configuration_data": "models/tosca/configuration_data/AlbanAndrieu__ansible-nabla.joblib"
         }
     },
     {
@@ -68,7 +70,9 @@
         "clean_count": 1417,
         "defective_count": 564,
         "models": {
-            "general": "models/tosca/ansible-community__ansible-consul.joblib"
+            "general": "models/tosca/general/ansible-community__ansible-consul.joblib",
+            "service": "models/tosca/service/ansible-community__ansible-consul.joblib",
+            "configuration_data": "models/tosca/configuration_data/ansible-community__ansible-consul.joblib"
         }
     },
     {
@@ -86,7 +90,8 @@
         "clean_count": 278,
         "defective_count": 76,
         "models": {
-            "general": "models/tosca/ansible-community__ansible-nomad.joblib"
+            "general": "models/tosca/general/ansible-community__ansible-nomad.joblib",
+            "configuration_data": "models/tosca/configuration_data/ansible-community__ansible-nomad.joblib"
         }
     },
     {
@@ -104,7 +109,8 @@
         "clean_count": 79,
         "defective_count": 10,
         "models": {
-            "general": "models/tosca/ansible-community__ansible-vault.joblib"
+            "general": "models/tosca/general/ansible-community__ansible-vault.joblib",
+            "configuration_data": "models/tosca/configuration_data/ansible-community__ansible-vault.joblib"
         }
     },
     {
@@ -122,7 +128,9 @@
         "clean_count": 53,
         "defective_count": 10,
         "models": {
-            "general": "models/tosca/ansible-lockdown__RHEL7-STIG.joblib"
+            "general": "models/tosca/general/ansible-lockdown__RHEL7-STIG.joblib",
+            "service": "models/tosca/service/ansible-lockdown__RHEL7-STIG.joblib",
+            "configuration_data": "models/tosca/configuration_data/ansible-lockdown__RHEL7-STIG.joblib"
         }
     },
     {
@@ -140,7 +148,8 @@
         "clean_count": 1318,
         "defective_count": 133,
         "models": {
-            "general": "models/tosca/ansible-ThoTeam__nexus3-oss.joblib"
+            "general": "models/tosca/general/ansible-ThoTeam__nexus3-oss.joblib",
+            "configuration_data": "models/tosca/configuration_data/ansible-ThoTeam__nexus3-oss.joblib"
         }
     },
     {
@@ -158,7 +167,9 @@
         "clean_count": 252,
         "defective_count": 46,
         "models": {
-            "general": "models/tosca/ansible__workshops.joblib"
+            "general": "models/tosca/general/ansible__workshops.joblib",
+            "conditional": "models/tosca/conditional/ansible__workshops.joblib",
+            "configuration_data": "models/tosca/configuration_data/ansible__workshops.joblib"
         }
     },
     {
@@ -176,7 +187,8 @@
         "clean_count": 666,
         "defective_count": 162,
         "models": {
-            "general": "models/tosca/ansistrano__deploy.joblib"
+            "general": "models/tosca/general/ansistrano__deploy.joblib",
+            "configuration_data": "models/tosca/configuration_data/ansistrano__deploy.joblib"
         }
     },
     {
@@ -194,7 +206,8 @@
         "clean_count": 1765,
         "defective_count": 20,
         "models": {
-            "general": "models/tosca/anthcourtney__ansible-role-cis-amazon-linux.joblib"
+            "general": "models/tosca/general/anthcourtney__ansible-role-cis-amazon-linux.joblib",
+            "configuration_data": "models/tosca/configuration_data/anthcourtney__ansible-role-cis-amazon-linux.joblib"
         }
     },
     {
@@ -212,7 +225,8 @@
         "clean_count": 22,
         "defective_count": 27,
         "models": {
-            "general": "models/tosca/antoiner77__caddy-ansible.joblib"
+            "general": "models/tosca/general/antoiner77__caddy-ansible.joblib",
+            "configuration_data": "models/tosca/configuration_data/antoiner77__caddy-ansible.joblib"
         }
     },
     {
@@ -230,7 +244,9 @@
         "clean_count": 169,
         "defective_count": 222,
         "models": {
-            "general": "models/tosca/ANXS__postgresql.joblib"
+            "general": "models/tosca/general/ANXS__postgresql.joblib",
+            "service": "models/tosca/service/ANXS__postgresql.joblib",
+            "configuration_data": "models/tosca/configuration_data/ANXS__postgresql.joblib"
         }
     },
     {
@@ -248,7 +264,8 @@
         "clean_count": 23,
         "defective_count": 15,
         "models": {
-            "general": "models/tosca/arillso__ansible.logrotate.joblib"
+            "general": "models/tosca/general/arillso__ansible.logrotate.joblib",
+            "configuration_data": "models/tosca/configuration_data/arillso__ansible.logrotate.joblib"
         }
     },
     {
@@ -266,7 +283,7 @@
         "clean_count": 43,
         "defective_count": 3,
         "models": {
-            "general": "models/tosca/aristanetworks__ansible-avd.joblib"
+            "general": "models/tosca/general/aristanetworks__ansible-avd.joblib"
         }
     },
     {
@@ -284,7 +301,8 @@
         "clean_count": 1206,
         "defective_count": 174,
         "models": {
-            "general": "models/tosca/automium__service-kubernetes.joblib"
+            "general": "models/tosca/general/automium__service-kubernetes.joblib",
+            "configuration_data": "models/tosca/configuration_data/automium__service-kubernetes.joblib"
         }
     },
     {
@@ -302,7 +320,7 @@
         "clean_count": 69,
         "defective_count": 8,
         "models": {
-            "general": "models/tosca/bird-house__ansible-wps-playbook.joblib"
+            "general": "models/tosca/general/bird-house__ansible-wps-playbook.joblib"
         }
     },
     {
@@ -320,7 +338,10 @@
         "clean_count": 596,
         "defective_count": 303,
         "models": {
-            "general": "models/tosca/bluebanquise__bluebanquise.joblib"
+            "general": "models/tosca/general/bluebanquise__bluebanquise.joblib",
+            "conditional": "models/tosca/conditional/bluebanquise__bluebanquise.joblib",
+            "service": "models/tosca/service/bluebanquise__bluebanquise.joblib",
+            "configuration_data": "models/tosca/configuration_data/bluebanquise__bluebanquise.joblib"
         }
     },
     {
@@ -338,7 +359,7 @@
         "clean_count": 78,
         "defective_count": 24,
         "models": {
-            "general": "models/tosca/caktus__tequila-django.joblib"
+            "general": "models/tosca/general/caktus__tequila-django.joblib"
         }
     },
     {
@@ -356,7 +377,8 @@
         "clean_count": 8723,
         "defective_count": 885,
         "models": {
-            "general": "models/tosca/CentOS-PaaS-SIG__linchpin.joblib"
+            "general": "models/tosca/general/CentOS-PaaS-SIG__linchpin.joblib",
+            "configuration_data": "models/tosca/configuration_data/CentOS-PaaS-SIG__linchpin.joblib"
         }
     },
     {
@@ -374,7 +396,10 @@
         "clean_count": 10188,
         "defective_count": 1090,
         "models": {
-            "general": "models/tosca/ceph__ceph-ansible.joblib"
+            "general": "models/tosca/general/ceph__ceph-ansible.joblib",
+            "conditional": "models/tosca/conditional/ceph__ceph-ansible.joblib",
+            "service": "models/tosca/service/ceph__ceph-ansible.joblib",
+            "configuration_data": "models/tosca/configuration_data/ceph__ceph-ansible.joblib"
         }
     },
     {
@@ -392,7 +417,7 @@
         "clean_count": 94,
         "defective_count": 36,
         "models": {
-            "general": "models/tosca/cloudalchemy__ansible-alertmanager.joblib"
+            "general": "models/tosca/general/cloudalchemy__ansible-alertmanager.joblib"
         }
     },
     {
@@ -410,7 +435,8 @@
         "clean_count": 54,
         "defective_count": 27,
         "models": {
-            "general": "models/tosca/cloudalchemy__ansible-blackbox-exporter.joblib"
+            "general": "models/tosca/general/cloudalchemy__ansible-blackbox-exporter.joblib",
+            "configuration_data": "models/tosca/configuration_data/cloudalchemy__ansible-blackbox-exporter.joblib"
         }
     },
     {
@@ -428,7 +454,9 @@
         "clean_count": 426,
         "defective_count": 129,
         "models": {
-            "general": "models/tosca/cloudalchemy__ansible-grafana.joblib"
+            "general": "models/tosca/general/cloudalchemy__ansible-grafana.joblib",
+            "service": "models/tosca/service/cloudalchemy__ansible-grafana.joblib",
+            "configuration_data": "models/tosca/configuration_data/cloudalchemy__ansible-grafana.joblib"
         }
     },
     {
@@ -446,7 +474,8 @@
         "clean_count": 139,
         "defective_count": 101,
         "models": {
-            "general": "models/tosca/cloudalchemy__ansible-node-exporter.joblib"
+            "general": "models/tosca/general/cloudalchemy__ansible-node-exporter.joblib",
+            "configuration_data": "models/tosca/configuration_data/cloudalchemy__ansible-node-exporter.joblib"
         }
     },
     {
@@ -464,7 +493,8 @@
         "clean_count": 309,
         "defective_count": 113,
         "models": {
-            "general": "models/tosca/cloudalchemy__ansible-prometheus.joblib"
+            "general": "models/tosca/general/cloudalchemy__ansible-prometheus.joblib",
+            "configuration_data": "models/tosca/configuration_data/cloudalchemy__ansible-prometheus.joblib"
         }
     },
     {
@@ -482,7 +512,8 @@
         "clean_count": 45,
         "defective_count": 9,
         "models": {
-            "general": "models/tosca/cloudalchemy__ansible-pushgateway.joblib"
+            "general": "models/tosca/general/cloudalchemy__ansible-pushgateway.joblib",
+            "configuration_data": "models/tosca/configuration_data/cloudalchemy__ansible-pushgateway.joblib"
         }
     },
     {
@@ -500,7 +531,9 @@
         "clean_count": 185,
         "defective_count": 86,
         "models": {
-            "general": "models/tosca/CoffeeITWorks__ansible_burp2_server.joblib"
+            "general": "models/tosca/general/CoffeeITWorks__ansible_burp2_server.joblib",
+            "service": "models/tosca/service/CoffeeITWorks__ansible_burp2_server.joblib",
+            "configuration_data": "models/tosca/configuration_data/CoffeeITWorks__ansible_burp2_server.joblib"
         }
     },
     {
@@ -518,7 +551,9 @@
         "clean_count": 336,
         "defective_count": 101,
         "models": {
-            "general": "models/tosca/CSCfi__ansible-role-slurm.joblib"
+            "general": "models/tosca/general/CSCfi__ansible-role-slurm.joblib",
+            "service": "models/tosca/service/CSCfi__ansible-role-slurm.joblib",
+            "configuration_data": "models/tosca/configuration_data/CSCfi__ansible-role-slurm.joblib"
         }
     },
     {
@@ -536,7 +571,8 @@
         "clean_count": 29,
         "defective_count": 29,
         "models": {
-            "general": "models/tosca/CSCfi__ansible-role-users.joblib"
+            "general": "models/tosca/general/CSCfi__ansible-role-users.joblib",
+            "configuration_data": "models/tosca/configuration_data/CSCfi__ansible-role-users.joblib"
         }
     },
     {
@@ -554,7 +590,9 @@
         "clean_count": 203,
         "defective_count": 67,
         "models": {
-            "general": "models/tosca/DataDog__ansible-datadog.joblib"
+            "general": "models/tosca/general/DataDog__ansible-datadog.joblib",
+            "service": "models/tosca/service/DataDog__ansible-datadog.joblib",
+            "configuration_data": "models/tosca/configuration_data/DataDog__ansible-datadog.joblib"
         }
     },
     {
@@ -572,7 +610,8 @@
         "clean_count": 124,
         "defective_count": 47,
         "models": {
-            "general": "models/tosca/DavidWittman__ansible-redis.joblib"
+            "general": "models/tosca/general/DavidWittman__ansible-redis.joblib",
+            "configuration_data": "models/tosca/configuration_data/DavidWittman__ansible-redis.joblib"
         }
     },
     {
@@ -590,7 +629,7 @@
         "clean_count": 28,
         "defective_count": 2,
         "models": {
-            "general": "models/tosca/diodonfrost__ansible-role-mariadb.joblib"
+            "general": "models/tosca/general/diodonfrost__ansible-role-mariadb.joblib"
         }
     },
     {
@@ -608,7 +647,7 @@
         "clean_count": 59,
         "defective_count": 25,
         "models": {
-            "general": "models/tosca/dj-wasabi__ansible-telegraf.joblib"
+            "general": "models/tosca/general/dj-wasabi__ansible-telegraf.joblib"
         }
     },
     {
@@ -626,7 +665,7 @@
         "clean_count": 28,
         "defective_count": 7,
         "models": {
-            "general": "models/tosca/dokku__ansible-dokku.joblib"
+            "general": "models/tosca/general/dokku__ansible-dokku.joblib"
         }
     },
     {
@@ -644,7 +683,8 @@
         "clean_count": 14,
         "defective_count": 10,
         "models": {
-            "general": "models/tosca/elastic__ansible-beats.joblib"
+            "general": "models/tosca/general/elastic__ansible-beats.joblib",
+            "configuration_data": "models/tosca/configuration_data/elastic__ansible-beats.joblib"
         }
     },
     {
@@ -662,7 +702,10 @@
         "clean_count": 468,
         "defective_count": 151,
         "models": {
-            "general": "models/tosca/elastic__ansible-elasticsearch.joblib"
+            "general": "models/tosca/general/elastic__ansible-elasticsearch.joblib",
+            "conditional": "models/tosca/conditional/elastic__ansible-elasticsearch.joblib",
+            "service": "models/tosca/service/elastic__ansible-elasticsearch.joblib",
+            "configuration_data": "models/tosca/configuration_data/elastic__ansible-elasticsearch.joblib"
         }
     },
     {
@@ -680,7 +723,9 @@
         "clean_count": 181,
         "defective_count": 66,
         "models": {
-            "general": "models/tosca/evrardjp__ansible-keepalived.joblib"
+            "general": "models/tosca/general/evrardjp__ansible-keepalived.joblib",
+            "service": "models/tosca/service/evrardjp__ansible-keepalived.joblib",
+            "configuration_data": "models/tosca/configuration_data/evrardjp__ansible-keepalived.joblib"
         }
     },
     {
@@ -698,7 +743,7 @@
         "clean_count": 26,
         "defective_count": 10,
         "models": {
-            "general": "models/tosca/fgci-org__ansible-role-cuda.joblib"
+            "general": "models/tosca/general/fgci-org__ansible-role-cuda.joblib"
         }
     },
     {
@@ -716,7 +761,7 @@
         "clean_count": 499,
         "defective_count": 44,
         "models": {
-            "general": "models/tosca/fgci-org__fgci-ansible.joblib"
+            "general": "models/tosca/general/fgci-org__fgci-ansible.joblib"
         }
     },
     {
@@ -734,7 +779,7 @@
         "clean_count": 15,
         "defective_count": 18,
         "models": {
-            "general": "models/tosca/florianutz__Ubuntu1604-CIS.joblib"
+            "general": "models/tosca/general/florianutz__Ubuntu1604-CIS.joblib"
         }
     },
     {
@@ -752,7 +797,9 @@
         "clean_count": 45,
         "defective_count": 43,
         "models": {
-            "general": "models/tosca/florianutz__Ubuntu1804-CIS.joblib"
+            "general": "models/tosca/general/florianutz__Ubuntu1804-CIS.joblib",
+            "service": "models/tosca/service/florianutz__Ubuntu1804-CIS.joblib",
+            "configuration_data": "models/tosca/configuration_data/florianutz__Ubuntu1804-CIS.joblib"
         }
     },
     {
@@ -770,7 +817,8 @@
         "clean_count": 1192,
         "defective_count": 34,
         "models": {
-            "general": "models/tosca/freeipa__ansible-freeipa.joblib"
+            "general": "models/tosca/general/freeipa__ansible-freeipa.joblib",
+            "configuration_data": "models/tosca/configuration_data/freeipa__ansible-freeipa.joblib"
         }
     },
     {
@@ -788,7 +836,8 @@
         "clean_count": 275,
         "defective_count": 111,
         "models": {
-            "general": "models/tosca/galaxyproject__ansible-galaxy.joblib"
+            "general": "models/tosca/general/galaxyproject__ansible-galaxy.joblib",
+            "configuration_data": "models/tosca/configuration_data/galaxyproject__ansible-galaxy.joblib"
         }
     },
     {
@@ -806,7 +855,10 @@
         "clean_count": 2294,
         "defective_count": 133,
         "models": {
-            "general": "models/tosca/gluster__gdeploy.joblib"
+            "general": "models/tosca/general/gluster__gdeploy.joblib",
+            "conditional": "models/tosca/conditional/gluster__gdeploy.joblib",
+            "service": "models/tosca/service/gluster__gdeploy.joblib",
+            "configuration_data": "models/tosca/configuration_data/gluster__gdeploy.joblib"
         }
     },
     {
@@ -824,7 +876,8 @@
         "clean_count": 619,
         "defective_count": 13,
         "models": {
-            "general": "models/tosca/goodrain__rainbond-ansible.joblib"
+            "general": "models/tosca/general/goodrain__rainbond-ansible.joblib",
+            "configuration_data": "models/tosca/configuration_data/goodrain__rainbond-ansible.joblib"
         }
     },
     {
@@ -842,7 +895,9 @@
         "clean_count": 56,
         "defective_count": 15,
         "models": {
-            "general": "models/tosca/Graylog2__graylog-ansible-role.joblib"
+            "general": "models/tosca/general/Graylog2__graylog-ansible-role.joblib",
+            "service": "models/tosca/service/Graylog2__graylog-ansible-role.joblib",
+            "configuration_data": "models/tosca/configuration_data/Graylog2__graylog-ansible-role.joblib"
         }
     },
     {
@@ -860,7 +915,7 @@
         "clean_count": 7,
         "defective_count": 5,
         "models": {
-            "general": "models/tosca/hadret__ansible-role-containers.joblib"
+            "general": "models/tosca/general/hadret__ansible-role-containers.joblib"
         }
     },
     {
@@ -878,7 +933,8 @@
         "clean_count": 158,
         "defective_count": 23,
         "models": {
-            "general": "models/tosca/HanXHX__ansible-debian-bootstrap.joblib"
+            "general": "models/tosca/general/HanXHX__ansible-debian-bootstrap.joblib",
+            "configuration_data": "models/tosca/configuration_data/HanXHX__ansible-debian-bootstrap.joblib"
         }
     },
     {
@@ -896,7 +952,9 @@
         "clean_count": 132,
         "defective_count": 85,
         "models": {
-            "general": "models/tosca/HanXHX__ansible-nginx.joblib"
+            "general": "models/tosca/general/HanXHX__ansible-nginx.joblib",
+            "service": "models/tosca/service/HanXHX__ansible-nginx.joblib",
+            "configuration_data": "models/tosca/configuration_data/HanXHX__ansible-nginx.joblib"
         }
     },
     {
@@ -914,7 +972,7 @@
         "clean_count": 60,
         "defective_count": 8,
         "models": {
-            "general": "models/tosca/idealista__consul_role.joblib"
+            "general": "models/tosca/general/idealista__consul_role.joblib"
         }
     },
     {
@@ -932,7 +990,7 @@
         "clean_count": 24,
         "defective_count": 8,
         "models": {
-            "general": "models/tosca/idealista__java_role.joblib"
+            "general": "models/tosca/general/idealista__java_role.joblib"
         }
     },
     {
@@ -950,7 +1008,9 @@
         "clean_count": 63,
         "defective_count": 9,
         "models": {
-            "general": "models/tosca/idealista__mysql_role.joblib"
+            "general": "models/tosca/general/idealista__mysql_role.joblib",
+            "service": "models/tosca/service/idealista__mysql_role.joblib",
+            "configuration_data": "models/tosca/configuration_data/idealista__mysql_role.joblib"
         }
     },
     {
@@ -968,7 +1028,7 @@
         "clean_count": 46,
         "defective_count": 2,
         "models": {
-            "general": "models/tosca/idealista__nexus-role.joblib"
+            "general": "models/tosca/general/idealista__nexus-role.joblib"
         }
     },
     {
@@ -986,7 +1046,7 @@
         "clean_count": 21,
         "defective_count": 3,
         "models": {
-            "general": "models/tosca/infOpen__ansible-role-docker.joblib"
+            "general": "models/tosca/general/infOpen__ansible-role-docker.joblib"
         }
     },
     {
@@ -1004,7 +1064,7 @@
         "clean_count": 6,
         "defective_count": 2,
         "models": {
-            "general": "models/tosca/infOpen__ansible-role-fail2ban.joblib"
+            "general": "models/tosca/general/infOpen__ansible-role-fail2ban.joblib"
         }
     },
     {
@@ -1022,7 +1082,8 @@
         "clean_count": 44,
         "defective_count": 12,
         "models": {
-            "general": "models/tosca/jcalazan__ansible-django-stack.joblib"
+            "general": "models/tosca/general/jcalazan__ansible-django-stack.joblib",
+            "configuration_data": "models/tosca/configuration_data/jcalazan__ansible-django-stack.joblib"
         }
     },
     {
@@ -1040,7 +1101,8 @@
         "clean_count": 22,
         "defective_count": 20,
         "models": {
-            "general": "models/tosca/kibatic__ansible-traefik.joblib"
+            "general": "models/tosca/general/kibatic__ansible-traefik.joblib",
+            "configuration_data": "models/tosca/configuration_data/kibatic__ansible-traefik.joblib"
         }
     },
     {
@@ -1058,7 +1120,8 @@
         "clean_count": 180,
         "defective_count": 21,
         "models": {
-            "general": "models/tosca/lae__ansible-role-proxmox.joblib"
+            "general": "models/tosca/general/lae__ansible-role-proxmox.joblib",
+            "configuration_data": "models/tosca/configuration_data/lae__ansible-role-proxmox.joblib"
         }
     },
     {
@@ -1076,7 +1139,8 @@
         "clean_count": 2703,
         "defective_count": 162,
         "models": {
-            "general": "models/tosca/liip__drifter.joblib"
+            "general": "models/tosca/general/liip__drifter.joblib",
+            "configuration_data": "models/tosca/configuration_data/liip__drifter.joblib"
         }
     },
     {
@@ -1094,7 +1158,7 @@
         "clean_count": 28,
         "defective_count": 5,
         "models": {
-            "general": "models/tosca/linux-system-roles__storage.joblib"
+            "general": "models/tosca/general/linux-system-roles__storage.joblib"
         }
     },
     {
@@ -1112,7 +1176,7 @@
         "clean_count": 32,
         "defective_count": 4,
         "models": {
-            "general": "models/tosca/m4rcu5nl__ansible-role-zerotier.joblib"
+            "general": "models/tosca/general/m4rcu5nl__ansible-role-zerotier.joblib"
         }
     },
     {
@@ -1130,7 +1194,7 @@
         "clean_count": 21,
         "defective_count": 3,
         "models": {
-            "general": "models/tosca/mattfinlayson__ansible-consul.joblib"
+            "general": "models/tosca/general/mattfinlayson__ansible-consul.joblib"
         }
     },
     {
@@ -1148,7 +1212,7 @@
         "clean_count": 13,
         "defective_count": 3,
         "models": {
-            "general": "models/tosca/mimacom__ansible-role-bamboo.joblib"
+            "general": "models/tosca/general/mimacom__ansible-role-bamboo.joblib"
         }
     },
     {
@@ -1166,7 +1230,8 @@
         "clean_count": 45,
         "defective_count": 12,
         "models": {
-            "general": "models/tosca/mrlesmithjr__ansible-manage-lvm.joblib"
+            "general": "models/tosca/general/mrlesmithjr__ansible-manage-lvm.joblib",
+            "configuration_data": "models/tosca/configuration_data/mrlesmithjr__ansible-manage-lvm.joblib"
         }
     },
     {
@@ -1184,7 +1249,7 @@
         "clean_count": 62,
         "defective_count": 8,
         "models": {
-            "general": "models/tosca/mrlesmithjr__ansible-netdata.joblib"
+            "general": "models/tosca/general/mrlesmithjr__ansible-netdata.joblib"
         }
     },
     {
@@ -1202,7 +1267,9 @@
         "clean_count": 37,
         "defective_count": 22,
         "models": {
-            "general": "models/tosca/naftulikay__ansible-role-degoss.joblib"
+            "general": "models/tosca/general/naftulikay__ansible-role-degoss.joblib",
+            "conditional": "models/tosca/conditional/naftulikay__ansible-role-degoss.joblib",
+            "configuration_data": "models/tosca/configuration_data/naftulikay__ansible-role-degoss.joblib"
         }
     },
     {
@@ -1220,7 +1287,8 @@
         "clean_count": 166,
         "defective_count": 23,
         "models": {
-            "general": "models/tosca/netbootxyz__netboot.xyz.joblib"
+            "general": "models/tosca/general/netbootxyz__netboot.xyz.joblib",
+            "configuration_data": "models/tosca/configuration_data/netbootxyz__netboot.xyz.joblib"
         }
     },
     {
@@ -1238,7 +1306,8 @@
         "clean_count": 17,
         "defective_count": 9,
         "models": {
-            "general": "models/tosca/newrelic__infrastructure-agent-ansible.joblib"
+            "general": "models/tosca/general/newrelic__infrastructure-agent-ansible.joblib",
+            "configuration_data": "models/tosca/configuration_data/newrelic__infrastructure-agent-ansible.joblib"
         }
     },
     {
@@ -1256,7 +1325,8 @@
         "clean_count": 143,
         "defective_count": 30,
         "models": {
-            "general": "models/tosca/nusenu__ansible-relayor.joblib"
+            "general": "models/tosca/general/nusenu__ansible-relayor.joblib",
+            "configuration_data": "models/tosca/configuration_data/nusenu__ansible-relayor.joblib"
         }
     },
     {
@@ -1274,7 +1344,10 @@
         "clean_count": 1687,
         "defective_count": 35,
         "models": {
-            "general": "models/tosca/NVIDIA__deepops.joblib"
+            "general": "models/tosca/general/NVIDIA__deepops.joblib",
+            "conditional": "models/tosca/conditional/NVIDIA__deepops.joblib",
+            "service": "models/tosca/service/NVIDIA__deepops.joblib",
+            "configuration_data": "models/tosca/configuration_data/NVIDIA__deepops.joblib"
         }
     },
     {
@@ -1292,7 +1365,7 @@
         "clean_count": 350,
         "defective_count": 31,
         "models": {
-            "general": "models/tosca/Oefenweb__ansible-percona-server.joblib"
+            "general": "models/tosca/general/Oefenweb__ansible-percona-server.joblib"
         }
     },
     {
@@ -1310,7 +1383,8 @@
         "clean_count": 67,
         "defective_count": 38,
         "models": {
-            "general": "models/tosca/Oefenweb__ansible-postfix.joblib"
+            "general": "models/tosca/general/Oefenweb__ansible-postfix.joblib",
+            "configuration_data": "models/tosca/configuration_data/Oefenweb__ansible-postfix.joblib"
         }
     },
     {
@@ -1328,7 +1402,8 @@
         "clean_count": 36,
         "defective_count": 11,
         "models": {
-            "general": "models/tosca/Oefenweb__ansible-supervisor.joblib"
+            "general": "models/tosca/general/Oefenweb__ansible-supervisor.joblib",
+            "configuration_data": "models/tosca/configuration_data/Oefenweb__ansible-supervisor.joblib"
         }
     },
     {
@@ -1346,7 +1421,8 @@
         "clean_count": 1450,
         "defective_count": 165,
         "models": {
-            "general": "models/tosca/openfun__arnold.joblib"
+            "general": "models/tosca/general/openfun__arnold.joblib",
+            "configuration_data": "models/tosca/configuration_data/openfun__arnold.joblib"
         }
     },
     {
@@ -1364,7 +1440,9 @@
         "clean_count": 271,
         "defective_count": 37,
         "models": {
-            "general": "models/tosca/openstack__openstack-ansible-os_neutron.joblib"
+            "general": "models/tosca/general/openstack__openstack-ansible-os_neutron.joblib",
+            "service": "models/tosca/service/openstack__openstack-ansible-os_neutron.joblib",
+            "configuration_data": "models/tosca/configuration_data/openstack__openstack-ansible-os_neutron.joblib"
         }
     },
     {
@@ -1382,7 +1460,10 @@
         "clean_count": 481,
         "defective_count": 70,
         "models": {
-            "general": "models/tosca/openstack__openstack-ansible-os_nova.joblib"
+            "general": "models/tosca/general/openstack__openstack-ansible-os_nova.joblib",
+            "conditional": "models/tosca/conditional/openstack__openstack-ansible-os_nova.joblib",
+            "service": "models/tosca/service/openstack__openstack-ansible-os_nova.joblib",
+            "configuration_data": "models/tosca/configuration_data/openstack__openstack-ansible-os_nova.joblib"
         }
     },
     {
@@ -1400,7 +1481,9 @@
         "clean_count": 291,
         "defective_count": 99,
         "models": {
-            "general": "models/tosca/openstack__openstack-ansible-rabbitmq_server.joblib"
+            "general": "models/tosca/general/openstack__openstack-ansible-rabbitmq_server.joblib",
+            "service": "models/tosca/service/openstack__openstack-ansible-rabbitmq_server.joblib",
+            "configuration_data": "models/tosca/configuration_data/openstack__openstack-ansible-rabbitmq_server.joblib"
         }
     },
     {
@@ -1418,7 +1501,10 @@
         "clean_count": 3042,
         "defective_count": 288,
         "models": {
-            "general": "models/tosca/openstack__openstack-ansible.joblib"
+            "general": "models/tosca/general/openstack__openstack-ansible.joblib",
+            "conditional": "models/tosca/conditional/openstack__openstack-ansible.joblib",
+            "service": "models/tosca/service/openstack__openstack-ansible.joblib",
+            "configuration_data": "models/tosca/configuration_data/openstack__openstack-ansible.joblib"
         }
     },
     {
@@ -1436,7 +1522,8 @@
         "clean_count": 1703,
         "defective_count": 42,
         "models": {
-            "general": "models/tosca/openstack__tripleo-validations.joblib"
+            "general": "models/tosca/general/openstack__tripleo-validations.joblib",
+            "configuration_data": "models/tosca/configuration_data/openstack__tripleo-validations.joblib"
         }
     },
     {
@@ -1454,7 +1541,8 @@
         "clean_count": 21399,
         "defective_count": 267,
         "models": {
-            "general": "models/tosca/openstax__cnx-deploy.joblib"
+            "general": "models/tosca/general/openstax__cnx-deploy.joblib",
+            "configuration_data": "models/tosca/configuration_data/openstax__cnx-deploy.joblib"
         }
     },
     {
@@ -1472,7 +1560,9 @@
         "clean_count": 339,
         "defective_count": 93,
         "models": {
-            "general": "models/tosca/openwisp__ansible-openwisp2.joblib"
+            "general": "models/tosca/general/openwisp__ansible-openwisp2.joblib",
+            "conditional": "models/tosca/conditional/openwisp__ansible-openwisp2.joblib",
+            "service": "models/tosca/service/openwisp__ansible-openwisp2.joblib"
         }
     },
     {
@@ -1490,7 +1580,9 @@
         "clean_count": 806,
         "defective_count": 32,
         "models": {
-            "general": "models/tosca/oravirt__ansible-oracle.joblib"
+            "general": "models/tosca/general/oravirt__ansible-oracle.joblib",
+            "service": "models/tosca/service/oravirt__ansible-oracle.joblib",
+            "configuration_data": "models/tosca/configuration_data/oravirt__ansible-oracle.joblib"
         }
     },
     {
@@ -1508,7 +1600,8 @@
         "clean_count": 249,
         "defective_count": 20,
         "models": {
-            "general": "models/tosca/oVirt__ovirt-ansible-disaster-recovery.joblib"
+            "general": "models/tosca/general/oVirt__ovirt-ansible-disaster-recovery.joblib",
+            "configuration_data": "models/tosca/configuration_data/oVirt__ovirt-ansible-disaster-recovery.joblib"
         }
     },
     {
@@ -1526,7 +1619,7 @@
         "clean_count": 0,
         "defective_count": 0,
         "models": {
-            "general": "models/tosca/oVirt__ovirt-ansible-engine-setup.joblib"
+            "general": "models/tosca/general/oVirt__ovirt-ansible-engine-setup.joblib"
         }
     },
     {
@@ -1544,7 +1637,8 @@
         "clean_count": 45919,
         "defective_count": 1658,
         "models": {
-            "general": "models/tosca/PGBlitz__PGBlitz.com.joblib"
+            "general": "models/tosca/general/PGBlitz__PGBlitz.com.joblib",
+            "configuration_data": "models/tosca/configuration_data/PGBlitz__PGBlitz.com.joblib"
         }
     },
     {
@@ -1562,7 +1656,9 @@
         "clean_count": 661,
         "defective_count": 34,
         "models": {
-            "general": "models/tosca/plone__ansible-playbook.joblib"
+            "general": "models/tosca/general/plone__ansible-playbook.joblib",
+            "service": "models/tosca/service/plone__ansible-playbook.joblib",
+            "configuration_data": "models/tosca/configuration_data/plone__ansible-playbook.joblib"
         }
     },
     {
@@ -1580,7 +1676,9 @@
         "clean_count": 1360,
         "defective_count": 204,
         "models": {
-            "general": "models/tosca/pulp__pulp_installer.joblib"
+            "general": "models/tosca/general/pulp__pulp_installer.joblib",
+            "service": "models/tosca/service/pulp__pulp_installer.joblib",
+            "configuration_data": "models/tosca/configuration_data/pulp__pulp_installer.joblib"
         }
     },
     {
@@ -1598,7 +1696,7 @@
         "clean_count": 1691,
         "defective_count": 281,
         "models": {
-            "general": "models/tosca/PyratLabs__ansible-role-k3s.joblib"
+            "general": "models/tosca/general/PyratLabs__ansible-role-k3s.joblib"
         }
     },
     {
@@ -1616,7 +1714,7 @@
         "clean_count": 140,
         "defective_count": 8,
         "models": {
-            "general": "models/tosca/rcbops__openstack-ops.joblib"
+            "general": "models/tosca/general/rcbops__openstack-ops.joblib"
         }
     },
     {
@@ -1634,7 +1732,8 @@
         "clean_count": 1745,
         "defective_count": 113,
         "models": {
-            "general": "models/tosca/redhat-cop__casl-ansible.joblib"
+            "general": "models/tosca/general/redhat-cop__casl-ansible.joblib",
+            "configuration_data": "models/tosca/configuration_data/redhat-cop__casl-ansible.joblib"
         }
     },
     {
@@ -1652,7 +1751,10 @@
         "clean_count": 9714,
         "defective_count": 343,
         "models": {
-            "general": "models/tosca/redhat-cop__infra-ansible.joblib"
+            "general": "models/tosca/general/redhat-cop__infra-ansible.joblib",
+            "conditional": "models/tosca/conditional/redhat-cop__infra-ansible.joblib",
+            "service": "models/tosca/service/redhat-cop__infra-ansible.joblib",
+            "configuration_data": "models/tosca/configuration_data/redhat-cop__infra-ansible.joblib"
         }
     },
     {
@@ -1670,7 +1772,8 @@
         "clean_count": 264,
         "defective_count": 49,
         "models": {
-            "general": "models/tosca/redhat-cop__openshift-applier.joblib"
+            "general": "models/tosca/general/redhat-cop__openshift-applier.joblib",
+            "configuration_data": "models/tosca/configuration_data/redhat-cop__openshift-applier.joblib"
         }
     },
     {
@@ -1688,7 +1791,8 @@
         "clean_count": 537,
         "defective_count": 53,
         "models": {
-            "general": "models/tosca/redhat-nfvpe__kube-ansible.joblib"
+            "general": "models/tosca/general/redhat-nfvpe__kube-ansible.joblib",
+            "configuration_data": "models/tosca/configuration_data/redhat-nfvpe__kube-ansible.joblib"
         }
     },
     {
@@ -1706,7 +1810,7 @@
         "clean_count": 49160,
         "defective_count": 1428,
         "models": {
-            "general": "models/tosca/redhat-openstack__infrared.joblib"
+            "general": "models/tosca/general/redhat-openstack__infrared.joblib"
         }
     },
     {
@@ -1724,7 +1828,9 @@
         "clean_count": 354,
         "defective_count": 11,
         "models": {
-            "general": "models/tosca/ReSearchITEng__kubeadm-playbook.joblib"
+            "general": "models/tosca/general/ReSearchITEng__kubeadm-playbook.joblib",
+            "service": "models/tosca/service/ReSearchITEng__kubeadm-playbook.joblib",
+            "configuration_data": "models/tosca/configuration_data/ReSearchITEng__kubeadm-playbook.joblib"
         }
     },
     {
@@ -1742,7 +1848,7 @@
         "clean_count": 286,
         "defective_count": 3,
         "models": {
-            "general": "models/tosca/ReinerNippes__nextcloud.joblib"
+            "general": "models/tosca/general/ReinerNippes__nextcloud.joblib"
         }
     },
     {
@@ -1760,7 +1866,7 @@
         "clean_count": 140,
         "defective_count": 3,
         "models": {
-            "general": "models/tosca/rhevm-qe-automation__ovirt-ansible.joblib"
+            "general": "models/tosca/general/rhevm-qe-automation__ovirt-ansible.joblib"
         }
     },
     {
@@ -1778,7 +1884,9 @@
         "clean_count": 703,
         "defective_count": 216,
         "models": {
-            "general": "models/tosca/riemers__ansible-gitlab-runner.joblib"
+            "general": "models/tosca/general/riemers__ansible-gitlab-runner.joblib",
+            "service": "models/tosca/service/riemers__ansible-gitlab-runner.joblib",
+            "configuration_data": "models/tosca/configuration_data/riemers__ansible-gitlab-runner.joblib"
         }
     },
     {
@@ -1796,7 +1904,10 @@
         "clean_count": 675,
         "defective_count": 154,
         "models": {
-            "general": "models/tosca/rocknsm__rock.joblib"
+            "general": "models/tosca/general/rocknsm__rock.joblib",
+            "conditional": "models/tosca/conditional/rocknsm__rock.joblib",
+            "service": "models/tosca/service/rocknsm__rock.joblib",
+            "configuration_data": "models/tosca/configuration_data/rocknsm__rock.joblib"
         }
     },
     {
@@ -1814,7 +1925,9 @@
         "clean_count": 1066,
         "defective_count": 132,
         "models": {
-            "general": "models/tosca/roots__trellis.joblib"
+            "general": "models/tosca/general/roots__trellis.joblib",
+            "service": "models/tosca/service/roots__trellis.joblib",
+            "configuration_data": "models/tosca/configuration_data/roots__trellis.joblib"
         }
     },
     {
@@ -1832,7 +1945,8 @@
         "clean_count": 43,
         "defective_count": 39,
         "models": {
-            "general": "models/tosca/rvm__rvm1-ansible.joblib"
+            "general": "models/tosca/general/rvm__rvm1-ansible.joblib",
+            "configuration_data": "models/tosca/configuration_data/rvm__rvm1-ansible.joblib"
         }
     },
     {
@@ -1850,7 +1964,10 @@
         "clean_count": 421,
         "defective_count": 191,
         "models": {
-            "general": "models/tosca/sensu__sensu-ansible.joblib"
+            "general": "models/tosca/general/sensu__sensu-ansible.joblib",
+            "conditional": "models/tosca/conditional/sensu__sensu-ansible.joblib",
+            "service": "models/tosca/service/sensu__sensu-ansible.joblib",
+            "configuration_data": "models/tosca/configuration_data/sensu__sensu-ansible.joblib"
         }
     },
     {
@@ -1868,7 +1985,8 @@
         "clean_count": 432,
         "defective_count": 34,
         "models": {
-            "general": "models/tosca/snowdrop__k8s-infra.joblib"
+            "general": "models/tosca/general/snowdrop__k8s-infra.joblib",
+            "configuration_data": "models/tosca/configuration_data/snowdrop__k8s-infra.joblib"
         }
     },
     {
@@ -1886,7 +2004,10 @@
         "clean_count": 1653,
         "defective_count": 257,
         "models": {
-            "general": "models/tosca/splunk__splunk-ansible.joblib"
+            "general": "models/tosca/general/splunk__splunk-ansible.joblib",
+            "conditional": "models/tosca/conditional/splunk__splunk-ansible.joblib",
+            "service": "models/tosca/service/splunk__splunk-ansible.joblib",
+            "configuration_data": "models/tosca/configuration_data/splunk__splunk-ansible.joblib"
         }
     },
     {
@@ -1904,7 +2025,7 @@
         "clean_count": 241,
         "defective_count": 27,
         "models": {
-            "general": "models/tosca/stackbuilders__sb-debian-base.joblib"
+            "general": "models/tosca/general/stackbuilders__sb-debian-base.joblib"
         }
     },
     {
@@ -1922,7 +2043,7 @@
         "clean_count": 20,
         "defective_count": 3,
         "models": {
-            "general": "models/tosca/stackhpc__ansible-role-libvirt-vm.joblib"
+            "general": "models/tosca/general/stackhpc__ansible-role-libvirt-vm.joblib"
         }
     },
     {
@@ -1940,7 +2061,7 @@
         "clean_count": 12,
         "defective_count": 12,
         "models": {
-            "general": "models/tosca/stackhpc__ansible-role-os-images.joblib"
+            "general": "models/tosca/general/stackhpc__ansible-role-os-images.joblib"
         }
     },
     {
@@ -1958,7 +2079,7 @@
         "clean_count": 53,
         "defective_count": 7,
         "models": {
-            "general": "models/tosca/stone-payments__ansible-rabbitmq.joblib"
+            "general": "models/tosca/general/stone-payments__ansible-rabbitmq.joblib"
         }
     },
     {
@@ -1976,7 +2097,8 @@
         "clean_count": 2544,
         "defective_count": 120,
         "models": {
-            "general": "models/tosca/tenforwardconsulting__subspace.joblib"
+            "general": "models/tosca/general/tenforwardconsulting__subspace.joblib",
+            "configuration_data": "models/tosca/configuration_data/tenforwardconsulting__subspace.joblib"
         }
     },
     {
@@ -1994,7 +2116,7 @@
         "clean_count": 71,
         "defective_count": 8,
         "models": {
-            "general": "models/tosca/tulibraries__ansible-role-airflow.joblib"
+            "general": "models/tosca/general/tulibraries__ansible-role-airflow.joblib"
         }
     },
     {
@@ -2012,7 +2134,9 @@
         "clean_count": 179,
         "defective_count": 177,
         "models": {
-            "general": "models/tosca/UnderGreen__ansible-role-mongodb.joblib"
+            "general": "models/tosca/general/UnderGreen__ansible-role-mongodb.joblib",
+            "service": "models/tosca/service/UnderGreen__ansible-role-mongodb.joblib",
+            "configuration_data": "models/tosca/configuration_data/UnderGreen__ansible-role-mongodb.joblib"
         }
     },
     {
@@ -2030,7 +2154,9 @@
         "clean_count": 284,
         "defective_count": 54,
         "models": {
-            "general": "models/tosca/UtrechtUniversity__yoda.joblib"
+            "general": "models/tosca/general/UtrechtUniversity__yoda.joblib",
+            "service": "models/tosca/service/UtrechtUniversity__yoda.joblib",
+            "configuration_data": "models/tosca/configuration_data/UtrechtUniversity__yoda.joblib"
         }
     },
     {
@@ -2048,7 +2174,9 @@
         "clean_count": 13435,
         "defective_count": 342,
         "models": {
-            "general": "models/tosca/valet-sh__valet-sh.joblib"
+            "general": "models/tosca/general/valet-sh__valet-sh.joblib",
+            "service": "models/tosca/service/valet-sh__valet-sh.joblib",
+            "configuration_data": "models/tosca/configuration_data/valet-sh__valet-sh.joblib"
         }
     },
     {
@@ -2066,7 +2194,8 @@
         "clean_count": 132,
         "defective_count": 75,
         "models": {
-            "general": "models/tosca/viasite-ansible__ansible-role-zsh.joblib"
+            "general": "models/tosca/general/viasite-ansible__ansible-role-zsh.joblib",
+            "configuration_data": "models/tosca/configuration_data/viasite-ansible__ansible-role-zsh.joblib"
         }
     },
     {
@@ -2084,7 +2213,9 @@
         "clean_count": 180,
         "defective_count": 18,
         "models": {
-            "general": "models/tosca/vitabaks__postgresql_cluster.joblib"
+            "general": "models/tosca/general/vitabaks__postgresql_cluster.joblib",
+            "conditional": "models/tosca/conditional/vitabaks__postgresql_cluster.joblib",
+            "configuration_data": "models/tosca/configuration_data/vitabaks__postgresql_cluster.joblib"
         }
     },
     {
@@ -2102,7 +2233,10 @@
         "clean_count": 1415,
         "defective_count": 176,
         "models": {
-            "general": "models/tosca/wazuh__wazuh-ansible.joblib"
+            "general": "models/tosca/general/wazuh__wazuh-ansible.joblib",
+            "conditional": "models/tosca/conditional/wazuh__wazuh-ansible.joblib",
+            "service": "models/tosca/service/wazuh__wazuh-ansible.joblib",
+            "configuration_data": "models/tosca/configuration_data/wazuh__wazuh-ansible.joblib"
         }
     },
     {
@@ -2120,7 +2254,7 @@
         "clean_count": 21,
         "defective_count": 3,
         "models": {
-            "general": "models/tosca/wcm-io-devops__ansible-conga-ansible-controlhost.joblib"
+            "general": "models/tosca/general/wcm-io-devops__ansible-conga-ansible-controlhost.joblib"
         }
     },
     {
@@ -2138,7 +2272,9 @@
         "clean_count": 28,
         "defective_count": 41,
         "models": {
-            "general": "models/tosca/willshersystems__ansible-sshd.joblib"
+            "general": "models/tosca/general/willshersystems__ansible-sshd.joblib",
+            "service": "models/tosca/service/willshersystems__ansible-sshd.joblib",
+            "configuration_data": "models/tosca/configuration_data/willshersystems__ansible-sshd.joblib"
         }
     },
     {
@@ -2156,7 +2292,8 @@
         "clean_count": 78,
         "defective_count": 20,
         "models": {
-            "general": "models/tosca/wso2__ansible-apim.joblib"
+            "general": "models/tosca/general/wso2__ansible-apim.joblib",
+            "configuration_data": "models/tosca/configuration_data/wso2__ansible-apim.joblib"
         }
     }
 ]
