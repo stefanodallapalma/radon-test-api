@@ -34,13 +34,22 @@ Get a pre-trained model from the most similar project.
 
 **Return**
 
-A json containing the model id to use for calls to the `predictions/` endpoint, and a similarity score ([0-1]) between 
-the client's and model's projects. 
+A json containing the model id to use for calls to the `predictions/` endpoint, a list of models, and a similarity score ([0-1]) between the client's and models' project. 
 
 ```
 {
     "model_id": 24242603,
-    "similarity": 0.9999
+    "similarity": 0.9999,
+    "models": [
+      {
+        "type": "general"
+        "rules": "|--- num_include <= 0.44\n|... "
+      },
+      {
+        "type": "conditional"
+        "rules": "... "
+      },
+    ]
 }
 ```
 

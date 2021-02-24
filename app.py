@@ -76,12 +76,28 @@ def models():
 
         sim = 1 - distance.cosine(project_metrics, client_project_metrics)
         if sim > most_similar_score:
-            most_similar_score = sim
-            path_to_model = str(Path(project['models']['general']))
+            
             response['model_id'] = project['id']
             response['similarity'] = sim
-            model = joblib.load(path_to_model, mmap_mode='r')
-            response['rules'] = export_text(model['estimator'].named_steps['classification'], feature_names=model['selected_features'])
+            response['models'] = []
+            
+            most_similar_score = sim
+
+            for defect_type in ('conditional', 'configuration_data', 'service', 'general'):
+                path_to_model = project['models'].get(defect_type)
+
+                if not path_to_model:
+                    continue
+
+                path_to_model = str(Path(path_to_model))
+                model = joblib.load(path_to_model, mmap_mode='r')
+                
+                response['models'].append(
+                    {
+                      'type': defect_type,
+                      'rules': export_text(model['estimator'].named_steps['classification'], feature_names=model['selected_features'])
+                    })
+
 
     return send_file(path_to_model, as_attachment=True) if return_model else response
 
@@ -116,55 +132,64 @@ def predict():
     while i < len(models_metadata) and models_metadata[i]['id'] != model_id:
         i += 1
 
-    if i < len(models_metadata):
-        path_to_model = str(Path(models_metadata[i]['models']['general']))
-    else:
+    if  i == len(models_metadata):
         response["ERROR"] = "Model not found."
         return response
 
-    model = joblib.load(path_to_model, mmap_mode='r')
-    tree_clf = model['estimator'].named_steps['classification']
+    response['failure_prone'] = False
 
-    for feature in model['selected_features']:
-        if feature not in unseen_data.columns:
-            unseen_data[feature] = 0
+    for defect_type in ('conditional', 'configuration_data', 'service', 'general'):
+        path_to_model = models_metadata[i]['models'].get(defect_type)
+       
+        if not path_to_model:
+            continue     
 
-    # Reduce unseen_data to the same subset of features
-    unseen_data = unseen_data[np.intersect1d(unseen_data.columns, model['selected_features'])]
+        path_to_model = str(Path(path_to_model))
 
-    features_name = unseen_data.columns
+        model = joblib.load(path_to_model, mmap_mode='r')
+        tree_clf = model['estimator'].named_steps['classification']
+        unseen_data_local = unseen_data
 
-    # Perform pre-process if any
-    if model['estimator'].named_steps['normalization']:
-        unseen_data = pd.DataFrame(model['estimator'].named_steps['normalization'].transform(unseen_data), columns=features_name)
+        for feature in model['selected_features']:
+            if feature not in unseen_data_local.columns:
+                unseen_data_local[feature] = 0
 
-    failure_prone = bool(tree_clf.predict(unseen_data)[0])
+        # Reduce unseen_data_local to the same subset of features
+        unseen_data_local = unseen_data_local[np.intersect1d(unseen_data_local.columns, model['selected_features'])]
 
-    if failure_prone:
+        features_name = unseen_data_local.columns
 
-        decision = []
-        decision_path = tree_clf.decision_path(unseen_data)
-        level_length = len(decision_path.indices)
-        i = 1
-        for node_id in decision_path.indices:
-            # Ignore last level because it is the last node
-            # without decision criteria or rule
-            if i < level_length:
-                col_name = unseen_data.columns[tree_clf.tree_.feature[node_id]]
-                threshold_value = round(tree_clf.tree_.threshold[node_id], 2)
-                original_value = metrics.get(col_name, 0)
+        # Perform pre-process if any
+        if model['estimator'].named_steps['normalization']:
+            unseen_data_local = pd.DataFrame(model['estimator'].named_steps['normalization'].transform(unseen_data_local), columns=features_name)
 
-                # Inverse normalize threshold to make it more comprehensible to the final user
-                normalized_value = unseen_data[col_name].values[0] if unseen_data[col_name].values[0] > 0 else 1
-                threshold_value *= original_value/normalized_value
+        failure_prone = bool(tree_clf.predict(unseen_data_local)[0])
 
-                decision.append((col_name, '<=' if original_value <= threshold_value else '>', threshold_value))
+        if failure_prone:
 
-            i += 1
+            response['failure_prone'] = True
 
-        response["decision"] = decision
+            decision = []
+            decision_path = tree_clf.decision_path(unseen_data_local)
+            level_length = len(decision_path.indices)
+            i = 1
+            for node_id in decision_path.indices:
+                # Ignore last level because it is the last node
+                # without decision criteria or rule
+                if i < level_length:
+                    col_name = unseen_data_local.columns[tree_clf.tree_.feature[node_id]]
+                    threshold_value = round(tree_clf.tree_.threshold[node_id], 2)
+                    original_value = metrics.get(col_name, 0)
 
-    response['failure_prone'] = failure_prone
+                    # Inverse normalize threshold to make it more comprehensible to the final user
+                    normalized_value = unseen_data_local[col_name].values[0] if unseen_data_local[col_name].values[0] > 0 else 1
+                    threshold_value *= original_value/normalized_value
+
+                    decision.append((col_name, '<=' if original_value <= threshold_value else '>', threshold_value))
+
+                i += 1
+
+            response.setdefault('defects', []).append({'type': defect_type, 'decision': decision})
 
     return response
 
